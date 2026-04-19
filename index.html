@@ -15,6 +15,7 @@
       </div>
       <div class="mode-toggle">
         <button id="themeToggleBtn" class="mode-btn">Light Theme</button>
+        <button id="openWeekPickerBtn" class="mode-btn hidden">Select Week</button>
         <button id="studyModeBtn" class="mode-btn active">Study Mode</button>
         <button id="testModeBtn" class="mode-btn">Test Mode</button>
       </div>
@@ -89,6 +90,17 @@
       <div class="modal-actions">
         <button id="cancelSetupBtn" class="ghost-btn">Cancel</button>
         <button id="confirmStartTestBtn" class="primary-btn">Start Now</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="weekPickerModal" class="modal-overlay hidden">
+    <div class="modal-card">
+      <h3>Select Week</h3>
+      <p>Jump to any week for practice.</p>
+      <div id="weekPickerList" class="week-picker-list"></div>
+      <div class="modal-actions">
+        <button id="closeWeekPickerBtn" class="ghost-btn">Close</button>
       </div>
     </div>
   </div>

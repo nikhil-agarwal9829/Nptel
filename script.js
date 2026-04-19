@@ -1075,6 +1075,10 @@ const chooseTestBtn = document.getElementById("chooseTestBtn");
 const testSetupModal = document.getElementById("testSetupModal");
 const cancelSetupBtn = document.getElementById("cancelSetupBtn");
 const confirmStartTestBtn = document.getElementById("confirmStartTestBtn");
+const openWeekPickerBtn = document.getElementById("openWeekPickerBtn");
+const weekPickerModal = document.getElementById("weekPickerModal");
+const weekPickerList = document.getElementById("weekPickerList");
+const closeWeekPickerBtn = document.getElementById("closeWeekPickerBtn");
 
 function getCurrentWeekData() {
   return questionBank.find((w) => w.week === selectedWeek);
@@ -1082,6 +1086,9 @@ function getCurrentWeekData() {
 
 function renderWeekList() {
   weekListEl.innerHTML = "";
+  if (currentMode === "test" || (currentMode === "study" && !testStarted)) {
+    return;
+  }
   questionBank.forEach((weekData) => {
     const btn = document.createElement("button");
     btn.className = `week-btn ${weekData.week === selectedWeek ? "active" : ""}`;
@@ -1206,7 +1213,7 @@ function startTestTimer() {
 
 function renderStudyMode() {
   const weekData = getCurrentWeekData();
-  studySectionEl.innerHTML = weekData.questions
+  const questionsHtml = weekData.questions
     .map((q, i) => {
       const options = q.options
         .map(
@@ -1227,6 +1234,64 @@ function renderStudyMode() {
       `;
     })
     .join("");
+
+  const sortedWeeks = getSortedWeeks();
+  const pos = sortedWeeks.indexOf(weekData.week);
+  const prevWeek = pos > 0 ? sortedWeeks[pos - 1] : null;
+  const nextWeek = pos !== -1 && pos < sortedWeeks.length - 1 ? sortedWeeks[pos + 1] : null;
+
+  studySectionEl.innerHTML = `
+    ${questionsHtml}
+    <div class="study-week-nav">
+      <button id="studyPrevWeekBtn" class="ghost-btn" type="button" ${prevWeek === null ? "disabled" : ""}>Previous week</button>
+      <div class="week-label">Week ${weekData.week}</div>
+      <button id="studyNextWeekBtn" class="ghost-btn" type="button" ${nextWeek === null ? "disabled" : ""}>Next week</button>
+    </div>
+  `;
+
+  const prevBtn = document.getElementById("studyPrevWeekBtn");
+  const nextBtn = document.getElementById("studyNextWeekBtn");
+  if (prevBtn && prevWeek !== null) {
+    prevBtn.addEventListener("click", () => {
+      selectedWeek = prevWeek;
+      renderAll();
+    });
+  }
+  if (nextBtn && nextWeek !== null) {
+    nextBtn.addEventListener("click", () => {
+      selectedWeek = nextWeek;
+      renderAll();
+    });
+  }
+}
+
+function openWeekPickerModal() {
+  weekPickerList.innerHTML = "";
+  questionBank.forEach((weekData) => {
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = `week-picker-btn ${weekData.week === selectedWeek ? "active" : ""}`;
+    btn.textContent = `Week ${weekData.week}: ${weekData.topic}`;
+    btn.addEventListener("click", () => {
+      selectedWeek = weekData.week;
+      closeWeekPickerModal();
+      renderAll();
+    });
+    weekPickerList.appendChild(btn);
+  });
+  weekPickerModal.classList.remove("hidden");
+}
+
+function closeWeekPickerModal() {
+  weekPickerModal.classList.add("hidden");
+}
+
+function updatePracticeChrome() {
+  const inStudy = currentMode === "study";
+  openWeekPickerBtn.classList.toggle("hidden", !inStudy);
+  if (!inStudy) {
+    closeWeekPickerModal();
+  }
 }
 
 function renderTestMode() {
@@ -1655,6 +1720,7 @@ function setMode(mode) {
   testModeBtn.classList.toggle("active", mode === "test");
   studySectionEl.classList.toggle("hidden", mode !== "study");
   testSectionEl.classList.toggle("hidden", mode !== "test");
+  updatePracticeChrome();
   renderAll();
 }
 
@@ -1691,6 +1757,7 @@ function startConfiguredTest() {
 
 function renderAll() {
   updateTestingLayout();
+  updatePracticeChrome();
   renderWeekList();
   renderHeader();
   if (currentMode === "study") {
@@ -1730,6 +1797,7 @@ resetTestBtn.addEventListener("click", () => {
 
 choosePracticeBtn.addEventListener("click", () => {
   welcomeModal.classList.add("hidden");
+  selectedWeek = 0;
   setMode("study");
 });
 
@@ -1755,8 +1823,17 @@ timerModeSelect.addEventListener("change", () => {
   updateSetupInputs();
 });
 
+openWeekPickerBtn.addEventListener("click", () => {
+  openWeekPickerModal();
+});
+
+closeWeekPickerBtn.addEventListener("click", () => {
+  closeWeekPickerModal();
+});
+
 document.body.classList.add("app-mode-study");
 
 applyTheme(localStorage.getItem("quiz-theme") || "dark");
 updateSetupInputs();
+updatePracticeChrome();
 renderAll();
