@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NPTEL ESD Quiz Portal</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <div>
+        <h1>NPTEL: Education for Sustainable Development</h1>
+        <p>Week-wise MCQ Study + Test Portal (Custom NPTEL Questions)</p>
+      </div>
+      <div class="mode-toggle">
+        <button id="themeToggleBtn" class="mode-btn">Light Theme</button>
+        <button id="studyModeBtn" class="mode-btn active">Study Mode</button>
+        <button id="testModeBtn" class="mode-btn">Test Mode</button>
+      </div>
+    </header>
+
+    <main class="layout">
+      <aside class="sidebar">
+        <h2>Weeks</h2>
+        <div id="weekList" class="week-list"></div>
+      </aside>
+
+      <section class="content">
+        <div id="contentHeader" class="content-header"></div>
+
+        <div id="studySection" class="panel"></div>
+
+        <div id="testSection" class="panel hidden">
+          <div id="testControls" class="test-controls">
+            <select id="testScopeSelect" class="control-input">
+              <option value="week">Current Week Test</option>
+              <option value="all">All Questions Test</option>
+            </select>
+            <label class="control-check">
+              <input id="shuffleToggle" type="checkbox" />
+              <span>Shuffle Questions</span>
+            </label>
+            <button id="startTestBtn" class="primary-btn">Start Test</button>
+            <button id="resetTestBtn" class="ghost-btn hidden">Reset</button>
+          </div>
+          <div id="testProgress" class="test-progress hidden"></div>
+          <div id="testQuestions"></div>
+          <div id="resultBox" class="result-box hidden"></div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
