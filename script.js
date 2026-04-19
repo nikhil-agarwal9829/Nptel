@@ -1113,7 +1113,8 @@ function closeTestSetupModal() {
 }
 
 function updateTestingLayout() {
-  document.body.classList.toggle("testing-active", testStarted);
+  const shouldHideSidebar = currentMode === "test" && testStarted;
+  document.body.classList.toggle("testing-active", shouldHideSidebar);
 }
 
 function populateTestWeekOptions() {
