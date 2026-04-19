@@ -98,8 +98,9 @@ body.light-theme {
 
 .layout {
   display: grid;
-  grid-template-columns: 280px 1fr;
+  grid-template-columns: minmax(220px, 280px) minmax(0, 1fr);
   gap: 16px;
+  align-items: start;
 }
 
 body.testing-active .layout {
@@ -121,6 +122,8 @@ body.testing-active .sidebar {
   padding: 14px;
   max-height: calc(100vh - 140px);
   overflow: auto;
+  position: sticky;
+  top: 16px;
 }
 
 .sidebar h2 {
@@ -142,6 +145,9 @@ body.testing-active .sidebar {
   text-align: left;
   cursor: pointer;
   transition: 0.2s ease;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .week-btn:hover {
@@ -157,6 +163,12 @@ body.testing-active .sidebar {
   display: flex;
   flex-direction: column;
   gap: 12px;
+  min-width: 0;
+}
+
+body.app-mode-study #studySection {
+  max-height: calc(100vh - 180px);
+  overflow-y: auto;
 }
 
 .content-header {
@@ -210,6 +222,11 @@ label.option:hover {
 .option.wrong {
   border-color: var(--danger);
   background: color-mix(in srgb, var(--danger) 14%, transparent);
+}
+
+.option.muted {
+  opacity: 0.55;
+  border-style: dashed;
 }
 
 .badge {
@@ -379,12 +396,19 @@ button {
   display: none;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 420px) {
   .layout {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 34%) minmax(0, 1fr);
+    gap: 10px;
   }
 
   .sidebar {
-    max-height: unset;
+    padding: 10px;
+    max-height: calc(100vh - 120px);
+  }
+
+  .week-btn {
+    padding: 8px;
+    font-size: 0.85rem;
   }
 }

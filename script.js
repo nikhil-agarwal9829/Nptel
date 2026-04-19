@@ -1045,6 +1045,11 @@ let testQuestionPool = [];
 let testScope = "week";
 let shuffleEnabled = false;
 let flaggedQuestions = new Set();
+let timerMode = "off";
+let timerDurationMs = 0;
+let testDeadline = null;
+let timerUiIntervalId = null;
+let timerExpired = false;
 
 const weekListEl = document.getElementById("weekList");
 const contentHeaderEl = document.getElementById("contentHeader");
@@ -1061,6 +1066,9 @@ const testProgressEl = document.getElementById("testProgress");
 const testScopeSelect = document.getElementById("testScopeSelect");
 const testWeekSelect = document.getElementById("testWeekSelect");
 const shuffleToggle = document.getElementById("shuffleToggle");
+const timerModeSelect = document.getElementById("timerModeSelect");
+const timerPresetSelect = document.getElementById("timerPresetSelect");
+const timerCustomInput = document.getElementById("timerCustomInput");
 const welcomeModal = document.getElementById("welcomeModal");
 const choosePracticeBtn = document.getElementById("choosePracticeBtn");
 const chooseTestBtn = document.getElementById("chooseTestBtn");
@@ -1077,7 +1085,8 @@ function renderWeekList() {
   questionBank.forEach((weekData) => {
     const btn = document.createElement("button");
     btn.className = `week-btn ${weekData.week === selectedWeek ? "active" : ""}`;
-    btn.textContent = `Week ${weekData.week}: ${weekData.topic}`;
+    btn.textContent = `W${weekData.week} · ${weekData.topic}`;
+    btn.title = `Week ${weekData.week}: ${weekData.topic}`;
     btn.addEventListener("click", () => {
       selectedWeek = weekData.week;
       userAnswers = {};
@@ -1128,6 +1137,71 @@ function populateTestWeekOptions() {
 function updateSetupInputs() {
   const isAll = testScopeSelect.value === "all";
   testWeekSelect.disabled = isAll;
+
+  const mode = timerModeSelect.value;
+  timerPresetSelect.classList.toggle("hidden", mode !== "preset");
+  timerCustomInput.classList.toggle("hidden", mode !== "custom");
+}
+
+function clearTestTimer() {
+  if (timerUiIntervalId) {
+    clearInterval(timerUiIntervalId);
+    timerUiIntervalId = null;
+  }
+  testDeadline = null;
+  timerDurationMs = 0;
+}
+
+function formatMs(ms) {
+  const totalSeconds = Math.max(0, Math.floor(ms / 1000));
+  const minutes = Math.floor(totalSeconds / 60);
+  const seconds = totalSeconds % 60;
+  return `${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`;
+}
+
+function getSelectedTimerMs() {
+  const mode = timerModeSelect.value;
+  if (mode === "off") {
+    return 0;
+  }
+  if (mode === "preset") {
+    return Number(timerPresetSelect.value) * 60 * 1000;
+  }
+  const minutes = Number(timerCustomInput.value);
+  if (!Number.isFinite(minutes) || minutes <= 0) {
+    return 0;
+  }
+  return Math.min(240, Math.max(1, minutes)) * 60 * 1000;
+}
+
+function startTestTimer() {
+  clearTestTimer();
+  const ms = getSelectedTimerMs();
+  if (!testStarted || ms <= 0) {
+    return;
+  }
+  timerDurationMs = ms;
+  testDeadline = Date.now() + ms;
+  timerExpired = false;
+
+  timerUiIntervalId = setInterval(() => {
+    if (!testStarted || !testDeadline) {
+      clearTestTimer();
+      return;
+    }
+    const remaining = testDeadline - Date.now();
+    if (remaining <= 0) {
+      timerExpired = true;
+      clearTestTimer();
+      activeQuestionIndex = testQuestionPool.length;
+      submitTest();
+      return;
+    }
+    if (testProgressEl && !testProgressEl.classList.contains("hidden")) {
+      const base = testProgressEl.textContent.split(" | Time")[0];
+      testProgressEl.textContent = `${base} | Time left: ${formatMs(remaining)}`;
+    }
+  }, 500);
 }
 
 function renderStudyMode() {
@@ -1164,6 +1238,7 @@ function renderTestMode() {
     resetTestBtn.classList.add("hidden");
     testProgressEl.classList.add("hidden");
     startTestBtn.classList.remove("hidden");
+    clearTestTimer();
     updateTestingLayout();
     return;
   }
@@ -1180,7 +1255,13 @@ function renderTestMode() {
 
   const answeredCount = testQuestionPool.filter((item) => typeof userAnswers[item.id] === "number").length;
   const remainingCount = testQuestionPool.length - answeredCount;
-  testProgressEl.textContent = `Question ${activeQuestionIndex + 1} of ${testQuestionPool.length}`;
+  const progressBase = `Question ${activeQuestionIndex + 1} of ${testQuestionPool.length}`;
+  let progressText = progressBase;
+  if (timerDurationMs > 0 && testDeadline) {
+    const remaining = testDeadline - Date.now();
+    progressText = `${progressBase} | Time left: ${formatMs(remaining)}`;
+  }
+  testProgressEl.textContent = progressText;
 
   const q = testQuestionPool[activeQuestionIndex];
   const card = document.createElement("article");
@@ -1268,6 +1349,35 @@ function renderTestMode() {
     renderTestMode();
   });
 
+  const nextFlagBtn = document.createElement("button");
+  nextFlagBtn.className = "ghost-btn";
+  nextFlagBtn.textContent = "Next flagged";
+  const strictNext = (() => {
+    for (let i = activeQuestionIndex + 1; i < testQuestionPool.length; i += 1) {
+      if (flaggedQuestions.has(testQuestionPool[i].id)) {
+        return i;
+      }
+    }
+    return -1;
+  })();
+  const firstFlagged = (() => {
+    for (let i = 0; i < testQuestionPool.length; i += 1) {
+      if (flaggedQuestions.has(testQuestionPool[i].id)) {
+        return i;
+      }
+    }
+    return -1;
+  })();
+  const nextFlagTarget = strictNext !== -1 ? strictNext : firstFlagged;
+  nextFlagBtn.disabled = flaggedQuestions.size === 0 || nextFlagTarget === -1 || nextFlagTarget === activeQuestionIndex;
+  nextFlagBtn.addEventListener("click", () => {
+    if (nextFlagBtn.disabled) {
+      return;
+    }
+    activeQuestionIndex = nextFlagTarget;
+    renderTestMode();
+  });
+
   const jumpInput = document.createElement("input");
   jumpInput.className = "control-input jump-input";
   jumpInput.type = "number";
@@ -1291,6 +1401,7 @@ function renderTestMode() {
   navRow.appendChild(prevBtn);
   navRow.appendChild(skipBtn);
   navRow.appendChild(flagBtn);
+  navRow.appendChild(nextFlagBtn);
   navRow.appendChild(jumpInput);
   navRow.appendChild(jumpBtn);
 
@@ -1300,7 +1411,77 @@ function renderTestMode() {
   testQuestionsEl.appendChild(card);
 }
 
+function escapeHtml(text) {
+  return String(text)
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#039;");
+}
+
+function buildQuestionReviewCard(q, displayIndex, anchorId) {
+  const user = userAnswers[q.id];
+  const userPicked = typeof user === "number";
+  const isCorrect = userPicked && user === q.answerIndex;
+
+  const optionsHtml = q.options
+    .map((opt, oi) => {
+      const isAnswer = oi === q.answerIndex;
+      const isUser = userPicked && oi === user;
+      const classes = ["option"];
+      if (isAnswer) {
+        classes.push("correct");
+      } else if (isUser && !isAnswer) {
+        classes.push("wrong");
+      } else {
+        classes.push("muted");
+      }
+
+      let badges = "";
+      if (isAnswer) {
+        badges += '<span class="badge correct">Correct</span>';
+      }
+      if (isUser) {
+        badges += `<span class="badge ${isAnswer ? "correct" : "wrong"}">Selected</span>`;
+      }
+
+      return `
+        <div class="${classes.join(" ")}">
+          <span>${escapeHtml(opt)}</span>
+          ${badges}
+        </div>
+      `;
+    })
+    .join("");
+
+  const weekTag =
+    typeof q.sourceWeek === "number"
+      ? `<p class="content-header" style="margin:0 0 8px;">From Week ${q.sourceWeek}</p>`
+      : "";
+
+  const statusLine = !userPicked
+    ? '<p class="content-header" style="margin:0 0 8px;"><span class="badge wrong">Not answered</span></p>'
+    : isCorrect
+      ? '<p class="content-header" style="margin:0 0 8px;"><span class="badge correct">Correct</span></p>'
+      : '<p class="content-header" style="margin:0 0 8px;"><span class="badge wrong">Incorrect</span></p>';
+
+  const anchorAttr = anchorId ? ` id="${anchorId}"` : "";
+  return `
+    <article class="question-card"${anchorAttr}>
+      <p class="question-title">Q${displayIndex}. ${escapeHtml(q.question)}</p>
+      ${weekTag}
+      ${statusLine}
+      <div class="options">${optionsHtml}</div>
+    </article>
+  `;
+}
+
 function submitTest() {
+  clearTestTimer();
+  testStarted = false;
+  updateTestingLayout();
+
   const weekData = getCurrentWeekData();
   const total = testQuestionPool.length;
   let correct = 0;
@@ -1322,17 +1503,38 @@ function submitTest() {
 
   const percent = ((correct / total) * 100).toFixed(1);
   const flaggedCount = testQuestionPool.filter((q) => flaggedQuestions.has(q.id)).length;
-  const wrongHtml = wrongBreakdown
-    .map(
-      (w) => `
-        <article class="question-card">
-          <p class="question-title">Q${w.no}. ${w.question}</p>
-          <p><span class="badge wrong">Your answer</span> ${w.userAnswer}</p>
-          <p><span class="badge correct">Correct answer</span> ${w.correctAnswer}</p>
-        </article>
-      `
-    )
+  const reviewHtml = testQuestionPool
+    .map((q, i) => buildQuestionReviewCard(q, i + 1, `review-${i}`))
     .join("");
+
+  const flaggedItems = testQuestionPool
+    .map((q, idx) => ({ q, idx }))
+    .filter(({ q }) => flaggedQuestions.has(q.id));
+
+  const flaggedSummaryHtml =
+    flaggedItems.length === 0
+      ? ""
+      : `
+        <div style="margin-top:10px;">
+          <p class="content-header" style="margin:0 0 8px;"><strong>Flagged questions</strong></p>
+          <div class="question-nav" style="margin-top:0;">
+            <button id="jumpFirstFlaggedBtn" class="ghost-btn">Jump to first flagged</button>
+          </div>
+          <div style="display:grid; gap:8px; margin-top:10px;">
+            ${flaggedItems
+              .map(({ q, idx }) => {
+                const snippet = escapeHtml(q.question).slice(0, 90);
+                return `<button class="ghost-btn scroll-flag" type="button" data-review-index="${idx}">Q${idx + 1}: ${snippet}${
+                  q.question.length > 90 ? "…" : ""
+                }</button>`;
+              })
+              .join("")}
+          </div>
+        </div>
+      `;
+
+  const timerNote =
+    timerDurationMs > 0 && timerExpired ? `<p><span class="badge wrong">Time up</span> Test auto-submitted.</p>` : "";
 
   const resultTitle = testScope === "all" ? "All Questions Result" : `Week ${weekData.week} Result`;
   const sortedWeeks = getSortedWeeks();
@@ -1343,13 +1545,17 @@ function submitTest() {
     <h3>${resultTitle}</h3>
     <p><strong>Score:</strong> ${correct}/${total} (${percent}%)</p>
     <p><strong>Flagged for review:</strong> ${flaggedCount}</p>
+    ${timerNote}
+    ${flaggedSummaryHtml}
     <hr />
     <h4>Analysis</h4>
     ${
       wrongBreakdown.length === 0
         ? "<p>Excellent! All answers are correct.</p>"
-        : `<p>Review these ${wrongBreakdown.length} question(s):</p>${wrongHtml}`
+        : `<p><strong>Mistakes:</strong> ${wrongBreakdown.length}</p>`
     }
+    <h4 style="margin-top:16px;">Full review (all options)</h4>
+    ${reviewHtml}
     <div class="question-nav">
       ${hasNextWeek ? `<button id="nextWeekBtn" class="primary-btn">Move to Week ${nextWeek} Test</button>` : ""}
       <button id="otherWeekBtn" class="ghost-btn">Choose Other Week</button>
@@ -1397,6 +1603,27 @@ function submitTest() {
       openTestSetupModal();
     });
   }
+
+  document.querySelectorAll(".scroll-flag").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const idx = Number(btn.getAttribute("data-review-index"));
+      const el = document.getElementById(`review-${idx}`);
+      if (el) {
+        el.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    });
+  });
+
+  const jumpFirst = document.getElementById("jumpFirstFlaggedBtn");
+  if (jumpFirst && flaggedItems.length > 0) {
+    jumpFirst.addEventListener("click", () => {
+      const firstIdx = flaggedItems[0].idx;
+      const el = document.getElementById(`review-${firstIdx}`);
+      if (el) {
+        el.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    });
+  }
 }
 
 function getAllQuestions() {
@@ -1422,6 +1649,8 @@ function shuffleArray(items) {
 
 function setMode(mode) {
   currentMode = mode;
+  document.body.classList.remove("app-mode-study", "app-mode-test");
+  document.body.classList.add(mode === "study" ? "app-mode-study" : "app-mode-test");
   studyModeBtn.classList.toggle("active", mode === "study");
   testModeBtn.classList.toggle("active", mode === "test");
   studySectionEl.classList.toggle("hidden", mode !== "study");
@@ -1437,22 +1666,27 @@ function applyTheme(theme) {
 }
 
 function startConfiguredTest() {
+  clearTestTimer();
+  timerExpired = false;
   testStarted = true;
   userAnswers = {};
   flaggedQuestions = new Set();
   activeQuestionIndex = 0;
   testScope = testScopeSelect.value;
   shuffleEnabled = shuffleToggle.checked;
+  timerMode = timerModeSelect.value;
   if (testScope !== "all") {
     selectedWeek = Number(testWeekSelect.value);
   }
   const baseQuestions = testScope === "all" ? getAllQuestions() : getCurrentWeekData().questions.map((q) => ({ ...q }));
   testQuestionPool = shuffleEnabled ? shuffleArray(baseQuestions) : baseQuestions;
+  timerDurationMs = getSelectedTimerMs();
   startTestBtn.textContent = "Configure & Start Test";
   resultBoxEl.classList.add("hidden");
   closeTestSetupModal();
   renderHeader();
   renderTestMode();
+  startTestTimer();
 }
 
 function renderAll() {
@@ -1483,6 +1717,9 @@ resetTestBtn.addEventListener("click", () => {
   testStarted = false;
   activeQuestionIndex = 0;
   testQuestionPool = [];
+  timerExpired = false;
+  timerDurationMs = 0;
+  clearTestTimer();
   resultBoxEl.classList.add("hidden");
   testProgressEl.classList.add("hidden");
   startTestBtn.classList.remove("hidden");
@@ -1514,5 +1751,12 @@ testScopeSelect.addEventListener("change", () => {
   updateSetupInputs();
 });
 
+timerModeSelect.addEventListener("change", () => {
+  updateSetupInputs();
+});
+
+document.body.classList.add("app-mode-study");
+
 applyTheme(localStorage.getItem("quiz-theme") || "dark");
+updateSetupInputs();
 renderAll();
