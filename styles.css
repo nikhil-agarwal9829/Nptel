@@ -279,6 +279,8 @@ label.option:hover {
   border-radius: 10px;
   padding: 9px 10px;
   font-weight: 600;
+  width: 100%;
+  margin-bottom: 8px;
 }
 
 .control-check {

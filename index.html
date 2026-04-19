@@ -58,11 +58,14 @@
   <div id="testSetupModal" class="modal-overlay hidden">
     <div class="modal-card">
       <h3>Start Test</h3>
+      <p>Choose test type and options before starting.</p>
       <label for="testScopeSelect" class="control-label">Test Type</label>
       <select id="testScopeSelect" class="control-input">
-        <option value="week">Current Week Test</option>
+        <option value="selected">Selected Week Test</option>
         <option value="all">All Weeks Test</option>
       </select>
+      <label for="testWeekSelect" class="control-label">Choose Week</label>
+      <select id="testWeekSelect" class="control-input"></select>
       <label class="control-check">
         <input id="shuffleToggle" type="checkbox" />
         <span>Shuffle Questions</span>

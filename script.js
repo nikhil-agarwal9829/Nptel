@@ -1059,6 +1059,7 @@ const resetTestBtn = document.getElementById("resetTestBtn");
 const resultBoxEl = document.getElementById("resultBox");
 const testProgressEl = document.getElementById("testProgress");
 const testScopeSelect = document.getElementById("testScopeSelect");
+const testWeekSelect = document.getElementById("testWeekSelect");
 const shuffleToggle = document.getElementById("shuffleToggle");
 const welcomeModal = document.getElementById("welcomeModal");
 const choosePracticeBtn = document.getElementById("choosePracticeBtn");
@@ -1102,6 +1103,8 @@ function getSortedWeeks() {
 }
 
 function openTestSetupModal() {
+  populateTestWeekOptions();
+  updateSetupInputs();
   testSetupModal.classList.remove("hidden");
 }
 
@@ -1111,6 +1114,19 @@ function closeTestSetupModal() {
 
 function updateTestingLayout() {
   document.body.classList.toggle("testing-active", testStarted);
+}
+
+function populateTestWeekOptions() {
+  const sortedWeeks = getSortedWeeks();
+  testWeekSelect.innerHTML = sortedWeeks
+    .map((week) => `<option value="${week}">Week ${week}</option>`)
+    .join("");
+  testWeekSelect.value = String(selectedWeek);
+}
+
+function updateSetupInputs() {
+  const isAll = testScopeSelect.value === "all";
+  testWeekSelect.disabled = isAll;
 }
 
 function renderStudyMode() {
@@ -1320,7 +1336,7 @@ function submitTest() {
   const resultTitle = testScope === "all" ? "All Questions Result" : `Week ${weekData.week} Result`;
   const sortedWeeks = getSortedWeeks();
   const currentWeekPos = sortedWeeks.indexOf(weekData.week);
-  const hasNextWeek = testScope === "week" && currentWeekPos !== -1 && currentWeekPos < sortedWeeks.length - 1;
+  const hasNextWeek = testScope !== "all" && currentWeekPos !== -1 && currentWeekPos < sortedWeeks.length - 1;
   const nextWeek = hasNextWeek ? sortedWeeks[currentWeekPos + 1] : null;
   resultBoxEl.innerHTML = `
     <h3>${resultTitle}</h3>
@@ -1426,11 +1442,15 @@ function startConfiguredTest() {
   activeQuestionIndex = 0;
   testScope = testScopeSelect.value;
   shuffleEnabled = shuffleToggle.checked;
+  if (testScope !== "all") {
+    selectedWeek = Number(testWeekSelect.value);
+  }
   const baseQuestions = testScope === "all" ? getAllQuestions() : getCurrentWeekData().questions.map((q) => ({ ...q }));
   testQuestionPool = shuffleEnabled ? shuffleArray(baseQuestions) : baseQuestions;
   startTestBtn.textContent = "Configure & Start Test";
   resultBoxEl.classList.add("hidden");
   closeTestSetupModal();
+  renderHeader();
   renderTestMode();
 }
 
@@ -1487,6 +1507,10 @@ cancelSetupBtn.addEventListener("click", () => {
 
 confirmStartTestBtn.addEventListener("click", () => {
   startConfiguredTest();
+});
+
+testScopeSelect.addEventListener("change", () => {
+  updateSetupInputs();
 });
 
 applyTheme(localStorage.getItem("quiz-theme") || "dark");
