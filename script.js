@@ -1060,6 +1060,12 @@ const resultBoxEl = document.getElementById("resultBox");
 const testProgressEl = document.getElementById("testProgress");
 const testScopeSelect = document.getElementById("testScopeSelect");
 const shuffleToggle = document.getElementById("shuffleToggle");
+const welcomeModal = document.getElementById("welcomeModal");
+const choosePracticeBtn = document.getElementById("choosePracticeBtn");
+const chooseTestBtn = document.getElementById("chooseTestBtn");
+const testSetupModal = document.getElementById("testSetupModal");
+const cancelSetupBtn = document.getElementById("cancelSetupBtn");
+const confirmStartTestBtn = document.getElementById("confirmStartTestBtn");
 
 function getCurrentWeekData() {
   return questionBank.find((w) => w.week === selectedWeek);
@@ -1089,6 +1095,22 @@ function renderWeekList() {
 function renderHeader() {
   const weekData = getCurrentWeekData();
   contentHeaderEl.textContent = `Selected: Week ${weekData.week} | ${weekData.topic} | ${weekData.questions.length} MCQs`;
+}
+
+function getSortedWeeks() {
+  return questionBank.map((w) => w.week).sort((a, b) => a - b);
+}
+
+function openTestSetupModal() {
+  testSetupModal.classList.remove("hidden");
+}
+
+function closeTestSetupModal() {
+  testSetupModal.classList.add("hidden");
+}
+
+function updateTestingLayout() {
+  document.body.classList.toggle("testing-active", testStarted);
 }
 
 function renderStudyMode() {
@@ -1121,20 +1143,18 @@ function renderTestMode() {
   testQuestionsEl.innerHTML = "";
 
   if (!testStarted) {
-    testQuestionsEl.innerHTML = `<p>Select <strong>Start Test</strong> to begin Week ${weekData.week} quiz.</p>`;
+    testQuestionsEl.innerHTML = `<p>Click <strong>Configure & Start Test</strong> to begin.</p>`;
     resetTestBtn.classList.add("hidden");
     testProgressEl.classList.add("hidden");
     startTestBtn.classList.remove("hidden");
-    testScopeSelect.disabled = false;
-    shuffleToggle.disabled = false;
+    updateTestingLayout();
     return;
   }
 
   resetTestBtn.classList.remove("hidden");
   testProgressEl.classList.remove("hidden");
   startTestBtn.classList.add("hidden");
-  testScopeSelect.disabled = true;
-  shuffleToggle.disabled = true;
+  updateTestingLayout();
 
   if (activeQuestionIndex >= testQuestionPool.length) {
     submitTest();
@@ -1298,6 +1318,10 @@ function submitTest() {
     .join("");
 
   const resultTitle = testScope === "all" ? "All Questions Result" : `Week ${weekData.week} Result`;
+  const sortedWeeks = getSortedWeeks();
+  const currentWeekPos = sortedWeeks.indexOf(weekData.week);
+  const hasNextWeek = testScope === "week" && currentWeekPos !== -1 && currentWeekPos < sortedWeeks.length - 1;
+  const nextWeek = hasNextWeek ? sortedWeeks[currentWeekPos + 1] : null;
   resultBoxEl.innerHTML = `
     <h3>${resultTitle}</h3>
     <p><strong>Score:</strong> ${correct}/${total} (${percent}%)</p>
@@ -1309,14 +1333,53 @@ function submitTest() {
         ? "<p>Excellent! All answers are correct.</p>"
         : `<p>Review these ${wrongBreakdown.length} question(s):</p>${wrongHtml}`
     }
+    <div class="question-nav">
+      ${hasNextWeek ? `<button id="nextWeekBtn" class="primary-btn">Move to Week ${nextWeek} Test</button>` : ""}
+      <button id="otherWeekBtn" class="ghost-btn">Choose Other Week</button>
+      <button id="retakeBtn" class="ghost-btn">Retake</button>
+    </div>
   `;
   resultBoxEl.classList.remove("hidden");
   testProgressEl.textContent = `Completed ${total} of ${total}`;
   testQuestionsEl.innerHTML = `<p>Test completed. Check your score and analysis below.</p>`;
   startTestBtn.classList.remove("hidden");
-  startTestBtn.textContent = "Retake Test";
-  testScopeSelect.disabled = false;
-  shuffleToggle.disabled = false;
+  startTestBtn.textContent = "Configure & Start Test";
+  updateTestingLayout();
+
+  const retakeBtn = document.getElementById("retakeBtn");
+  const otherWeekBtn = document.getElementById("otherWeekBtn");
+  const nextWeekBtn = document.getElementById("nextWeekBtn");
+
+  if (retakeBtn) {
+    retakeBtn.addEventListener("click", () => {
+      openTestSetupModal();
+    });
+  }
+
+  if (otherWeekBtn) {
+    otherWeekBtn.addEventListener("click", () => {
+      testStarted = false;
+      testQuestionPool = [];
+      resultBoxEl.classList.add("hidden");
+      updateTestingLayout();
+      setMode("study");
+    });
+  }
+
+  if (nextWeekBtn && nextWeek !== null) {
+    nextWeekBtn.addEventListener("click", () => {
+      selectedWeek = nextWeek;
+      userAnswers = {};
+      flaggedQuestions = new Set();
+      activeQuestionIndex = 0;
+      testStarted = false;
+      testQuestionPool = [];
+      closeTestSetupModal();
+      resultBoxEl.classList.add("hidden");
+      setMode("test");
+      openTestSetupModal();
+    });
+  }
 }
 
 function getAllQuestions() {
@@ -1356,7 +1419,23 @@ function applyTheme(theme) {
   localStorage.setItem("quiz-theme", theme);
 }
 
+function startConfiguredTest() {
+  testStarted = true;
+  userAnswers = {};
+  flaggedQuestions = new Set();
+  activeQuestionIndex = 0;
+  testScope = testScopeSelect.value;
+  shuffleEnabled = shuffleToggle.checked;
+  const baseQuestions = testScope === "all" ? getAllQuestions() : getCurrentWeekData().questions.map((q) => ({ ...q }));
+  testQuestionPool = shuffleEnabled ? shuffleArray(baseQuestions) : baseQuestions;
+  startTestBtn.textContent = "Configure & Start Test";
+  resultBoxEl.classList.add("hidden");
+  closeTestSetupModal();
+  renderTestMode();
+}
+
 function renderAll() {
+  updateTestingLayout();
   renderWeekList();
   renderHeader();
   if (currentMode === "study") {
@@ -1374,17 +1453,7 @@ themeToggleBtn.addEventListener("click", () => {
 });
 
 startTestBtn.addEventListener("click", () => {
-  testStarted = true;
-  userAnswers = {};
-  flaggedQuestions = new Set();
-  activeQuestionIndex = 0;
-  testScope = testScopeSelect.value;
-  shuffleEnabled = shuffleToggle.checked;
-  const baseQuestions = testScope === "all" ? getAllQuestions() : getCurrentWeekData().questions.map((q) => ({ ...q }));
-  testQuestionPool = shuffleEnabled ? shuffleArray(baseQuestions) : baseQuestions;
-  startTestBtn.textContent = "Start Test";
-  resultBoxEl.classList.add("hidden");
-  renderTestMode();
+  openTestSetupModal();
 });
 
 resetTestBtn.addEventListener("click", () => {
@@ -1396,10 +1465,28 @@ resetTestBtn.addEventListener("click", () => {
   resultBoxEl.classList.add("hidden");
   testProgressEl.classList.add("hidden");
   startTestBtn.classList.remove("hidden");
-  startTestBtn.textContent = "Start Test";
-  testScopeSelect.disabled = false;
-  shuffleToggle.disabled = false;
+  startTestBtn.textContent = "Configure & Start Test";
+  closeTestSetupModal();
   renderTestMode();
+});
+
+choosePracticeBtn.addEventListener("click", () => {
+  welcomeModal.classList.add("hidden");
+  setMode("study");
+});
+
+chooseTestBtn.addEventListener("click", () => {
+  welcomeModal.classList.add("hidden");
+  setMode("test");
+  openTestSetupModal();
+});
+
+cancelSetupBtn.addEventListener("click", () => {
+  closeTestSetupModal();
+});
+
+confirmStartTestBtn.addEventListener("click", () => {
+  startConfiguredTest();
 });
 
 applyTheme(localStorage.getItem("quiz-theme") || "dark");

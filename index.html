@@ -33,15 +33,7 @@
 
         <div id="testSection" class="panel hidden">
           <div id="testControls" class="test-controls">
-            <select id="testScopeSelect" class="control-input">
-              <option value="week">Current Week Test</option>
-              <option value="all">All Questions Test</option>
-            </select>
-            <label class="control-check">
-              <input id="shuffleToggle" type="checkbox" />
-              <span>Shuffle Questions</span>
-            </label>
-            <button id="startTestBtn" class="primary-btn">Start Test</button>
+            <button id="startTestBtn" class="primary-btn">Configure & Start Test</button>
             <button id="resetTestBtn" class="ghost-btn hidden">Reset</button>
           </div>
           <div id="testProgress" class="test-progress hidden"></div>
@@ -50,6 +42,36 @@
         </div>
       </section>
     </main>
+  </div>
+
+  <div id="welcomeModal" class="modal-overlay">
+    <div class="modal-card">
+      <h3>Welcome</h3>
+      <p>How do you want to start?</p>
+      <div class="modal-actions">
+        <button id="choosePracticeBtn" class="ghost-btn">Practice Mode</button>
+        <button id="chooseTestBtn" class="primary-btn">Test Mode</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="testSetupModal" class="modal-overlay hidden">
+    <div class="modal-card">
+      <h3>Start Test</h3>
+      <label for="testScopeSelect" class="control-label">Test Type</label>
+      <select id="testScopeSelect" class="control-input">
+        <option value="week">Current Week Test</option>
+        <option value="all">All Weeks Test</option>
+      </select>
+      <label class="control-check">
+        <input id="shuffleToggle" type="checkbox" />
+        <span>Shuffle Questions</span>
+      </label>
+      <div class="modal-actions">
+        <button id="cancelSetupBtn" class="ghost-btn">Cancel</button>
+        <button id="confirmStartTestBtn" class="primary-btn">Start Now</button>
+      </div>
+    </div>
   </div>
 
   <script src="script.js"></script>
