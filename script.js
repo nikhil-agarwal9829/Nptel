@@ -1050,6 +1050,7 @@ let timerDurationMs = 0;
 let testDeadline = null;
 let timerUiIntervalId = null;
 let timerExpired = false;
+let testFlow = "step";
 
 const weekListEl = document.getElementById("weekList");
 const contentHeaderEl = document.getElementById("contentHeader");
@@ -1069,6 +1070,7 @@ const shuffleToggle = document.getElementById("shuffleToggle");
 const timerModeSelect = document.getElementById("timerModeSelect");
 const timerPresetSelect = document.getElementById("timerPresetSelect");
 const timerCustomInput = document.getElementById("timerCustomInput");
+const testFlowSelect = document.getElementById("testFlowSelect");
 const welcomeModal = document.getElementById("welcomeModal");
 const choosePracticeBtn = document.getElementById("choosePracticeBtn");
 const chooseTestBtn = document.getElementById("chooseTestBtn");
@@ -1251,16 +1253,30 @@ function renderStudyMode() {
 
   const prevBtn = document.getElementById("studyPrevWeekBtn");
   const nextBtn = document.getElementById("studyNextWeekBtn");
+
+  const scrollStudyToTop = () => {
+    if (studySectionEl) {
+      try {
+        studySectionEl.scrollTo({ top: 0, behavior: "smooth" });
+      } catch {
+        studySectionEl.scrollTop = 0;
+      }
+    }
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
   if (prevBtn && prevWeek !== null) {
     prevBtn.addEventListener("click", () => {
       selectedWeek = prevWeek;
       renderAll();
+      scrollStudyToTop();
     });
   }
   if (nextBtn && nextWeek !== null) {
     nextBtn.addEventListener("click", () => {
       selectedWeek = nextWeek;
       renderAll();
+      scrollStudyToTop();
     });
   }
 }
@@ -1315,6 +1331,76 @@ function renderTestMode() {
 
   if (activeQuestionIndex >= testQuestionPool.length) {
     submitTest();
+    return;
+  }
+
+  if (testFlow === "quick") {
+    const answeredCount = testQuestionPool.filter((item) => typeof userAnswers[item.id] === "number").length;
+    const remainingCount = testQuestionPool.length - answeredCount;
+    const progressBase = `Quick Test: ${answeredCount}/${testQuestionPool.length} answered`;
+    let progressText = progressBase;
+    if (timerDurationMs > 0 && testDeadline) {
+      const remaining = testDeadline - Date.now();
+      progressText = `${progressBase} | Time left: ${formatMs(remaining)}`;
+    }
+    testProgressEl.textContent = progressText;
+
+    const topControls = document.createElement("div");
+    topControls.className = "question-nav";
+
+    const submitBtn = document.createElement("button");
+    submitBtn.className = "primary-btn";
+    submitBtn.textContent = "Submit Test";
+    submitBtn.addEventListener("click", submitTest);
+
+    topControls.appendChild(submitBtn);
+    testQuestionsEl.appendChild(topControls);
+
+    testQuestionPool.forEach((q, qi) => {
+      const card = document.createElement("article");
+      card.className = "question-card";
+
+      const title = document.createElement("p");
+      title.className = "question-title";
+      title.textContent = `${qi + 1}. ${q.question}`;
+      card.appendChild(title);
+
+      const optionsWrap = document.createElement("div");
+      optionsWrap.className = "options";
+
+      q.options.forEach((opt, oi) => {
+        const label = document.createElement("label");
+        label.className = "option";
+
+        const input = document.createElement("input");
+        input.type = "radio";
+        input.name = q.id;
+        input.value = String(oi);
+        input.checked = userAnswers[q.id] === oi;
+        input.addEventListener("change", () => {
+          userAnswers[q.id] = oi;
+          renderTestMode();
+        });
+
+        const text = document.createElement("span");
+        text.textContent = opt;
+        label.appendChild(input);
+        label.appendChild(text);
+        optionsWrap.appendChild(label);
+      });
+
+      card.appendChild(optionsWrap);
+      testQuestionsEl.appendChild(card);
+    });
+
+    const bottomControls = document.createElement("div");
+    bottomControls.className = "question-nav";
+    const submitBtn2 = document.createElement("button");
+    submitBtn2.className = "primary-btn";
+    submitBtn2.textContent = "Submit Test";
+    submitBtn2.addEventListener("click", submitTest);
+    bottomControls.appendChild(submitBtn2);
+    testQuestionsEl.appendChild(bottomControls);
     return;
   }
 
@@ -1568,9 +1654,19 @@ function submitTest() {
 
   const percent = ((correct / total) * 100).toFixed(1);
   const flaggedCount = testQuestionPool.filter((q) => flaggedQuestions.has(q.id)).length;
-  const reviewHtml = testQuestionPool
-    .map((q, i) => buildQuestionReviewCard(q, i + 1, `review-${i}`))
-    .join("");
+  const wrongOrUnanswered = [];
+  const correctOnes = [];
+  testQuestionPool.forEach((q, i) => {
+    const user = userAnswers[q.id];
+    if (typeof user !== "number" || user !== q.answerIndex) {
+      wrongOrUnanswered.push({ q, i });
+    } else {
+      correctOnes.push({ q, i });
+    }
+  });
+
+  const wrongReviewHtml = wrongOrUnanswered.map(({ q, i }) => buildQuestionReviewCard(q, i + 1, `review-${i}`)).join("");
+  const correctReviewHtml = correctOnes.map(({ q, i }) => buildQuestionReviewCard(q, i + 1, `review-${i}`)).join("");
 
   const flaggedItems = testQuestionPool
     .map((q, idx) => ({ q, idx }))
@@ -1619,8 +1715,10 @@ function submitTest() {
         ? "<p>Excellent! All answers are correct.</p>"
         : `<p><strong>Mistakes:</strong> ${wrongBreakdown.length}</p>`
     }
-    <h4 style="margin-top:16px;">Full review (all options)</h4>
-    ${reviewHtml}
+    <h4 style="margin-top:16px;">Wrong / Unanswered</h4>
+    ${wrongReviewHtml || "<p>None</p>"}
+    <h4 style="margin-top:16px;">Correct</h4>
+    ${correctReviewHtml || "<p>None</p>"}
     <div class="question-nav">
       ${hasNextWeek ? `<button id="nextWeekBtn" class="primary-btn">Move to Week ${nextWeek} Test</button>` : ""}
       <button id="otherWeekBtn" class="ghost-btn">Choose Other Week</button>
@@ -1741,6 +1839,7 @@ function startConfiguredTest() {
   testScope = testScopeSelect.value;
   shuffleEnabled = shuffleToggle.checked;
   timerMode = timerModeSelect.value;
+  testFlow = testFlowSelect.value;
   if (testScope !== "all") {
     selectedWeek = Number(testWeekSelect.value);
   }

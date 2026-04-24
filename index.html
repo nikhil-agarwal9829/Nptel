@@ -5,6 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>NPTEL ESD Quiz Portal</title>
   <link rel="stylesheet" href="styles.css" />
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-VVC0MJCKCD"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-VVC0MJCKCD');
+  </script>
 </head>
 <body>
   <div class="app">
@@ -67,6 +77,11 @@
       </select>
       <label for="testWeekSelect" class="control-label">Choose Week</label>
       <select id="testWeekSelect" class="control-input"></select>
+      <label for="testFlowSelect" class="control-label">Test Flow</label>
+      <select id="testFlowSelect" class="control-input">
+        <option value="step">Step-by-step (Next button)</option>
+        <option value="quick">Quick test (All questions at once)</option>
+      </select>
       <label class="control-check">
         <input id="shuffleToggle" type="checkbox" />
         <span>Shuffle Questions</span>
