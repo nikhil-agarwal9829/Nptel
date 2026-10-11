@@ -2841,7 +2841,17 @@ function parseUIEText(raw) {
   function finishWeek() {
     finishQ();
     if (currentWeek) {
-      weeks.push(currentWeek);
+      const existingWeekIdx = weeks.findIndex((w) => w.week === currentWeek.week);
+      if (existingWeekIdx >= 0) {
+        for (const q of currentWeek.questions) {
+          if (!weeks[existingWeekIdx].questions.some((eq) => eq.question === q.question)) {
+            q.id = `uie-w${currentWeek.week}-q${weeks[existingWeekIdx].questions.length + 1}`;
+            weeks[existingWeekIdx].questions.push(q);
+          }
+        }
+      } else {
+        weeks.push(currentWeek);
+      }
       currentWeek = null;
     }
   }
@@ -3055,7 +3065,10 @@ function renderWeekList() {
   if (currentMode === "test" || (currentMode === "study" && !testStarted)) {
     return;
   }
+  const seenWeeks = new Set();
   questionBank.forEach((weekData) => {
+    if (seenWeeks.has(weekData.week)) return;
+    seenWeeks.add(weekData.week);
     const btn = document.createElement("button");
     btn.className = `week-btn ${weekData.week === selectedWeek ? "active" : ""}`;
     btn.textContent = `W${weekData.week} · ${weekData.topic}`;
@@ -3082,7 +3095,8 @@ function renderHeader() {
 }
 
 function getSortedWeeks() {
-  return questionBank.map((w) => w.week).sort((a, b) => a - b);
+  const weeks = questionBank.map((w) => w.week);
+  return [...new Set(weeks)].sort((a, b) => a - b);
 }
 
 function openTestSetupModal() {
@@ -3289,7 +3303,10 @@ function renderStudyMode() {
 
 function openWeekPickerModal() {
   weekPickerList.innerHTML = "";
+  const seenWeeks = new Set();
   questionBank.forEach((weekData) => {
+    if (seenWeeks.has(weekData.week)) return;
+    seenWeeks.add(weekData.week);
     const btn = document.createElement("button");
     btn.type = "button";
     btn.className = `week-picker-btn ${weekData.week === selectedWeek ? "active" : ""}`;

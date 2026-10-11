@@ -1,117 +1,122 @@
-week 0
+## **Week 0: Assignment 0**
 
-1. What does IPO stand for in the context of business?
-A) Initial Public Offering
+### **1. What does IPO stand for in the context of business?**
 
-B) Internal Profit Optimization
+* **A)** Initial Public Offering
+* **B)** Internal Profit Optimization
+* **C)** International Product Organization
+* **D)** Investment Portfolio Overview
 
-C) International Product Organization
+**Correct Answer:**
+Initial Public Offering
 
-D) Investment Portfolio Overview
+---
 
-Correct Answer: Initial Public Offering
+### **2. Which of the following best describes a partnership?**
 
-2. Which of the following best describes a partnership?
-A) A business owned by a single individual
+* **A)** A business owned by a single individual
+* **B)** A business structure where two or more individuals share ownership and responsibilities
+* **C)** A government-owned company
+* **D)** A business with no formal ownership structure
 
-B) A business structure where two or more individuals share ownership and responsibilities
+**Correct Answer:**
+A business structure where two or more individuals share ownership and responsibilities
 
-C) A government-owned company
+---
 
-D) A business with no formal ownership structure
+### **3. Problem-solving, critical thinking, and idea generation are techniques used for:**
 
-Correct Answer: A business structure where two or more individuals share ownership and responsibilities
+* **A)** Analyzing market trends
+* **B)** Enhancing creativity and innovation
+* **C)** Building brand awareness
+* **D)** Streamlining production processes
 
-3. Problem-solving, critical thinking, and idea generation are techniques used for:
-A) Analyzing market trends
+**Correct Answer:**
+Enhancing creativity and innovation
 
-B) Enhancing creativity and innovation
+---
 
-C) Building brand awareness
+### **4. In a SWOT analysis, what does the 'T' represent?**
 
-D) Streamlining production processes
+* **A)** Treat
+* **B)** Threat
+* **C)** Trick
+* **D)** Tactics
 
-Correct Answer: Enhancing creativity and innovation
+**Correct Answer:**
+Threat
 
-4. In a SWOT analysis, what does the 'T' represent?
-A) Treat
+---
 
-B) Threat
+### **5. Which of the following is not a type of business structure?**
 
-C) Trick
+* **A)** Sole proprietorship
+* **B)** Partnership
+* **C)** Corporation
+* **D)** Trademark
 
-D) Tactics
+**Correct Answer:**
+Trademark
 
-Correct Answer: Threat
+---
 
-5. Which of the following is not a type of business structure?
-A) Sole proprietorship
+### **6. What does KPI stand for in business metrics?**
 
-B) Partnership
+* **A)** Key Process Indicator
+* **B)** Key Performance Indicator
+* **C)** Knowledge Productivity Index
+* **D)** Key Profit Insight
 
-C) Corporation
+**Correct Answer:**
+Key Performance Indicator
 
-D) Trademark
+---
 
-Correct Answer: Trademark
+### **7. Which of the following is essential for starting a successful business?**
 
-6. What does KPI stand for in business metrics?
-A) Key Process Indicator
+* **A)** Identifying a target market
+* **B)** Developing a business plan
+* **C)** Securing funding
+* **D)** All of the above
 
-B) Key Performance Indicator
+**Correct Answer:**
+All of the above
 
-C) Knowledge Productivity Index
+---
 
-D) Key Profit Insight
+### **8. What is a key benefit of using social media for business marketing?**
 
-Correct Answer: Key Performance Indicator
+* **A)** Reducing product quality
+* **B)** Directly engaging with customers and building brand loyalty
+* **C)** Eliminating the need for a website
+* **D)** Limiting customer feedback to specific groups
 
-7. Which of the following is essential for starting a successful business?
-A) Identifying a target market
+**Correct Answer:**
+Directly engaging with customers and building brand loyalty
 
-B) Developing a business plan
+---
 
-C) Securing funding
+### **9. What do OYO Rooms and Swiggy have in common?**
 
-D) All of the above
+* **A)** Same business model
+* **B)** Both are tech startups
+* **C)** Both are valued at over $1 billion (Unicorns)
+* **D)** Both business models are free from financial risks
 
-Correct Answer: All of the above
+**Correct Answer:**
+Both are valued at over $1 billion (Unicorns)
 
-8. What is a key benefit of using social media for business marketing?
-A) Reducing product quality
+---
 
-B) Directly engaging with customers and building brand loyalty
+### **10. Choose the most appropriate definition of entrepreneurship:**
 
-C) Eliminating the need for a website
+* **A)** Copying business ideas from other companies
+* **B)** Starting a business
+* **C)** Developing ideas and research papers
+* **D)** Earning profits
 
-D) Limiting customer feedback to specific groups
-
-Correct Answer: Directly engaging with customers and building brand loyalty
-
-9. What do OYO Rooms and Swiggy have in common?
-A) Same business model
-
-B) Both are tech startups
-
-C) Both are valued at over $1 billion (Unicorns)
-
-D) Both business models are free from financial risks
-
-Correct Answer: Both are valued at over $1 billion (Unicorns)
-
-10. Choose the most appropriate definition of entrepreneurship:
-A) Copying business ideas from other companies
-
-B) Starting a business
-
-C) Developing ideas and research papers
-
-D) Earning profits
-
-Correct Answer: Starting a business
-
-
-Here are the questions, options, and correct answers from **Week 1: Assignment 1** of *Understanding Incubation and Entrepreneurship*:
+**Correct Answer:**
+Starting a business
 
 ---
 
@@ -124,7 +129,8 @@ Here are the questions, options, and correct answers from **Week 1: Assignment 1
 * **C)** Shifting focus to unrelated projects immediately
 * **D)** Disregarding accountability and blaming external factors
 
-**Correct Answer:** Gaining valuable lessons and insights from the failure
+**Correct Answer:**
+Gaining valuable lessons and insights from the failure
 
 ---
 
@@ -135,7 +141,8 @@ Here are the questions, options, and correct answers from **Week 1: Assignment 1
 * **C)** Strategic planning and adaptability to market changes
 * **D)** Focusing solely on profit maximization
 
-**Correct Answer:** Strategic planning and adaptability to market changes
+**Correct Answer:**
+Strategic planning and adaptability to market changes
 
 ---
 
@@ -146,7 +153,8 @@ Here are the questions, options, and correct answers from **Week 1: Assignment 1
 * **C)** Focusing on complex promotional campaigns
 * **D)** Offering discounts to increase sales
 
-**Correct Answer:** Identifying and fulfilling customer and market needs
+**Correct Answer:**
+Identifying and fulfilling customer and market needs
 
 ---
 
@@ -157,7 +165,8 @@ Here are the questions, options, and correct answers from **Week 1: Assignment 1
 * **C)** Introducing changes that challenge existing market norms
 * **D)** Strictly adhering to traditional market standards
 
-**Correct Answer:** Introducing changes that challenge existing market norms
+**Correct Answer:**
+Introducing changes that challenge existing market norms
 
 ---
 
@@ -168,7 +177,8 @@ Here are the questions, options, and correct answers from **Week 1: Assignment 1
 * **C)** By identifying and solving market problems effectively
 * **D)** By avoiding competitive risks through market isolation
 
-**Correct Answer:** By identifying and solving market problems effectively
+**Correct Answer:**
+By identifying and solving market problems effectively
 
 ---
 
@@ -179,7 +189,8 @@ Here are the questions, options, and correct answers from **Week 1: Assignment 1
 * **C)** Financial optimization over product innovation
 * **D)** Continuous learning and validation through customer feedback
 
-**Correct Answer:** Continuous learning and validation through customer feedback
+**Correct Answer:**
+Continuous learning and validation through customer feedback
 
 ---
 
@@ -190,7 +201,8 @@ Here are the questions, options, and correct answers from **Week 1: Assignment 1
 * **C)** Rapid scaling and long-term planning
 * **D)** Agile engineering without customer feedback
 
-**Correct Answer:** Customer validation and iterative development
+**Correct Answer:**
+Customer validation and iterative development
 
 ---
 
@@ -201,7 +213,8 @@ Here are the questions, options, and correct answers from **Week 1: Assignment 1
 * **C)** By isolating themselves from marketplace collaborations
 * **D)** By discouraging experimentation within the institution
 
-**Correct Answer:** By connecting academic research to practical applications in the market
+**Correct Answer:**
+By connecting academic research to practical applications in the market
 
 ---
 
@@ -213,11 +226,11 @@ Here are the questions, options, and correct answers from **Week 1: Assignment 1
 * **D)** By regularly engaging with customers to gather feedback and validate ideas
 
 **Correct Answer:**
-
 * By utilizing validated learning through continuous experimentation and data analysis
 * By implementing the Build-Measure-Learn cycle to iteratively develop and improve products
 * By making decisions based on empirical evidence rather than assumptions
-* By regularly engaging with customers to gather feedback and validate ideas *(Multiple Select Question - All 4 options are correct)*
+* By regularly engaging with customers to gather feedback and validate ideas
+*(Multiple Select Question)*
 
 ---
 
@@ -229,12 +242,9 @@ Here are the questions, options, and correct answers from **Week 1: Assignment 1
 * **D)** Preparing a business plan and estimating market size
 
 **Correct Answer:**
-
 * Focusing too much on the product and neglecting the market
-* Developing solutions without engaging potential customers *(Multiple Select Question)*
-
-
-Here are the questions, options, and correct answers for **Week 2: Assignment 2**:
+* Developing solutions without engaging potential customers
+*(Multiple Select Question)*
 
 ---
 
@@ -247,7 +257,8 @@ Here are the questions, options, and correct answers for **Week 2: Assignment 2*
 * **C)** Having sufficient investors and funding
 * **D)** Offering a user-friendly product
 
-**Correct Answer:** No real need for the product or service
+**Correct Answer:**
+No real need for the product or service
 
 ---
 
@@ -258,7 +269,8 @@ Here are the questions, options, and correct answers for **Week 2: Assignment 2*
 * **C)** Frequent disagreements
 * **D)** Shared vision and common ideology
 
-**Correct Answer:** Shared vision and common ideology
+**Correct Answer:**
+Shared vision and common ideology
 
 ---
 
@@ -269,7 +281,8 @@ Here are the questions, options, and correct answers for **Week 2: Assignment 2*
 * **C)** Long-term planning without short-term feedback
 * **D)** Building internal teams over market exploration
 
-**Correct Answer:** Iterative development and customer-centric learning
+**Correct Answer:**
+Iterative development and customer-centric learning
 
 ---
 
@@ -280,7 +293,8 @@ Here are the questions, options, and correct answers for **Week 2: Assignment 2*
 * **C)** By validating business ideas and assumptions
 * **D)** All of the above
 
-**Correct Answer:** All of the above
+**Correct Answer:**
+All of the above
 
 ---
 
@@ -291,7 +305,8 @@ Here are the questions, options, and correct answers for **Week 2: Assignment 2*
 * **C)** Expand production capacity to meet demands
 * **D)** Offer financial support for scaling operations
 
-**Correct Answer:** Provide critical feedback to improve the product
+**Correct Answer:**
+Provide critical feedback to improve the product
 
 ---
 
@@ -302,7 +317,8 @@ Here are the questions, options, and correct answers for **Week 2: Assignment 2*
 * **C)** Prioritizing customer needs over product development
 * **D)** Focusing on team-building over business goals
 
-**Correct Answer:** Securing funding guarantees success
+**Correct Answer:**
+Securing funding guarantees success
 
 ---
 
@@ -313,7 +329,8 @@ Here are the questions, options, and correct answers for **Week 2: Assignment 2*
 * **C)** The customers
 * **D)** The marketing teams
 
-**Correct Answer:** The customers
+**Correct Answer:**
+The customers
 
 ---
 
@@ -324,7 +341,8 @@ Here are the questions, options, and correct answers for **Week 2: Assignment 2*
 * **C)** Ignore the issue and hope for improvement
 * **D)** Cut down on expenses and reduce team size
 
-**Correct Answer:** Reevaluate the business strategy and pivot if necessary
+**Correct Answer:**
+Reevaluate the business strategy and pivot if necessary
 
 ---
 
@@ -336,9 +354,9 @@ Here are the questions, options, and correct answers for **Week 2: Assignment 2*
 * **D)** Limited market research and focusing on advertisement
 
 **Correct Answer:**
-
 * Strong leadership and vision
-* Effective communication and collaboration *(Multiple Select Question)*
+* Effective communication and collaboration
+*(Multiple Select Question)*
 
 ---
 
@@ -349,12 +367,8 @@ Here are the questions, options, and correct answers for **Week 2: Assignment 2*
 * **C)** Rapid product development skills
 * **D)** Exceptional programming expertise
 
-**Correct Answer:** Strong belief in the startup's vision
-
-
-
-
-Here are the questions, options, and correct answers from **Week 3: Assignment 3**:
+**Correct Answer:**
+Strong belief in the startup's vision
 
 ---
 
@@ -367,7 +381,8 @@ Here are the questions, options, and correct answers from **Week 3: Assignment 3
 * **C)** Fosters competition among designers
 * **D)** Promotes user-centered design
 
-**Correct Answer:** Promotes user-centered design
+**Correct Answer:**
+Promotes user-centered design
 
 ---
 
@@ -378,7 +393,8 @@ Here are the questions, options, and correct answers from **Week 3: Assignment 3
 * **C)** Limited experience and collaboration
 * **D)** A homogeneous team with similar backgrounds
 
-**Correct Answer:** A varied skill set and diverse perspectives
+**Correct Answer:**
+A varied skill set and diverse perspectives
 
 ---
 
@@ -389,7 +405,8 @@ Here are the questions, options, and correct answers from **Week 3: Assignment 3
 * **C)** Reduces customer engagement and feedback
 * **D)** Limits the scope of market exploration
 
-**Correct Answer:** Encourages risk diversification and adaptability
+**Correct Answer:**
+Encourages risk diversification and adaptability
 
 ---
 
@@ -400,7 +417,8 @@ Here are the questions, options, and correct answers from **Week 3: Assignment 3
 * **C)** Taking specific roles to solve problems
 * **D)** All of the above
 
-**Correct Answer:** All of the above
+**Correct Answer:**
+All of the above
 
 ---
 
@@ -411,7 +429,8 @@ Here are the questions, options, and correct answers from **Week 3: Assignment 3
 * **C)** Project timeline and brand vision
 * **D)** Comprehensive technical specifications
 
-**Correct Answer:** Functional and user requirements
+**Correct Answer:**
+Functional and user requirements
 
 ---
 
@@ -422,7 +441,8 @@ Here are the questions, options, and correct answers from **Week 3: Assignment 3
 * **C)** Enhances aesthetic appeal of the product
 * **D)** Simplifies administrative tasks
 
-**Correct Answer:** Facilitates resource sharing and expertise integration
+**Correct Answer:**
+Facilitates resource sharing and expertise integration
 
 ---
 
@@ -433,7 +453,8 @@ Here are the questions, options, and correct answers from **Week 3: Assignment 3
 * **C)** Ensures public health protection and legal compliance
 * **D)** Promotes informal market practices
 
-**Correct Answer:** Ensures public health protection and legal compliance
+**Correct Answer:**
+Ensures public health protection and legal compliance
 
 ---
 
@@ -444,7 +465,8 @@ Here are the questions, options, and correct answers from **Week 3: Assignment 3
 * **C)** Establishing a strict budget
 * **D)** Highlighting only the team's capabilities
 
-**Correct Answer:** Defining the problem clearly
+**Correct Answer:**
+Defining the problem clearly
 
 ---
 
@@ -455,7 +477,8 @@ Here are the questions, options, and correct answers from **Week 3: Assignment 3
 * **C)** Interdisciplinary collaboration
 * **D)** Extensive financial resources
 
-**Correct Answer:** Interdisciplinary collaboration
+**Correct Answer:**
+Interdisciplinary collaboration
 
 ---
 
@@ -466,10 +489,8 @@ Here are the questions, options, and correct answers from **Week 3: Assignment 3
 * **C)** Past literature
 * **D)** Intellectual archives
 
-**Correct Answer:** Prior art
-
-
-Here are the 10 questions, options, and correct answers from **Week 4: Assignment 4**:
+**Correct Answer:**
+Prior art
 
 ---
 
@@ -482,7 +503,8 @@ Here are the 10 questions, options, and correct answers from **Week 4: Assignmen
 * **C)** Lack of understanding of customer needs
 * **D)** Regular customer feedback for product improvement
 
-**Correct Answer:** Lack of understanding of customer needs
+**Correct Answer:**
+Lack of understanding of customer needs
 
 ---
 
@@ -493,7 +515,8 @@ Here are the 10 questions, options, and correct answers from **Week 4: Assignmen
 * **C)** Focusing on excessive engineering solutions
 * **D)** Disregarding customer feedback in decision-making
 
-**Correct Answer:** Creating products that cater to customer requirements
+**Correct Answer:**
+Creating products that cater to customer requirements
 
 ---
 
@@ -504,7 +527,8 @@ Here are the 10 questions, options, and correct answers from **Week 4: Assignmen
 * **C)** Acquiring venture capital easily
 * **D)** Creating an effective marketing strategy
 
-**Correct Answer:** Building a skilled and cohesive team
+**Correct Answer:**
+Building a skilled and cohesive team
 
 ---
 
@@ -515,7 +539,8 @@ Here are the 10 questions, options, and correct answers from **Week 4: Assignmen
 * **C)** Online marketing through digital platforms
 * **D)** Door-to-door sales in urban regions
 
-**Correct Answer:** Distribution through government schemes
+**Correct Answer:**
+Distribution through government schemes
 
 ---
 
@@ -527,10 +552,10 @@ Here are the 10 questions, options, and correct answers from **Week 4: Assignmen
 * **D)** Building and educating communities
 
 **Correct Answer:**
-
 * Collaborating with influential figures and forming partnerships
 * Hosting engaging and interactive demonstrations
-* Building and educating communities *(Multiple Select Question)*
+* Building and educating communities
+*(Multiple Select Question)*
 
 ---
 
@@ -541,7 +566,8 @@ Here are the 10 questions, options, and correct answers from **Week 4: Assignmen
 * **C)** Encouraging bulk orders from organizations
 * **D)** All of the above
 
-**Correct Answer:** All of the above
+**Correct Answer:**
+All of the above
 
 ---
 
@@ -552,7 +578,8 @@ Here are the 10 questions, options, and correct answers from **Week 4: Assignmen
 * **C)** Focusing solely on futuristic technology
 * **D)** Providing vague or exaggerated solutions
 
-**Correct Answer:** Demonstrating a real and solvable problem
+**Correct Answer:**
+Demonstrating a real and solvable problem
 
 ---
 
@@ -563,7 +590,8 @@ Here are the 10 questions, options, and correct answers from **Week 4: Assignmen
 * **C)** Ignoring local regulations and norms
 * **D)** Relying solely on existing products and services without adaptation
 
-**Correct Answer:** Understanding the cultural and economic environment
+**Correct Answer:**
+Understanding the cultural and economic environment
 
 ---
 
@@ -574,7 +602,8 @@ Here are the 10 questions, options, and correct answers from **Week 4: Assignmen
 * **C)** Recognizing a problem but refusing to act on it
 * **D)** Adjusting to the problem without solving it
 
-**Correct Answer:** Recognizing a problem and actively seeking a solution
+**Correct Answer:**
+Recognizing a problem and actively seeking a solution
 
 ---
 
@@ -585,9 +614,8 @@ Here are the 10 questions, options, and correct answers from **Week 4: Assignmen
 * **C)** Motivation to change without understanding the problem
 * **D)** Recognizing the problem but being unable to act on it
 
-**Correct Answer:** Awareness of the problem but no motivation to change
-
-Here are the questions, options, and correct answers from **Week 5: Assignment 5**:
+**Correct Answer:**
+Awareness of the problem but no motivation to change
 
 ---
 
@@ -600,7 +628,8 @@ Here are the questions, options, and correct answers from **Week 5: Assignment 5
 * **C)** Keeping research results confidential
 * **D)** Engaging in rivalry with industries to demonstrate academic dominance
 
-**Correct Answer:** Partnering with industries to link research with real-world applications
+**Correct Answer:**
+Partnering with industries to link research with real-world applications
 
 ---
 
@@ -611,7 +640,8 @@ Here are the questions, options, and correct answers from **Week 5: Assignment 5
 * **C)** Rapidly growing demand for medical devices
 * **D)** Shorter research and development cycles
 
-**Correct Answer:** Poor success rates of medical devices
+**Correct Answer:**
+Poor success rates of medical devices
 
 ---
 
@@ -622,7 +652,8 @@ Here are the questions, options, and correct answers from **Week 5: Assignment 5
 * **C)** Conducting employee training and managing resources
 * **D)** Securing Intellectual Property Rights and patents
 
-**Correct Answer:** Identifying the problem and understanding functional requirements
+**Correct Answer:**
+Identifying the problem and understanding functional requirements
 
 ---
 
@@ -633,7 +664,8 @@ Here are the questions, options, and correct answers from **Week 5: Assignment 5
 * **C)** Created barriers for patient access to care
 * **D)** Complicated the delivery of medical services
 
-**Correct Answer:** Reduced the strain on physical healthcare facilities
+**Correct Answer:**
+Reduced the strain on physical healthcare facilities
 
 ---
 
@@ -644,7 +676,8 @@ Here are the questions, options, and correct answers from **Week 5: Assignment 5
 * **C)** Filing for patents before large-scale production
 * **D)** Conducting research in controlled lab environments
 
-**Correct Answer:** Testing and adapting design features based on user feedback
+**Correct Answer:**
+Testing and adapting design features based on user feedback
 
 ---
 
@@ -655,7 +688,8 @@ Here are the questions, options, and correct answers from **Week 5: Assignment 5
 * **C)** Before commercializing the product
 * **D)** Once the product is widely available in the market
 
-**Correct Answer:** Before commercializing the product
+**Correct Answer:**
+Before commercializing the product
 
 ---
 
@@ -666,7 +700,8 @@ Here are the questions, options, and correct answers from **Week 5: Assignment 5
 * **C)** Non-Governmental Organizations (NGOs) only
 * **D)** All of the above
 
-**Correct Answer:** All of the above
+**Correct Answer:**
+All of the above
 
 ---
 
@@ -677,7 +712,8 @@ Here are the questions, options, and correct answers from **Week 5: Assignment 5
 * **C)** Technological Resource Level
 * **D)** Test and Reliability Levels
 
-**Correct Answer:** Technology Readiness Levels
+**Correct Answer:**
+Technology Readiness Levels
 
 ---
 
@@ -688,7 +724,8 @@ Here are the questions, options, and correct answers from **Week 5: Assignment 5
 * **C)** Securing patent protection during initial stages
 * **D)** Brainstorming creative ideas without practical implementation
 
-**Correct Answer:** Demonstrating functional feasibility
+**Correct Answer:**
+Demonstrating functional feasibility
 
 ---
 
@@ -699,10 +736,8 @@ Here are the questions, options, and correct answers from **Week 5: Assignment 5
 * **C)** Prioritizing features based on developer convenience
 * **D)** Overlooking the project scope and timeline
 
-**Correct Answer:** Conducting thorough stakeholder interviews to gather insights
-
-
-Here are the questions, options, and correct answers from **Week 6: Assignment 6**:
+**Correct Answer:**
+Conducting thorough stakeholder interviews to gather insights
 
 ---
 
@@ -715,7 +750,8 @@ Here are the questions, options, and correct answers from **Week 6: Assignment 6
 * **C)** Relying on traditional marketing strategies
 * **D)** Concentrating solely on product ideas
 
-**Correct Answer:** Building empathy and conducting user research
+**Correct Answer:**
+Building empathy and conducting user research
 
 ---
 
@@ -726,7 +762,8 @@ Here are the questions, options, and correct answers from **Week 6: Assignment 6
 * **C)** Ignoring competitor analysis
 * **D)** Skipping the prototyping phase
 
-**Correct Answer:** Conducting iterative testing and feedback loops
+**Correct Answer:**
+Conducting iterative testing and feedback loops
 
 ---
 
@@ -737,7 +774,8 @@ Here are the questions, options, and correct answers from **Week 6: Assignment 6
 * **C)** Focuses on generating creative ideas only
 * **D)** Encourages quick decision-making without research
 
-**Correct Answer:** Links business operations with innovation efforts
+**Correct Answer:**
+Links business operations with innovation efforts
 
 ---
 
@@ -748,7 +786,8 @@ Here are the questions, options, and correct answers from **Week 6: Assignment 6
 * **C)** Ensure customer experience takes precedence over business goals
 * **D)** Prioritize technical feasibility over desirability
 
-**Correct Answer:** Balance user needs, technological feasibility, and business objectives
+**Correct Answer:**
+Balance user needs, technological feasibility, and business objectives
 
 ---
 
@@ -759,7 +798,8 @@ Here are the questions, options, and correct answers from **Week 6: Assignment 6
 * **C)** Building rapport and trust with the interviewee
 * **D)** Employing a rigid and formal interview structure
 
-**Correct Answer:** Building rapport and trust with the interviewee
+**Correct Answer:**
+Building rapport and trust with the interviewee
 
 ---
 
@@ -770,7 +810,8 @@ Here are the questions, options, and correct answers from **Week 6: Assignment 6
 * **C)** Including extensive budget estimates
 * **D)** Identifying user pain points, mapping user journeys, and ensuring ecosystem fit
 
-**Correct Answer:** Identifying user pain points, mapping user journeys, and ensuring ecosystem fit
+**Correct Answer:**
+Identifying user pain points, mapping user journeys, and ensuring ecosystem fit
 
 ---
 
@@ -781,7 +822,8 @@ Here are the questions, options, and correct answers from **Week 6: Assignment 6
 * **C)** Collaboration between stakeholders to meet business goals
 * **D)** A structured process for fulfilling business objectives through design
 
-**Correct Answer:** A structured process for fulfilling business objectives through design
+**Correct Answer:**
+A structured process for fulfilling business objectives through design
 
 ---
 
@@ -792,7 +834,8 @@ Here are the questions, options, and correct answers from **Week 6: Assignment 6
 * **C)** Collaboration, extended timelines, and reliability
 * **D)** Minimal interaction, predictability, and discipline
 
-**Correct Answer:** Quality, speed, and transparency
+**Correct Answer:**
+Quality, speed, and transparency
 
 ---
 
@@ -803,7 +846,8 @@ Here are the questions, options, and correct answers from **Week 6: Assignment 6
 * **C)** Specific user personas and their pain points
 * **D)** Finalized marketing strategies and plans
 
-**Correct Answer:** Specific user personas and their pain points
+**Correct Answer:**
+Specific user personas and their pain points
 
 ---
 
@@ -814,124 +858,8 @@ Here are the questions, options, and correct answers from **Week 6: Assignment 6
 * **C)** To balance creative ideas with realistic objectives
 * **D)** To reduce the complexity of the design process
 
-**Correct Answer:** To balance creative ideas with realistic objectives
-
-Here are the questions, options, and correct answers from **Week 7: Assignment 7**:
-
----
-
-## **Week 7: Assignment 7**
-
-### **1. Which approach emphasizes collaboration, iteration, and a non-linear process to develop innovative solutions?**
-
-* **A)** Economic stability
-* **B)** Design thinking
-* **C)** Complacency
-* **D)** Short-term focus
-
-**Correct Answer:** Design thinking
-
----
-
-### **2. What is a problem-solving methodology that encourages creative thinking by connecting seemingly unrelated concepts?**
-
-* **A)** Brainstorming
-* **B)** Synectics
-* **C)** Mind mapping
-* **D)** SWOT analysis
-
-**Correct Answer:** Synectics
-
----
-
-### **3. What are the most important three critical factors to consider when developing a product?**
-
-* **A)** Market Need, technical feasibility, and business viability
-* **B)** Advertisement, product packaging, and distribution networks
-* **C)** User sensibility, market size, and product range
-* **D)** Profit, market sensitivity, and employee strength
-
-**Correct Answer:** Market Need, technical feasibility, and business viability
-
----
-
-### **4. Which tool graphically represents a business model and helps stakeholders understand it easily?**
-
-* **A)** Business Model Canvas
-* **B)** Balance sheet
-* **C)** Profit and loss statement
-* **D)** Organizational chart
-
-**Correct Answer:** Business Model Canvas
-
----
-
-### **5. Which stage of the Lean Startup cycle comes immediately after building a Minimum Viable Product (MVP)?**
-
-* **A)** Scaling production
-* **B)** Filing patents
-* **C)** Measuring customer feedback and learning from the results
-* **D)** Preparing financial statements
-
-**Correct Answer:** Measuring customer feedback and learning from the results
-
----
-
-### **6. What makes a collaborative model beneficial for entrepreneurship?**
-
-* **A)** Provides access to resources
-* **B)** Offers networking opportunities
-* **C)** Creates a sense of community
-* **D)** All of the above
-
-**Correct Answer:** All of the above
-
----
-
-### **7. What distinguishes the fractional ownership business model from other models?**
-
-* **A)** Shared ownership of physical assets
-* **B)** Focus on virtual assets and digital goods
-* **C)** Primary emphasis on intellectual property rights
-* **D)** Leasing equipment to businesses
-
-**Correct Answer:** Shared ownership of physical assets
-
----
-
-### **8. What key criteria should a business model meet to achieve optimal success?**
-
-* **A)** High Initial Investment, Extensive Workforce, and Expensive Marketing
-* **B)** Clear Value Proposition, Scalability, and Sustainable Revenue Streams
-* **C)** Low Costs, Rapid Expansion, and Minimal Effort
-* **D)** Single Revenue Source, Limited Target Market, and High Complexity
-
-**Correct Answer:** Clear Value Proposition, Scalability, and Sustainable Revenue Streams
-
----
-
-### **9. Which key performance metrics help to monitor a business's success?**
-
-* **A)** Revenue growth, customer acquisition, and customer retention
-* **B)** Employee welfare, operational cost reduction, and inventory turnover
-* **C)** Brand recognition, social media reach, and product diversification
-* **D)** Customer retention, marketing spends, and aesthetic appeal
-
-**Correct Answer:** Revenue growth, customer acquisition, and customer retention
-
----
-
-### **10. Why is the Lean Canvas a valuable tool for startups?**
-
-* **A)** Helps secure large investments from venture capitalists
-* **B)** Develops a detailed five-year financial plan
-* **C)** Allows startups to test and iterate on their business model assumptions quickly
-* **D)** Designs a complex organizational structure for future growth
-
-**Correct Answer:** Allows startups to test and iterate on their business model assumptions quickly
-
-
-Here are the questions, options, and correct answers from **Week 7: Assignment 7**:
+**Correct Answer:**
+To balance creative ideas with realistic objectives
 
 ---
 
@@ -944,7 +872,8 @@ Here are the questions, options, and correct answers from **Week 7: Assignment 7
 * **C)** Complacency
 * **D)** Short-term focus
 
-**Correct Answer:** Design thinking
+**Correct Answer:**
+Design thinking
 
 ---
 
@@ -955,7 +884,8 @@ Here are the questions, options, and correct answers from **Week 7: Assignment 7
 * **C)** Mind mapping
 * **D)** SWOT analysis
 
-**Correct Answer:** Synectics
+**Correct Answer:**
+Synectics
 
 ---
 
@@ -966,7 +896,8 @@ Here are the questions, options, and correct answers from **Week 7: Assignment 7
 * **C)** User sensibility, market size, and product range
 * **D)** Profit, market sensitivity, and employee strength
 
-**Correct Answer:** Market Need, technical feasibility, and business viability
+**Correct Answer:**
+Market Need, technical feasibility, and business viability
 
 ---
 
@@ -977,7 +908,8 @@ Here are the questions, options, and correct answers from **Week 7: Assignment 7
 * **C)** Profit and loss statement
 * **D)** Organizational chart
 
-**Correct Answer:** Business Model Canvas
+**Correct Answer:**
+Business Model Canvas
 
 ---
 
@@ -988,7 +920,8 @@ Here are the questions, options, and correct answers from **Week 7: Assignment 7
 * **C)** Measuring customer feedback and learning from the results
 * **D)** Preparing financial statements
 
-**Correct Answer:** Measuring customer feedback and learning from the results
+**Correct Answer:**
+Measuring customer feedback and learning from the results
 
 ---
 
@@ -999,7 +932,8 @@ Here are the questions, options, and correct answers from **Week 7: Assignment 7
 * **C)** Creates a sense of community
 * **D)** All of the above
 
-**Correct Answer:** All of the above
+**Correct Answer:**
+All of the above
 
 ---
 
@@ -1010,7 +944,8 @@ Here are the questions, options, and correct answers from **Week 7: Assignment 7
 * **C)** Primary emphasis on intellectual property rights
 * **D)** Leasing equipment to businesses
 
-**Correct Answer:** Shared ownership of physical assets
+**Correct Answer:**
+Shared ownership of physical assets
 
 ---
 
@@ -1021,7 +956,8 @@ Here are the questions, options, and correct answers from **Week 7: Assignment 7
 * **C)** Low Costs, Rapid Expansion, and Minimal Effort
 * **D)** Single Revenue Source, Limited Target Market, and High Complexity
 
-**Correct Answer:** Clear Value Proposition, Scalability, and Sustainable Revenue Streams
+**Correct Answer:**
+Clear Value Proposition, Scalability, and Sustainable Revenue Streams
 
 ---
 
@@ -1032,7 +968,8 @@ Here are the questions, options, and correct answers from **Week 7: Assignment 7
 * **C)** Brand recognition, social media reach, and product diversification
 * **D)** Customer retention, marketing spends, and aesthetic appeal
 
-**Correct Answer:** Revenue growth, customer acquisition, and customer retention
+**Correct Answer:**
+Revenue growth, customer acquisition, and customer retention
 
 ---
 
@@ -1043,10 +980,8 @@ Here are the questions, options, and correct answers from **Week 7: Assignment 7
 * **C)** Allows startups to test and iterate on their business model assumptions quickly
 * **D)** Designs a complex organizational structure for future growth
 
-**Correct Answer:** Allows startups to test and iterate on their business model assumptions quickly
-
-
-Here are the questions, options, and correct answers from **Week 9: Assignment 9**:
+**Correct Answer:**
+Allows startups to test and iterate on their business model assumptions quickly
 
 ---
 
@@ -1059,7 +994,8 @@ Here are the questions, options, and correct answers from **Week 9: Assignment 9
 * **C)** Difficulty in securing funding
 * **D)** All of the above
 
-**Correct Answer:** All of the above
+**Correct Answer:**
+All of the above
 
 ---
 
@@ -1070,7 +1006,8 @@ Here are the questions, options, and correct answers from **Week 9: Assignment 9
 * **C)** Technological infrastructure
 * **D)** Market needs
 
-**Correct Answer:** Target customers
+**Correct Answer:**
+Target customers
 
 ---
 
@@ -1082,9 +1019,9 @@ Here are the questions, options, and correct answers from **Week 9: Assignment 9
 * **D)** Equity funds
 
 **Correct Answer:**
-
 * Government grants
-* Seed funding and crowdfunding *(Multiple Select Question)*
+* Seed funding and crowdfunding
+*(Multiple Select Question)*
 
 ---
 
@@ -1095,7 +1032,8 @@ Here are the questions, options, and correct answers from **Week 9: Assignment 9
 * **C)** Government policies discourage entrepreneurship
 * **D)** All of the above
 
-**Correct Answer:** All of the above
+**Correct Answer:**
+All of the above
 
 ---
 
@@ -1106,7 +1044,8 @@ Here are the questions, options, and correct answers from **Week 9: Assignment 9
 * **C)** Conducting advanced research and development
 * **D)** Scaling the business for global markets
 
-**Correct Answer:** Developing a business plan and securing resources
+**Correct Answer:**
+Developing a business plan and securing resources
 
 ---
 
@@ -1117,7 +1056,8 @@ Here are the questions, options, and correct answers from **Week 9: Assignment 9
 * **C)** Entrepreneurs work alone, while innovators always work in teams
 * **D)** Entrepreneurs need formal education, while innovators rely on creativity
 
-**Correct Answer:** Entrepreneurs see problems as business opportunities, while innovators focus solely on solving problems
+**Correct Answer:**
+Entrepreneurs see problems as business opportunities, while innovators focus solely on solving problems
 
 ---
 
@@ -1128,7 +1068,8 @@ Here are the questions, options, and correct answers from **Week 9: Assignment 9
 * **C)** To develop marketing strategies for healthcare products
 * **D)** To focus on financial analysis and budget planning
 
-**Correct Answer:** To identify unmet needs and gather insights for innovation
+**Correct Answer:**
+To identify unmet needs and gather insights for innovation
 
 ---
 
@@ -1139,7 +1080,8 @@ Here are the questions, options, and correct answers from **Week 9: Assignment 9
 * **C)** Advanced office infrastructure and equipment
 * **D)** Rigid adherence to the initial business plan
 
-**Correct Answer:** Clear definition of customer needs and market gaps
+**Correct Answer:**
+Clear definition of customer needs and market gaps
 
 ---
 
@@ -1150,7 +1092,8 @@ Here are the questions, options, and correct answers from **Week 9: Assignment 9
 * **C)** Enterprise development
 * **D)** Incubation
 
-**Correct Answer:** Commercialization
+**Correct Answer:**
+Commercialization
 
 ---
 
@@ -1161,10 +1104,8 @@ Here are the questions, options, and correct answers from **Week 9: Assignment 9
 * **C)** Incubation Stage
 * **D)** Scaling Stage
 
-**Correct Answer:** Idea Generation Stage
-
-
-Here are the questions, options, and correct answers from **Week 10: Assignment 10**:
+**Correct Answer:**
+Idea Generation Stage
 
 ---
 
@@ -1177,7 +1118,8 @@ Here are the questions, options, and correct answers from **Week 10: Assignment 
 * **C)** Symbolic analogy
 * **D)** CAD analogy
 
-**Correct Answer:** Personal analogy
+**Correct Answer:**
+Personal analogy
 
 ---
 
@@ -1187,815 +1129,9 @@ Here are the questions, options, and correct answers from **Week 10: Assignment 
 * **B)** Subtractive methods
 * **C)** Forming methods
 * **D)** Lateral thinking
-
-**Correct Answer:** Lateral thinking
-
----
-
-### **3. What is the correct sequence during a product development process?**
-
-* **A)** Ideation → Concept Generation → Prototyping → Testing → Market Launch
-* **B)** Market Research → Concept Generation → Testing → Ideation → Prototyping
-* **C)** Concept Generation → Prototyping → Testing → Market Launch → Ideation
-* **D)** Ideation → Market Launch → Prototype → Testing → Concept Generation
-
-**Correct Answer:** Ideation → Concept Generation → Prototyping → Testing → Market Launch
-
----
-
-### **4. Which type of reasoning involves forming general conclusions from specific observations?**
-
-* **A)** Abductive reasoning
-* **B)** Deductive reasoning
-* **C)** Inductive reasoning
-* **D)** Analytical reasoning
-
-**Correct Answer:** Inductive reasoning
-
----
-
-### **5. How does frugality in product innovation benefit organizations?**
-
-* **A)** By increasing production costs to maximize resources
-* **B)** By minimizing waste and reducing costs through efficient use of resources
-* **C)** By prioritizing aesthetics over functionality
-* **D)** By focusing solely on rapid scaling without cost considerations
-
-**Correct Answer:** By minimizing waste and reducing costs through efficient use of resources
-
----
-
-### **6. What is the primary purpose of a Proof of Concept (POC)?**
-
-* **A)** To validate the feasibility and viability of a new idea or concept
-* **B)** To generate the final product for market launch
-* **C)** To secure funding for large-scale production
-* **D)** To build prototypes for user feedback
-
-**Correct Answer:** To validate the feasibility and viability of a new idea or concept
-
----
-
-### **7. What does prototyping aim to achieve in the design process?**
-
-* **A)** Finalizing the design for immediate market release
-* **B)** Creating models to test and improve design, functionality, and usability
-* **C)** Building large-scale production units for market distribution
-* **D)** Avoiding iterative development to save time
-
-**Correct Answer:** Creating models to test and improve design, functionality, and usability
-
----
-
-### **8. What is the primary goal of Synectics in the design process?**
-
-* **A)** Encouraging exploration and breaking conventional thinking
-* **B)** Generating a single, perfect solution to a problem
-* **C)** Reaching consensus among team members quickly
-* **D)** Applying detailed technical analysis to refine existing concepts
-
-**Correct Answer:** Encouraging exploration and breaking conventional thinking
-
----
-
-### **9. How can entrepreneurs effectively collaborate with one another?**
-
-* **A)** By franchising their mutual businesses
-* **B)** By sharing resources and distributing production responsibilities
-* **C)** By competing in the same market segments
-* **D)** All of the above
-
-**Correct Answer:** By sharing resources and distributing production responsibilities
-
----
-
-### **10. Why is it important for designers to create prototypes before deploying a product?**
-
-* **A)** To identify and resolve design flaws early in the process
-* **B)** To use prototypes as the final version for market release
-* **C)** To skip the need for market research and testing
-* **D)** To focus on aesthetics without user input
-
-**Correct Answer:** To identify and resolve design flaws early in the process
-
-
-Here are the questions, options, and correct answers from **Week 11: Assignment 11**:
-
----
-
-## **Week 11: Assignment 11**
-
-### **1. What is the most effective approach for developing products that meet the needs of specially-abled people?**
-
-* **A)** User-centered design
-* **B)** Exclusivity in design
-* **C)** Profit maximization
-* **D)** Reducing production costs
-
-**Correct Answer:** User-centered design
-
----
-
-### **2. What are the two key aspects to focus on when developing a product using assistive technology?**
-
-* **A)** Promoting awareness about digital alternatives
-* **B)** Making users independent and fostering social integration
-* **C)** Redesigning existing products for the market
-* **D)** Creating exclusive and expensive solutions
-
-**Correct Answer:** Making users independent and fostering social integration
-
----
-
-### **3. What are the critical factors for a product to succeed in the market?**
-
-* **A)** Being trendy and common
-* **B)** Being relevant and differentiated
-* **C)** Being cheap and generic
-* **D)** Being expensive and complex
-
-**Correct Answer:** Being relevant and differentiated
-
----
-
-### **4. What should a startup offer to persuade investors or customers to invest in or purchase its product?**
-
-* **A)** An unrealistic guaranteed return on investment
-* **B)** A unique and differentiated service or product
-* **C)** A vague and unclear value proposition
-* **D)** A low-cost product with limited functionality
-
-**Correct Answer:** A unique and differentiated service or product
-
----
-
-### **5. Why is it advisable to avoid using cheap materials when developing a product, especially in a B2C context?**
-
-* **A)** Cheap materials reduce production time significantly
-* **B)** Using cheap materials increases return and servicing costs
-* **C)** Cheap materials ensure better brand reputation
-* **D)** Cheap materials improve the product's aesthetic appeal
-
-**Correct Answer:** Using cheap materials increases return and servicing costs
-
----
-
-### **6. What potential risk factor could affect the viability of a startup's business model?**
-
-* **A)** Strong customer loyalty and retention
-* **B)** Reliance on a limited number of corporate clients
-* **C)** Rapidly decreasing operational costs
-* **D)** Established brand recognition
-
-**Correct Answer:** Reliance on a limited number of corporate clients
-
----
-
-### **7. How does human-to-human interaction benefit product design compare to AI-based solutions?**
-
-* **A)** AI processes designs faster and more efficiently
-* **B)** Human interaction fosters empathy and understanding of individual needs
-* **C)** AI consistently improves through machine learning
-* **D)** AI offers a broader range of design capabilities
-
-**Correct Answer:** Human interaction fosters empathy and understanding of individual needs
-
----
-
-### **8. How can design contribute to the development of cognitive, motor, and analytical skills in children?**
-
-* **A)** By creating interactive games that encourage physical movement and coordination
-* **B)** By focusing solely on aesthetic appeal and trendy designs
-* **C)** By using advanced technology for entertainment purposes
-* **D)** By emphasizing cost-effectiveness over engagement
-
-**Correct Answer:** By creating interactive games that encourage physical movement and coordination
-
----
-
-### **9. What factors should be prioritized when developing a product using evidence-based learning methodologies?**
-
-* **A)** Understanding target customers and measuring the impact of the solution
-* **B)** Increasing brand recognition and analyzing market competition
-* **C)** Allocating advertising budgets and determining technical specifications
-* **D)** Designing packaging and setting product pricing
-
-**Correct Answer:** Understanding target customers and measuring the impact of the solution
-
----
-
-### **10. Why is it essential for a product to align with customer needs and preferences during its design?**
-
-* **A)** To reduce the cost of production
-* **B)** To ensure long-term customer satisfaction and loyalty
-* **C)** To focus on marketing trends exclusively
-* **D)** To simplify the manufacturing process
-
-**Correct Answer:** To ensure long-term customer satisfaction and loyalty
-
-Here are the questions, options, and correct answers for **Week 12: Assignment 12**:
-
----
-
-## **Week 12: Assignment 12**
-
-### **1. How does identifying problems early in the product design process help businesses?**
-
-* **A)** Leads to overemphasis on a single issue
-* **B)** Provides a well-defined direction for development
-* **C)** Assumes problems remain static throughout the process
-* **D)** Overlooks user insights during the design phase
-
-**Correct Answer:** Provides a well-defined direction for development
-
----
-
-### **2. What are the benefits of designing modular and customizable products?**
-
-* **A)** Increased customer satisfaction and enhanced efficiency
-* **B)** Higher production costs and limited scalability
-* **C)** Reduced customer engagement and feedback opportunities
-* **D)** Simplified designs with minimal user options
-
-**Correct Answer:** Increased customer satisfaction and enhanced efficiency
-
----
-
-### **3. How does analyzing a "Beachhead market" help businesses during product launch?**
-
-* **A)** Spreads resources thinly across multiple segments
-* **B)** Identifies a focused customer segment for initial success
-* **C)** Skips customer research and prioritizes production
-* **D)** Avoids market segmentation entirely
-
-**Correct Answer:** Identifies a focused customer segment for initial success
-
----
-
-### **4. How can networking be utilized effectively to harness its full potential?**
-
-* **A)** Limiting interactions to close friends only
-* **B)** Promoting products through targeted connections
-* **C)** Avoiding industry events and conferences
-* **D)** Keeping networking efforts informal and unstructured
-
-**Correct Answer:** Promoting products through targeted connections
-
----
-
-### **5. What are the advantages of the "Inverted Pyramid Model" for product-centric businesses?**
-
-* **A)** Increased development costs due to complex designs
-* **B)** Improved customer focus by prioritizing their needs
-* **C)** Creation of complex product descriptions for a wider audience
-* **D)** Prioritizing concise messaging with a clear audience focus
-
-**Correct Answer:** Prioritizing concise messaging with a clear audience focus
-
----
-
-### **6. What is the most crucial step in the product design process to ensure a startup's success?**
-
-* **A)** Identifying the target customer segment
-* **B)** Ignoring user feedback during early stages
-* **C)** Skipping competitor analysis to save time
-* **D)** Overlooking market research to focus on production
-
-**Correct Answer:** Identifying the target customer segment
-
----
-
-### **7. What is considered an ideal marketing strategy for startups?**
-
-* **A)** Expensive and extravagant campaigns
-* **B)** Short-term and aggressive advertising
-* **C)** Innovative and lean strategies
-* **D)** Random and unfocused marketing efforts
-
-**Correct Answer:** Innovative and lean strategies
-
----
-
-### **8. What factors should be prioritized when designing a product for the market?**
-
-* **A)** Irrelevant personal opinions and preferences
-* **B)** Customer needs and preferences
-* **C)** Excessive technical details and low usability
-* **D)** Low-impact trends to reduce risks
-
-**Correct Answer:** Customer needs and preferences
-
----
-
-### **9. Why is it important to emphasize the product solution when presenting a business idea?**
-
-* **A)** To focus on irrelevant features for market differentiation
-* **B)** To overemphasize minor market segments
-* **C)** To provide clarity on how the product addresses a specific problem
-* **D)** To focus on overambitious goals for investor appeal
-
-**Correct Answer:** To provide clarity on how the product addresses a specific problem
-
----
-
-### **10. What is an essential factor to focus on when pitching a business idea to investors?**
-
-* **A)** Presenting a vague and unclear concept
-* **B)** Avoiding discussions about market potential
-* **C)** Clearly articulating the value proposition and market fit
-* **D)** Presenting weak financial projections to lower expectations
-
-**Correct Answer:** Clearly articulating the value proposition and market fit
-
-
-
-Here are the questions, options, and correct answers from **Week 6: Assignment 6**:
-
----
-
-## **Week 6: Assignment 6**
-
-### **1. Which key elements are essential for successfully engaging customers using a human-centered approach in product development?**
-
-* **A)** Utilizing lean methods and tools
-* **B)** Building empathy and conducting user research
-* **C)** Relying on traditional marketing strategies
-* **D)** Concentrating solely on product ideas
-
-**Correct Answer:** Building empathy and conducting user research
-
----
-
-### **2. Which factor is most critical when aligning a product with customer expectations during development?**
-
-* **A)** Conducting iterative testing and feedback loops
-* **B)** Emphasizing aesthetic appeal over functionality
-* **C)** Ignoring competitor analysis
-* **D)** Skipping the prototyping phase
-
-**Correct Answer:** Conducting iterative testing and feedback loops
-
----
-
-### **3. How do design thinking, user research, and strategic planning benefit an organization?**
-
-* **A)** Links business operations with innovation efforts
-* **B)** Helps build mock-ups for product testing
-* **C)** Focuses on generating creative ideas only
-* **D)** Encourages quick decision-making without research
-
-**Correct Answer:** Links business operations with innovation efforts
-
----
-
-### **4. What should the primary objective of a design researcher and strategist be when working for a client?**
-
-* **A)** Focus solely on the product's core idea
-* **B)** Balance user needs, technological feasibility, and business objectives
-* **C)** Ensure customer experience takes precedence over business goals
-* **D)** Prioritize technical feasibility over desirability
-
-**Correct Answer:** Balance user needs, technological feasibility, and business objectives
-
----
-
-### **5. Which strategy is most effective for encouraging interviewees to share valuable information?**
-
-* **A)** Asking complex and detailed questions
-* **B)** Beginning with secondary objective
-* **C)** Building rapport and trust with the interviewee
-* **D)** Employing a rigid and formal interview structure
-
-**Correct Answer:** Building rapport and trust with the interviewee
-
----
-
-### **6. What are the essential characteristics of a robust design brief?**
-
-* **A)** Providing detailed technical specifications and timelines
-* **B)** Outlining comprehensive marketing strategies
-* **C)** Including extensive budget estimates
-* **D)** Identifying user pain points, mapping user journeys, and ensuring ecosystem fit
-
-**Correct Answer:** Identifying user pain points, mapping user journeys, and ensuring ecosystem fit
-
----
-
-### **7. What is design management in relation to achieving organizational goals?**
-
-* **A)** Lateral thinking and creativity
-* **B)** Overseeing design teams and their timelines
-* **C)** Collaboration between stakeholders to meet business goals
-* **D)** A structured process for fulfilling business objectives through design
-
-**Correct Answer:** A structured process for fulfilling business objectives through design
-
----
-
-### **8. What are the three key qualities that a client seeks in a design firm?**
-
-* **A)** Discipline, speed, and high fees
-* **B)** Quality, speed, and transparency
-* **C)** Collaboration, extended timelines, and reliability
-* **D)** Minimal interaction, predictability, and discipline
-
-**Correct Answer:** Quality, speed, and transparency
-
----
-
-### **9. What should be included in a comprehensive design brief to ensure project success?**
-
-* **A)** Detailed project timeline and budget
-* **B)** In-depth competitor analysis and benchmarking
-* **C)** Specific user personas and their pain points
-* **D)** Finalized marketing strategies and plans
-
-**Correct Answer:** Specific user personas and their pain points
-
----
-
-### **10. Why is it important for designers to empathize with both users and business goals?**
-
-* **A)** To ensure marketing and advertising success
-* **B)** To prioritize aesthetics over functionality
-* **C)** To balance creative ideas with realistic objectives
-* **D)** To reduce the complexity of the design process
-
-**Correct Answer:** To balance creative ideas with realistic objectives
-
-Here are the questions, options, and correct answers from **Week 7: Assignment 7**:
-
----
-
-## **Week 7: Assignment 7**
-
-### **1. Which approach emphasizes collaboration, iteration, and a non-linear process to develop innovative solutions?**
-
-* **A)** Economic stability
-* **B)** Design thinking
-* **C)** Complacency
-* **D)** Short-term focus
-
-**Correct Answer:** Design thinking
-
----
-
-### **2. What is a problem-solving methodology that encourages creative thinking by connecting seemingly unrelated concepts?**
-
-* **A)** Brainstorming
-* **B)** Synectics
-* **C)** Mind mapping
-* **D)** SWOT analysis
-
-**Correct Answer:** Synectics
-
----
-
-### **3. What are the most important three critical factors to consider when developing a product?**
-
-* **A)** Market Need, technical feasibility, and business viability
-* **B)** Advertisement, product packaging, and distribution networks
-* **C)** User sensibility, market size, and product range
-* **D)** Profit, market sensitivity, and employee strength
-
-**Correct Answer:** Market Need, technical feasibility, and business viability
-
----
-
-### **4. Which tool graphically represents a business model and helps stakeholders understand it easily?**
-
-* **A)** Business Model Canvas
-* **B)** Balance sheet
-* **C)** Profit and loss statement
-* **D)** Organizational chart
-
-**Correct Answer:** Business Model Canvas
-
----
-
-### **5. Which stage of the Lean Startup cycle comes immediately after building a Minimum Viable Product (MVP)?**
-
-* **A)** Scaling production
-* **B)** Filing patents
-* **C)** Measuring customer feedback and learning from the results
-* **D)** Preparing financial statements
-
-**Correct Answer:** Measuring customer feedback and learning from the results
-
----
-
-### **6. What makes a collaborative model beneficial for entrepreneurship?**
-
-* **A)** Provides access to resources
-* **B)** Offers networking opportunities
-* **C)** Creates a sense of community
-* **D)** All of the above
-
-**Correct Answer:** All of the above
-
----
-
-### **7. What distinguishes the fractional ownership business model from other models?**
-
-* **A)** Shared ownership of physical assets
-* **B)** Focus on virtual assets and digital goods
-* **C)** Primary emphasis on intellectual property rights
-* **D)** Leasing equipment to businesses
-
-**Correct Answer:** Shared ownership of physical assets
-
----
-
-### **8. What key criteria should a business model meet to achieve optimal success?**
-
-* **A)** High Initial Investment, Extensive Workforce, and Expensive Marketing
-* **B)** Clear Value Proposition, Scalability, and Sustainable Revenue Streams
-* **C)** Low Costs, Rapid Expansion, and Minimal Effort
-* **D)** Single Revenue Source, Limited Target Market, and High Complexity
-
-**Correct Answer:** Clear Value Proposition, Scalability, and Sustainable Revenue Streams
-
----
-
-### **9. Which key performance metrics help to monitor a business's success?**
-
-* **A)** Revenue growth, customer acquisition, and customer retention
-* **B)** Employee welfare, operational cost reduction, and inventory turnover
-* **C)** Brand recognition, social media reach, and product diversification
-* **D)** Customer retention, marketing spends, and aesthetic appeal
-
-**Correct Answer:** Revenue growth, customer acquisition, and customer retention
-
----
-
-### **10. Why is the Lean Canvas a valuable tool for startups?**
-
-* **A)** Helps secure large investments from venture capitalists
-* **B)** Develops a detailed five-year financial plan
-* **C)** Allows startups to test and iterate on their business model assumptions quickly
-* **D)** Designs a complex organizational structure for future growth
-
-**Correct Answer:** Allows startups to test and iterate on their business model assumptions quickly
-
-
-Here are the questions, options, and correct answers from **Week 7: Assignment 7**:
-
----
-
-## **Week 7: Assignment 7**
-
-### **1. Which approach emphasizes collaboration, iteration, and a non-linear process to develop innovative solutions?**
-
-* **A)** Economic stability
-* **B)** Design thinking
-* **C)** Complacency
-* **D)** Short-term focus
-
-**Correct Answer:** Design thinking
-
----
-
-### **2. What is a problem-solving methodology that encourages creative thinking by connecting seemingly unrelated concepts?**
-
-* **A)** Brainstorming
-* **B)** Synectics
-* **C)** Mind mapping
-* **D)** SWOT analysis
-
-**Correct Answer:** Synectics
-
----
-
-### **3. What are the most important three critical factors to consider when developing a product?**
-
-* **A)** Market Need, technical feasibility, and business viability
-* **B)** Advertisement, product packaging, and distribution networks
-* **C)** User sensibility, market size, and product range
-* **D)** Profit, market sensitivity, and employee strength
-
-**Correct Answer:** Market Need, technical feasibility, and business viability
-
----
-
-### **4. Which tool graphically represents a business model and helps stakeholders understand it easily?**
-
-* **A)** Business Model Canvas
-* **B)** Balance sheet
-* **C)** Profit and loss statement
-* **D)** Organizational chart
-
-**Correct Answer:** Business Model Canvas
-
----
-
-### **5. Which stage of the Lean Startup cycle comes immediately after building a Minimum Viable Product (MVP)?**
-
-* **A)** Scaling production
-* **B)** Filing patents
-* **C)** Measuring customer feedback and learning from the results
-* **D)** Preparing financial statements
-
-**Correct Answer:** Measuring customer feedback and learning from the results
-
----
-
-### **6. What makes a collaborative model beneficial for entrepreneurship?**
-
-* **A)** Provides access to resources
-* **B)** Offers networking opportunities
-* **C)** Creates a sense of community
-* **D)** All of the above
-
-**Correct Answer:** All of the above
-
----
-
-### **7. What distinguishes the fractional ownership business model from other models?**
-
-* **A)** Shared ownership of physical assets
-* **B)** Focus on virtual assets and digital goods
-* **C)** Primary emphasis on intellectual property rights
-* **D)** Leasing equipment to businesses
-
-**Correct Answer:** Shared ownership of physical assets
-
----
-
-### **8. What key criteria should a business model meet to achieve optimal success?**
-
-* **A)** High Initial Investment, Extensive Workforce, and Expensive Marketing
-* **B)** Clear Value Proposition, Scalability, and Sustainable Revenue Streams
-* **C)** Low Costs, Rapid Expansion, and Minimal Effort
-* **D)** Single Revenue Source, Limited Target Market, and High Complexity
-
-**Correct Answer:** Clear Value Proposition, Scalability, and Sustainable Revenue Streams
-
----
-
-### **9. Which key performance metrics help to monitor a business's success?**
-
-* **A)** Revenue growth, customer acquisition, and customer retention
-* **B)** Employee welfare, operational cost reduction, and inventory turnover
-* **C)** Brand recognition, social media reach, and product diversification
-* **D)** Customer retention, marketing spends, and aesthetic appeal
-
-**Correct Answer:** Revenue growth, customer acquisition, and customer retention
-
----
-
-### **10. Why is the Lean Canvas a valuable tool for startups?**
-
-* **A)** Helps secure large investments from venture capitalists
-* **B)** Develops a detailed five-year financial plan
-* **C)** Allows startups to test and iterate on their business model assumptions quickly
-* **D)** Designs a complex organizational structure for future growth
-
-**Correct Answer:** Allows startups to test and iterate on their business model assumptions quickly
-
-
-Here are the questions, options, and correct answers from **Week 9: Assignment 9**:
-
----
-
-## **Week 9: Assignment 9**
-
-### **1. What barriers must a designer or entrepreneur overcome to turn an idea into action?**
-
-* **A)** Lack of confidence in their skills
-* **B)** Fear of negative feedback
-* **C)** Difficulty in securing funding
-* **D)** All of the above
-
-**Correct Answer:** All of the above
-
----
-
-### **2. What is the most important relationship for a startup to manage?**
-
-* **A)** Funding sources
-* **B)** Target customers
-* **C)** Technological infrastructure
-* **D)** Market needs
-
-**Correct Answer:** Target customers
-
----
-
-### **3. What types of funding are typically sought by early-stage entrepreneurs or startups?**
-
-* **A)** Government grants
-* **B)** Seed funding and crowdfunding
-* **C)** Long-term loans with high interest rates
-* **D)** Equity funds
 
 **Correct Answer:**
-
-* Government grants
-* Seed funding and crowdfunding *(Multiple Select Question)*
-
----
-
-### **4. What are some reasons why certain regions may lag in techno-entrepreneurial ventures?**
-
-* **A)** Education is focused solely on securing jobs
-* **B)** Abundance of natural resources reduces the need for innovation
-* **C)** Government policies discourage entrepreneurship
-* **D)** All of the above
-
-**Correct Answer:** All of the above
-
----
-
-### **5. What is the purpose of the incubation stage in the entrepreneurial journey?**
-
-* **A)** Developing a business plan and securing resources
-* **B)** Taking a product idea to commercialization
-* **C)** Conducting advanced research and development
-* **D)** Scaling the business for global markets
-
-**Correct Answer:** Developing a business plan and securing resources
-
----
-
-### **6. How does the role of an entrepreneur differ from that of an innovator?**
-
-* **A)** Entrepreneurs focus on maximizing profits, while innovators solve problems without business goals
-* **B)** Entrepreneurs see problems as business opportunities, while innovators focus solely on solving problems
-* **C)** Entrepreneurs work alone, while innovators always work in teams
-* **D)** Entrepreneurs need formal education, while innovators rely on creativity
-
-**Correct Answer:** Entrepreneurs see problems as business opportunities, while innovators focus solely on solving problems
-
----
-
-### **7. What is the purpose of clinical immersion in the healthcare sector for entrepreneurs?**
-
-* **A)** To provide administrative training and management skills
-* **B)** To identify unmet needs and gather insights for innovation
-* **C)** To develop marketing strategies for healthcare products
-* **D)** To focus on financial analysis and budget planning
-
-**Correct Answer:** To identify unmet needs and gather insights for innovation
-
----
-
-### **8. What key factor ensures better execution of an entrepreneurial idea?**
-
-* **A)** Clear definition of customer needs and market gaps
-* **B)** Strong advertising strategy and brand presence
-* **C)** Advanced office infrastructure and equipment
-* **D)** Rigid adherence to the initial business plan
-
-**Correct Answer:** Clear definition of customer needs and market gaps
-
----
-
-### **9. What is the process of transferring an idea to industry through intellectual property or technology transfer called?**
-
-* **A)** Entrepreneurship
-* **B)** Commercialization
-* **C)** Enterprise development
-* **D)** Incubation
-
-**Correct Answer:** Commercialization
-
----
-
-### **10. Which stage of the entrepreneurial journey focuses on the initial creation and development of a startup idea?**
-
-* **A)** Idea Generation Stage
-* **B)** Research Stage
-* **C)** Incubation Stage
-* **D)** Scaling Stage
-
-**Correct Answer:** Idea Generation Stage
-
-
-Here are the questions, options, and correct answers from **Week 10: Assignment 10**:
-
----
-
-## **Week 10: Assignment 10**
-
-### **1. What creative thinking technique involves individuals imagining themselves as part of the problem or situation they are trying to solve?**
-
-* **A)** Fantasy analogy
-* **B)** Personal analogy
-* **C)** Symbolic analogy
-* **D)** CAD analogy
-
-**Correct Answer:** Personal analogy
-
----
-
-### **2. Which of the following is NOT a typical prototyping method?**
-
-* **A)** Additive methods
-* **B)** Subtractive methods
-* **C)** Forming methods
-* **D)** Lateral thinking
-
-**Correct Answer:** Lateral thinking
+Lateral thinking
 
 ---
 
@@ -2005,809 +1141,9 @@ Here are the questions, options, and correct answers from **Week 10: Assignment 
 * **B)** Market Research → Concept Generation → Testing → Ideation → Prototyping
 * **C)** Concept Generation → Prototyping → Testing → Market Launch → Ideation
 * **D)** Ideation → Market Launch → Prototype → Testing → Concept Generation
-
-**Correct Answer:** Ideation → Concept Generation → Prototyping → Testing → Market Launch
-
----
-
-### **4. Which type of reasoning involves forming general conclusions from specific observations?**
-
-* **A)** Abductive reasoning
-* **B)** Deductive reasoning
-* **C)** Inductive reasoning
-* **D)** Analytical reasoning
-
-**Correct Answer:** Inductive reasoning
-
----
-
-### **5. How does frugality in product innovation benefit organizations?**
-
-* **A)** By increasing production costs to maximize resources
-* **B)** By minimizing waste and reducing costs through efficient use of resources
-* **C)** By prioritizing aesthetics over functionality
-* **D)** By focusing solely on rapid scaling without cost considerations
-
-**Correct Answer:** By minimizing waste and reducing costs through efficient use of resources
-
----
-
-### **6. What is the primary purpose of a Proof of Concept (POC)?**
-
-* **A)** To validate the feasibility and viability of a new idea or concept
-* **B)** To generate the final product for market launch
-* **C)** To secure funding for large-scale production
-* **D)** To build prototypes for user feedback
-
-**Correct Answer:** To validate the feasibility and viability of a new idea or concept
-
----
-
-### **7. What does prototyping aim to achieve in the design process?**
-
-* **A)** Finalizing the design for immediate market release
-* **B)** Creating models to test and improve design, functionality, and usability
-* **C)** Building large-scale production units for market distribution
-* **D)** Avoiding iterative development to save time
-
-**Correct Answer:** Creating models to test and improve design, functionality, and usability
-
----
-
-### **8. What is the primary goal of Synectics in the design process?**
-
-* **A)** Encouraging exploration and breaking conventional thinking
-* **B)** Generating a single, perfect solution to a problem
-* **C)** Reaching consensus among team members quickly
-* **D)** Applying detailed technical analysis to refine existing concepts
-
-**Correct Answer:** Encouraging exploration and breaking conventional thinking
-
----
-
-### **9. How can entrepreneurs effectively collaborate with one another?**
-
-* **A)** By franchising their mutual businesses
-* **B)** By sharing resources and distributing production responsibilities
-* **C)** By competing in the same market segments
-* **D)** All of the above
-
-**Correct Answer:** By sharing resources and distributing production responsibilities
-
----
-
-### **10. Why is it important for designers to create prototypes before deploying a product?**
-
-* **A)** To identify and resolve design flaws early in the process
-* **B)** To use prototypes as the final version for market release
-* **C)** To skip the need for market research and testing
-* **D)** To focus on aesthetics without user input
-
-**Correct Answer:** To identify and resolve design flaws early in the process
-
-
-Here are the questions, options, and correct answers from **Week 11: Assignment 11**:
-
----
-
-## **Week 11: Assignment 11**
-
-### **1. What is the most effective approach for developing products that meet the needs of specially-abled people?**
-
-* **A)** User-centered design
-* **B)** Exclusivity in design
-* **C)** Profit maximization
-* **D)** Reducing production costs
-
-**Correct Answer:** User-centered design
-
----
-
-### **2. What are the two key aspects to focus on when developing a product using assistive technology?**
-
-* **A)** Promoting awareness about digital alternatives
-* **B)** Making users independent and fostering social integration
-* **C)** Redesigning existing products for the market
-* **D)** Creating exclusive and expensive solutions
-
-**Correct Answer:** Making users independent and fostering social integration
-
----
-
-### **3. What are the critical factors for a product to succeed in the market?**
-
-* **A)** Being trendy and common
-* **B)** Being relevant and differentiated
-* **C)** Being cheap and generic
-* **D)** Being expensive and complex
-
-**Correct Answer:** Being relevant and differentiated
-
----
-
-### **4. What should a startup offer to persuade investors or customers to invest in or purchase its product?**
-
-* **A)** An unrealistic guaranteed return on investment
-* **B)** A unique and differentiated service or product
-* **C)** A vague and unclear value proposition
-* **D)** A low-cost product with limited functionality
-
-**Correct Answer:** A unique and differentiated service or product
-
----
-
-### **5. Why is it advisable to avoid using cheap materials when developing a product, especially in a B2C context?**
-
-* **A)** Cheap materials reduce production time significantly
-* **B)** Using cheap materials increases return and servicing costs
-* **C)** Cheap materials ensure better brand reputation
-* **D)** Cheap materials improve the product's aesthetic appeal
-
-**Correct Answer:** Using cheap materials increases return and servicing costs
-
----
-
-### **6. What potential risk factor could affect the viability of a startup's business model?**
-
-* **A)** Strong customer loyalty and retention
-* **B)** Reliance on a limited number of corporate clients
-* **C)** Rapidly decreasing operational costs
-* **D)** Established brand recognition
-
-**Correct Answer:** Reliance on a limited number of corporate clients
-
----
-
-### **7. How does human-to-human interaction benefit product design compare to AI-based solutions?**
-
-* **A)** AI processes designs faster and more efficiently
-* **B)** Human interaction fosters empathy and understanding of individual needs
-* **C)** AI consistently improves through machine learning
-* **D)** AI offers a broader range of design capabilities
-
-**Correct Answer:** Human interaction fosters empathy and understanding of individual needs
-
----
-
-### **8. How can design contribute to the development of cognitive, motor, and analytical skills in children?**
-
-* **A)** By creating interactive games that encourage physical movement and coordination
-* **B)** By focusing solely on aesthetic appeal and trendy designs
-* **C)** By using advanced technology for entertainment purposes
-* **D)** By emphasizing cost-effectiveness over engagement
-
-**Correct Answer:** By creating interactive games that encourage physical movement and coordination
-
----
-
-### **9. What factors should be prioritized when developing a product using evidence-based learning methodologies?**
-
-* **A)** Understanding target customers and measuring the impact of the solution
-* **B)** Increasing brand recognition and analyzing market competition
-* **C)** Allocating advertising budgets and determining technical specifications
-* **D)** Designing packaging and setting product pricing
-
-**Correct Answer:** Understanding target customers and measuring the impact of the solution
-
----
-
-### **10. Why is it essential for a product to align with customer needs and preferences during its design?**
-
-* **A)** To reduce the cost of production
-* **B)** To ensure long-term customer satisfaction and loyalty
-* **C)** To focus on marketing trends exclusively
-* **D)** To simplify the manufacturing process
-
-**Correct Answer:** To ensure long-term customer satisfaction and loyalty
-
-Here are the questions, options, and correct answers for **Week 12: Assignment 12**:
-
----
-
-## **Week 12: Assignment 12**
-
-### **1. How does identifying problems early in the product design process help businesses?**
-
-* **A)** Leads to overemphasis on a single issue
-* **B)** Provides a well-defined direction for development
-* **C)** Assumes problems remain static throughout the process
-* **D)** Overlooks user insights during the design phase
-
-**Correct Answer:** Provides a well-defined direction for development
-
----
-
-### **2. What are the benefits of designing modular and customizable products?**
-
-* **A)** Increased customer satisfaction and enhanced efficiency
-* **B)** Higher production costs and limited scalability
-* **C)** Reduced customer engagement and feedback opportunities
-* **D)** Simplified designs with minimal user options
-
-**Correct Answer:** Increased customer satisfaction and enhanced efficiency
-
----
-
-### **3. How does analyzing a "Beachhead market" help businesses during product launch?**
-
-* **A)** Spreads resources thinly across multiple segments
-* **B)** Identifies a focused customer segment for initial success
-* **C)** Skips customer research and prioritizes production
-* **D)** Avoids market segmentation entirely
-
-**Correct Answer:** Identifies a focused customer segment for initial success
-
----
-
-### **4. How can networking be utilized effectively to harness its full potential?**
-
-* **A)** Limiting interactions to close friends only
-* **B)** Promoting products through targeted connections
-* **C)** Avoiding industry events and conferences
-* **D)** Keeping networking efforts informal and unstructured
-
-**Correct Answer:** Promoting products through targeted connections
-
----
-
-### **5. What are the advantages of the "Inverted Pyramid Model" for product-centric businesses?**
-
-* **A)** Increased development costs due to complex designs
-* **B)** Improved customer focus by prioritizing their needs
-* **C)** Creation of complex product descriptions for a wider audience
-* **D)** Prioritizing concise messaging with a clear audience focus
-
-**Correct Answer:** Prioritizing concise messaging with a clear audience focus
-
----
-
-### **6. What is the most crucial step in the product design process to ensure a startup's success?**
-
-* **A)** Identifying the target customer segment
-* **B)** Ignoring user feedback during early stages
-* **C)** Skipping competitor analysis to save time
-* **D)** Overlooking market research to focus on production
-
-**Correct Answer:** Identifying the target customer segment
-
----
-
-### **7. What is considered an ideal marketing strategy for startups?**
-
-* **A)** Expensive and extravagant campaigns
-* **B)** Short-term and aggressive advertising
-* **C)** Innovative and lean strategies
-* **D)** Random and unfocused marketing efforts
-
-**Correct Answer:** Innovative and lean strategies
-
----
-
-### **8. What factors should be prioritized when designing a product for the market?**
-
-* **A)** Irrelevant personal opinions and preferences
-* **B)** Customer needs and preferences
-* **C)** Excessive technical details and low usability
-* **D)** Low-impact trends to reduce risks
-
-**Correct Answer:** Customer needs and preferences
-
----
-
-### **9. Why is it important to emphasize the product solution when presenting a business idea?**
-
-* **A)** To focus on irrelevant features for market differentiation
-* **B)** To overemphasize minor market segments
-* **C)** To provide clarity on how the product addresses a specific problem
-* **D)** To focus on overambitious goals for investor appeal
-
-**Correct Answer:** To provide clarity on how the product addresses a specific problem
-
----
-
-### **10. What is an essential factor to focus on when pitching a business idea to investors?**
-
-* **A)** Presenting a vague and unclear concept
-* **B)** Avoiding discussions about market potential
-* **C)** Clearly articulating the value proposition and market fit
-* **D)** Presenting weak financial projections to lower expectations
-
-**Correct Answer:** Clearly articulating the value proposition and market fit
-
-## **Week 6: Assignment 6**
-
-### **1. Which key elements are essential for successfully engaging customers using a human-centered approach in product development?**
-
-* **A)** Utilizing lean methods and tools
-* **B)** Building empathy and conducting user research
-* **C)** Relying on traditional marketing strategies
-* **D)** Concentrating solely on product ideas
-
-**Correct Answer:** Building empathy and conducting user research
-
----
-
-### **2. Which factor is most critical when aligning a product with customer expectations during development?**
-
-* **A)** Conducting iterative testing and feedback loops
-* **B)** Emphasizing aesthetic appeal over functionality
-* **C)** Ignoring competitor analysis
-* **D)** Skipping the prototyping phase
-
-**Correct Answer:** Conducting iterative testing and feedback loops
-
----
-
-### **3. How do design thinking, user research, and strategic planning benefit an organization?**
-
-* **A)** Links business operations with innovation efforts
-* **B)** Helps build mock-ups for product testing
-* **C)** Focuses on generating creative ideas only
-* **D)** Encourages quick decision-making without research
-
-**Correct Answer:** Links business operations with innovation efforts
-
----
-
-### **4. What should the primary objective of a design researcher and strategist be when working for a client?**
-
-* **A)** Focus solely on the product's core idea
-* **B)** Balance user needs, technological feasibility, and business objectives
-* **C)** Ensure customer experience takes precedence over business goals
-* **D)** Prioritize technical feasibility over desirability
-
-**Correct Answer:** Balance user needs, technological feasibility, and business objectives
-
----
-
-### **5. Which strategy is most effective for encouraging interviewees to share valuable information?**
-
-* **A)** Asking complex and detailed questions
-* **B)** Beginning with secondary objective
-* **C)** Building rapport and trust with the interviewee
-* **D)** Employing a rigid and formal interview structure
-
-**Correct Answer:** Building rapport and trust with the interviewee
-
----
-
-### **6. What are the essential characteristics of a robust design brief?**
-
-* **A)** Providing detailed technical specifications and timelines
-* **B)** Outlining comprehensive marketing strategies
-* **C)** Including extensive budget estimates
-* **D)** Identifying user pain points, mapping user journeys, and ensuring ecosystem fit
-
-**Correct Answer:** Identifying user pain points, mapping user journeys, and ensuring ecosystem fit
-
----
-
-### **7. What is design management in relation to achieving organizational goals?**
-
-* **A)** Lateral thinking and creativity
-* **B)** Overseeing design teams and their timelines
-* **C)** Collaboration between stakeholders to meet business goals
-* **D)** A structured process for fulfilling business objectives through design
-
-**Correct Answer:** A structured process for fulfilling business objectives through design
-
----
-
-### **8. What are the three key qualities that a client seeks in a design firm?**
-
-* **A)** Discipline, speed, and high fees
-* **B)** Quality, speed, and transparency
-* **C)** Collaboration, extended timelines, and reliability
-* **D)** Minimal interaction, predictability, and discipline
-
-**Correct Answer:** Quality, speed, and transparency
-
----
-
-### **9. What should be included in a comprehensive design brief to ensure project success?**
-
-* **A)** Detailed project timeline and budget
-* **B)** In-depth competitor analysis and benchmarking
-* **C)** Specific user personas and their pain points
-* **D)** Finalized marketing strategies and plans
-
-**Correct Answer:** Specific user personas and their pain points
-
----
-
-### **10. Why is it important for designers to empathize with both users and business goals?**
-
-* **A)** To ensure marketing and advertising success
-* **B)** To prioritize aesthetics over functionality
-* **C)** To balance creative ideas with realistic objectives
-* **D)** To reduce the complexity of the design process
-
-**Correct Answer:** To balance creative ideas with realistic objectives
-
-Here are the questions, options, and correct answers from **Week 7: Assignment 7**:
-
----
-
-## **Week 7: Assignment 7**
-
-### **1. Which approach emphasizes collaboration, iteration, and a non-linear process to develop innovative solutions?**
-
-* **A)** Economic stability
-* **B)** Design thinking
-* **C)** Complacency
-* **D)** Short-term focus
-
-**Correct Answer:** Design thinking
-
----
-
-### **2. What is a problem-solving methodology that encourages creative thinking by connecting seemingly unrelated concepts?**
-
-* **A)** Brainstorming
-* **B)** Synectics
-* **C)** Mind mapping
-* **D)** SWOT analysis
-
-**Correct Answer:** Synectics
-
----
-
-### **3. What are the most important three critical factors to consider when developing a product?**
-
-* **A)** Market Need, technical feasibility, and business viability
-* **B)** Advertisement, product packaging, and distribution networks
-* **C)** User sensibility, market size, and product range
-* **D)** Profit, market sensitivity, and employee strength
-
-**Correct Answer:** Market Need, technical feasibility, and business viability
-
----
-
-### **4. Which tool graphically represents a business model and helps stakeholders understand it easily?**
-
-* **A)** Business Model Canvas
-* **B)** Balance sheet
-* **C)** Profit and loss statement
-* **D)** Organizational chart
-
-**Correct Answer:** Business Model Canvas
-
----
-
-### **5. Which stage of the Lean Startup cycle comes immediately after building a Minimum Viable Product (MVP)?**
-
-* **A)** Scaling production
-* **B)** Filing patents
-* **C)** Measuring customer feedback and learning from the results
-* **D)** Preparing financial statements
-
-**Correct Answer:** Measuring customer feedback and learning from the results
-
----
-
-### **6. What makes a collaborative model beneficial for entrepreneurship?**
-
-* **A)** Provides access to resources
-* **B)** Offers networking opportunities
-* **C)** Creates a sense of community
-* **D)** All of the above
-
-**Correct Answer:** All of the above
-
----
-
-### **7. What distinguishes the fractional ownership business model from other models?**
-
-* **A)** Shared ownership of physical assets
-* **B)** Focus on virtual assets and digital goods
-* **C)** Primary emphasis on intellectual property rights
-* **D)** Leasing equipment to businesses
-
-**Correct Answer:** Shared ownership of physical assets
-
----
-
-### **8. What key criteria should a business model meet to achieve optimal success?**
-
-* **A)** High Initial Investment, Extensive Workforce, and Expensive Marketing
-* **B)** Clear Value Proposition, Scalability, and Sustainable Revenue Streams
-* **C)** Low Costs, Rapid Expansion, and Minimal Effort
-* **D)** Single Revenue Source, Limited Target Market, and High Complexity
-
-**Correct Answer:** Clear Value Proposition, Scalability, and Sustainable Revenue Streams
-
----
-
-### **9. Which key performance metrics help to monitor a business's success?**
-
-* **A)** Revenue growth, customer acquisition, and customer retention
-* **B)** Employee welfare, operational cost reduction, and inventory turnover
-* **C)** Brand recognition, social media reach, and product diversification
-* **D)** Customer retention, marketing spends, and aesthetic appeal
-
-**Correct Answer:** Revenue growth, customer acquisition, and customer retention
-
----
-
-### **10. Why is the Lean Canvas a valuable tool for startups?**
-
-* **A)** Helps secure large investments from venture capitalists
-* **B)** Develops a detailed five-year financial plan
-* **C)** Allows startups to test and iterate on their business model assumptions quickly
-* **D)** Designs a complex organizational structure for future growth
-
-**Correct Answer:** Allows startups to test and iterate on their business model assumptions quickly
-
-
-Here are the questions, options, and correct answers from **Week 7: Assignment 7**:
-
----
-
-## **Week 7: Assignment 7**
-
-### **1. Which approach emphasizes collaboration, iteration, and a non-linear process to develop innovative solutions?**
-
-* **A)** Economic stability
-* **B)** Design thinking
-* **C)** Complacency
-* **D)** Short-term focus
-
-**Correct Answer:** Design thinking
-
----
-
-### **2. What is a problem-solving methodology that encourages creative thinking by connecting seemingly unrelated concepts?**
-
-* **A)** Brainstorming
-* **B)** Synectics
-* **C)** Mind mapping
-* **D)** SWOT analysis
-
-**Correct Answer:** Synectics
-
----
-
-### **3. What are the most important three critical factors to consider when developing a product?**
-
-* **A)** Market Need, technical feasibility, and business viability
-* **B)** Advertisement, product packaging, and distribution networks
-* **C)** User sensibility, market size, and product range
-* **D)** Profit, market sensitivity, and employee strength
-
-**Correct Answer:** Market Need, technical feasibility, and business viability
-
----
-
-### **4. Which tool graphically represents a business model and helps stakeholders understand it easily?**
-
-* **A)** Business Model Canvas
-* **B)** Balance sheet
-* **C)** Profit and loss statement
-* **D)** Organizational chart
-
-**Correct Answer:** Business Model Canvas
-
----
-
-### **5. Which stage of the Lean Startup cycle comes immediately after building a Minimum Viable Product (MVP)?**
-
-* **A)** Scaling production
-* **B)** Filing patents
-* **C)** Measuring customer feedback and learning from the results
-* **D)** Preparing financial statements
-
-**Correct Answer:** Measuring customer feedback and learning from the results
-
----
-
-### **6. What makes a collaborative model beneficial for entrepreneurship?**
-
-* **A)** Provides access to resources
-* **B)** Offers networking opportunities
-* **C)** Creates a sense of community
-* **D)** All of the above
-
-**Correct Answer:** All of the above
-
----
-
-### **7. What distinguishes the fractional ownership business model from other models?**
-
-* **A)** Shared ownership of physical assets
-* **B)** Focus on virtual assets and digital goods
-* **C)** Primary emphasis on intellectual property rights
-* **D)** Leasing equipment to businesses
-
-**Correct Answer:** Shared ownership of physical assets
-
----
-
-### **8. What key criteria should a business model meet to achieve optimal success?**
-
-* **A)** High Initial Investment, Extensive Workforce, and Expensive Marketing
-* **B)** Clear Value Proposition, Scalability, and Sustainable Revenue Streams
-* **C)** Low Costs, Rapid Expansion, and Minimal Effort
-* **D)** Single Revenue Source, Limited Target Market, and High Complexity
-
-**Correct Answer:** Clear Value Proposition, Scalability, and Sustainable Revenue Streams
-
----
-
-### **9. Which key performance metrics help to monitor a business's success?**
-
-* **A)** Revenue growth, customer acquisition, and customer retention
-* **B)** Employee welfare, operational cost reduction, and inventory turnover
-* **C)** Brand recognition, social media reach, and product diversification
-* **D)** Customer retention, marketing spends, and aesthetic appeal
-
-**Correct Answer:** Revenue growth, customer acquisition, and customer retention
-
----
-
-### **10. Why is the Lean Canvas a valuable tool for startups?**
-
-* **A)** Helps secure large investments from venture capitalists
-* **B)** Develops a detailed five-year financial plan
-* **C)** Allows startups to test and iterate on their business model assumptions quickly
-* **D)** Designs a complex organizational structure for future growth
-
-**Correct Answer:** Allows startups to test and iterate on their business model assumptions quickly
-
-
-Here are the questions, options, and correct answers from **Week 9: Assignment 9**:
-
----
-
-## **Week 9: Assignment 9**
-
-### **1. What barriers must a designer or entrepreneur overcome to turn an idea into action?**
-
-* **A)** Lack of confidence in their skills
-* **B)** Fear of negative feedback
-* **C)** Difficulty in securing funding
-* **D)** All of the above
-
-**Correct Answer:** All of the above
-
----
-
-### **2. What is the most important relationship for a startup to manage?**
-
-* **A)** Funding sources
-* **B)** Target customers
-* **C)** Technological infrastructure
-* **D)** Market needs
-
-**Correct Answer:** Target customers
-
----
-
-### **3. What types of funding are typically sought by early-stage entrepreneurs or startups?**
-
-* **A)** Government grants
-* **B)** Seed funding and crowdfunding
-* **C)** Long-term loans with high interest rates
-* **D)** Equity funds
 
 **Correct Answer:**
-
-* Government grants
-* Seed funding and crowdfunding *(Multiple Select Question)*
-
----
-
-### **4. What are some reasons why certain regions may lag in techno-entrepreneurial ventures?**
-
-* **A)** Education is focused solely on securing jobs
-* **B)** Abundance of natural resources reduces the need for innovation
-* **C)** Government policies discourage entrepreneurship
-* **D)** All of the above
-
-**Correct Answer:** All of the above
-
----
-
-### **5. What is the purpose of the incubation stage in the entrepreneurial journey?**
-
-* **A)** Developing a business plan and securing resources
-* **B)** Taking a product idea to commercialization
-* **C)** Conducting advanced research and development
-* **D)** Scaling the business for global markets
-
-**Correct Answer:** Developing a business plan and securing resources
-
----
-
-### **6. How does the role of an entrepreneur differ from that of an innovator?**
-
-* **A)** Entrepreneurs focus on maximizing profits, while innovators solve problems without business goals
-* **B)** Entrepreneurs see problems as business opportunities, while innovators focus solely on solving problems
-* **C)** Entrepreneurs work alone, while innovators always work in teams
-* **D)** Entrepreneurs need formal education, while innovators rely on creativity
-
-**Correct Answer:** Entrepreneurs see problems as business opportunities, while innovators focus solely on solving problems
-
----
-
-### **7. What is the purpose of clinical immersion in the healthcare sector for entrepreneurs?**
-
-* **A)** To provide administrative training and management skills
-* **B)** To identify unmet needs and gather insights for innovation
-* **C)** To develop marketing strategies for healthcare products
-* **D)** To focus on financial analysis and budget planning
-
-**Correct Answer:** To identify unmet needs and gather insights for innovation
-
----
-
-### **8. What key factor ensures better execution of an entrepreneurial idea?**
-
-* **A)** Clear definition of customer needs and market gaps
-* **B)** Strong advertising strategy and brand presence
-* **C)** Advanced office infrastructure and equipment
-* **D)** Rigid adherence to the initial business plan
-
-**Correct Answer:** Clear definition of customer needs and market gaps
-
----
-
-### **9. What is the process of transferring an idea to industry through intellectual property or technology transfer called?**
-
-* **A)** Entrepreneurship
-* **B)** Commercialization
-* **C)** Enterprise development
-* **D)** Incubation
-
-**Correct Answer:** Commercialization
-
----
-
-### **10. Which stage of the entrepreneurial journey focuses on the initial creation and development of a startup idea?**
-
-* **A)** Idea Generation Stage
-* **B)** Research Stage
-* **C)** Incubation Stage
-* **D)** Scaling Stage
-
-**Correct Answer:** Idea Generation Stage
-
-
-Here are the questions, options, and correct answers from **Week 10: Assignment 10**:
-
----
-
-## **Week 10: Assignment 10**
-
-### **1. What creative thinking technique involves individuals imagining themselves as part of the problem or situation they are trying to solve?**
-
-* **A)** Fantasy analogy
-* **B)** Personal analogy
-* **C)** Symbolic analogy
-* **D)** CAD analogy
-
-**Correct Answer:** Personal analogy
-
----
-
-### **2. Which of the following is NOT a typical prototyping method?**
-
-* **A)** Additive methods
-* **B)** Subtractive methods
-* **C)** Forming methods
-* **D)** Lateral thinking
-
-**Correct Answer:** Lateral thinking
-
----
-
-### **3. What is the correct sequence during a product development process?**
-
-* **A)** Ideation → Concept Generation → Prototyping → Testing → Market Launch
-* **B)** Market Research → Concept Generation → Testing → Ideation → Prototyping
-* **C)** Concept Generation → Prototyping → Testing → Market Launch → Ideation
-* **D)** Ideation → Market Launch → Prototype → Testing → Concept Generation
-
-**Correct Answer:** Ideation → Concept Generation → Prototyping → Testing → Market Launch
+Ideation → Concept Generation → Prototyping → Testing → Market Launch
 
 ---
 
@@ -2817,815 +1153,9 @@ Here are the questions, options, and correct answers from **Week 10: Assignment 
 * **B)** Deductive reasoning
 * **C)** Inductive reasoning
 * **D)** Analytical reasoning
-
-**Correct Answer:** Inductive reasoning
-
----
-
-### **5. How does frugality in product innovation benefit organizations?**
-
-* **A)** By increasing production costs to maximize resources
-* **B)** By minimizing waste and reducing costs through efficient use of resources
-* **C)** By prioritizing aesthetics over functionality
-* **D)** By focusing solely on rapid scaling without cost considerations
-
-**Correct Answer:** By minimizing waste and reducing costs through efficient use of resources
-
----
-
-### **6. What is the primary purpose of a Proof of Concept (POC)?**
-
-* **A)** To validate the feasibility and viability of a new idea or concept
-* **B)** To generate the final product for market launch
-* **C)** To secure funding for large-scale production
-* **D)** To build prototypes for user feedback
-
-**Correct Answer:** To validate the feasibility and viability of a new idea or concept
-
----
-
-### **7. What does prototyping aim to achieve in the design process?**
-
-* **A)** Finalizing the design for immediate market release
-* **B)** Creating models to test and improve design, functionality, and usability
-* **C)** Building large-scale production units for market distribution
-* **D)** Avoiding iterative development to save time
-
-**Correct Answer:** Creating models to test and improve design, functionality, and usability
-
----
-
-### **8. What is the primary goal of Synectics in the design process?**
-
-* **A)** Encouraging exploration and breaking conventional thinking
-* **B)** Generating a single, perfect solution to a problem
-* **C)** Reaching consensus among team members quickly
-* **D)** Applying detailed technical analysis to refine existing concepts
-
-**Correct Answer:** Encouraging exploration and breaking conventional thinking
-
----
-
-### **9. How can entrepreneurs effectively collaborate with one another?**
-
-* **A)** By franchising their mutual businesses
-* **B)** By sharing resources and distributing production responsibilities
-* **C)** By competing in the same market segments
-* **D)** All of the above
-
-**Correct Answer:** By sharing resources and distributing production responsibilities
-
----
-
-### **10. Why is it important for designers to create prototypes before deploying a product?**
-
-* **A)** To identify and resolve design flaws early in the process
-* **B)** To use prototypes as the final version for market release
-* **C)** To skip the need for market research and testing
-* **D)** To focus on aesthetics without user input
-
-**Correct Answer:** To identify and resolve design flaws early in the process
-
-
-Here are the questions, options, and correct answers from **Week 11: Assignment 11**:
-
----
-
-## **Week 11: Assignment 11**
-
-### **1. What is the most effective approach for developing products that meet the needs of specially-abled people?**
-
-* **A)** User-centered design
-* **B)** Exclusivity in design
-* **C)** Profit maximization
-* **D)** Reducing production costs
-
-**Correct Answer:** User-centered design
-
----
-
-### **2. What are the two key aspects to focus on when developing a product using assistive technology?**
-
-* **A)** Promoting awareness about digital alternatives
-* **B)** Making users independent and fostering social integration
-* **C)** Redesigning existing products for the market
-* **D)** Creating exclusive and expensive solutions
-
-**Correct Answer:** Making users independent and fostering social integration
-
----
-
-### **3. What are the critical factors for a product to succeed in the market?**
-
-* **A)** Being trendy and common
-* **B)** Being relevant and differentiated
-* **C)** Being cheap and generic
-* **D)** Being expensive and complex
-
-**Correct Answer:** Being relevant and differentiated
-
----
-
-### **4. What should a startup offer to persuade investors or customers to invest in or purchase its product?**
-
-* **A)** An unrealistic guaranteed return on investment
-* **B)** A unique and differentiated service or product
-* **C)** A vague and unclear value proposition
-* **D)** A low-cost product with limited functionality
-
-**Correct Answer:** A unique and differentiated service or product
-
----
-
-### **5. Why is it advisable to avoid using cheap materials when developing a product, especially in a B2C context?**
-
-* **A)** Cheap materials reduce production time significantly
-* **B)** Using cheap materials increases return and servicing costs
-* **C)** Cheap materials ensure better brand reputation
-* **D)** Cheap materials improve the product's aesthetic appeal
-
-**Correct Answer:** Using cheap materials increases return and servicing costs
-
----
-
-### **6. What potential risk factor could affect the viability of a startup's business model?**
-
-* **A)** Strong customer loyalty and retention
-* **B)** Reliance on a limited number of corporate clients
-* **C)** Rapidly decreasing operational costs
-* **D)** Established brand recognition
-
-**Correct Answer:** Reliance on a limited number of corporate clients
-
----
-
-### **7. How does human-to-human interaction benefit product design compare to AI-based solutions?**
-
-* **A)** AI processes designs faster and more efficiently
-* **B)** Human interaction fosters empathy and understanding of individual needs
-* **C)** AI consistently improves through machine learning
-* **D)** AI offers a broader range of design capabilities
-
-**Correct Answer:** Human interaction fosters empathy and understanding of individual needs
-
----
-
-### **8. How can design contribute to the development of cognitive, motor, and analytical skills in children?**
-
-* **A)** By creating interactive games that encourage physical movement and coordination
-* **B)** By focusing solely on aesthetic appeal and trendy designs
-* **C)** By using advanced technology for entertainment purposes
-* **D)** By emphasizing cost-effectiveness over engagement
-
-**Correct Answer:** By creating interactive games that encourage physical movement and coordination
-
----
-
-### **9. What factors should be prioritized when developing a product using evidence-based learning methodologies?**
-
-* **A)** Understanding target customers and measuring the impact of the solution
-* **B)** Increasing brand recognition and analyzing market competition
-* **C)** Allocating advertising budgets and determining technical specifications
-* **D)** Designing packaging and setting product pricing
-
-**Correct Answer:** Understanding target customers and measuring the impact of the solution
-
----
-
-### **10. Why is it essential for a product to align with customer needs and preferences during its design?**
-
-* **A)** To reduce the cost of production
-* **B)** To ensure long-term customer satisfaction and loyalty
-* **C)** To focus on marketing trends exclusively
-* **D)** To simplify the manufacturing process
-
-**Correct Answer:** To ensure long-term customer satisfaction and loyalty
-
-Here are the questions, options, and correct answers for **Week 12: Assignment 12**:
-
----
-
-## **Week 12: Assignment 12**
-
-### **1. How does identifying problems early in the product design process help businesses?**
-
-* **A)** Leads to overemphasis on a single issue
-* **B)** Provides a well-defined direction for development
-* **C)** Assumes problems remain static throughout the process
-* **D)** Overlooks user insights during the design phase
-
-**Correct Answer:** Provides a well-defined direction for development
-
----
-
-### **2. What are the benefits of designing modular and customizable products?**
-
-* **A)** Increased customer satisfaction and enhanced efficiency
-* **B)** Higher production costs and limited scalability
-* **C)** Reduced customer engagement and feedback opportunities
-* **D)** Simplified designs with minimal user options
-
-**Correct Answer:** Increased customer satisfaction and enhanced efficiency
-
----
-
-### **3. How does analyzing a "Beachhead market" help businesses during product launch?**
-
-* **A)** Spreads resources thinly across multiple segments
-* **B)** Identifies a focused customer segment for initial success
-* **C)** Skips customer research and prioritizes production
-* **D)** Avoids market segmentation entirely
-
-**Correct Answer:** Identifies a focused customer segment for initial success
-
----
-
-### **4. How can networking be utilized effectively to harness its full potential?**
-
-* **A)** Limiting interactions to close friends only
-* **B)** Promoting products through targeted connections
-* **C)** Avoiding industry events and conferences
-* **D)** Keeping networking efforts informal and unstructured
-
-**Correct Answer:** Promoting products through targeted connections
-
----
-
-### **5. What are the advantages of the "Inverted Pyramid Model" for product-centric businesses?**
-
-* **A)** Increased development costs due to complex designs
-* **B)** Improved customer focus by prioritizing their needs
-* **C)** Creation of complex product descriptions for a wider audience
-* **D)** Prioritizing concise messaging with a clear audience focus
-
-**Correct Answer:** Prioritizing concise messaging with a clear audience focus
-
----
-
-### **6. What is the most crucial step in the product design process to ensure a startup's success?**
-
-* **A)** Identifying the target customer segment
-* **B)** Ignoring user feedback during early stages
-* **C)** Skipping competitor analysis to save time
-* **D)** Overlooking market research to focus on production
-
-**Correct Answer:** Identifying the target customer segment
-
----
-
-### **7. What is considered an ideal marketing strategy for startups?**
-
-* **A)** Expensive and extravagant campaigns
-* **B)** Short-term and aggressive advertising
-* **C)** Innovative and lean strategies
-* **D)** Random and unfocused marketing efforts
-
-**Correct Answer:** Innovative and lean strategies
-
----
-
-### **8. What factors should be prioritized when designing a product for the market?**
-
-* **A)** Irrelevant personal opinions and preferences
-* **B)** Customer needs and preferences
-* **C)** Excessive technical details and low usability
-* **D)** Low-impact trends to reduce risks
-
-**Correct Answer:** Customer needs and preferences
-
----
-
-### **9. Why is it important to emphasize the product solution when presenting a business idea?**
-
-* **A)** To focus on irrelevant features for market differentiation
-* **B)** To overemphasize minor market segments
-* **C)** To provide clarity on how the product addresses a specific problem
-* **D)** To focus on overambitious goals for investor appeal
-
-**Correct Answer:** To provide clarity on how the product addresses a specific problem
-
----
-
-### **10. What is an essential factor to focus on when pitching a business idea to investors?**
-
-* **A)** Presenting a vague and unclear concept
-* **B)** Avoiding discussions about market potential
-* **C)** Clearly articulating the value proposition and market fit
-* **D)** Presenting weak financial projections to lower expectations
-
-**Correct Answer:** Clearly articulating the value proposition and market fit
-
-
-
-Here are the questions, options, and correct answers from **Week 6: Assignment 6**:
-
----
-
-## **Week 6: Assignment 6**
-
-### **1. Which key elements are essential for successfully engaging customers using a human-centered approach in product development?**
-
-* **A)** Utilizing lean methods and tools
-* **B)** Building empathy and conducting user research
-* **C)** Relying on traditional marketing strategies
-* **D)** Concentrating solely on product ideas
-
-**Correct Answer:** Building empathy and conducting user research
-
----
-
-### **2. Which factor is most critical when aligning a product with customer expectations during development?**
-
-* **A)** Conducting iterative testing and feedback loops
-* **B)** Emphasizing aesthetic appeal over functionality
-* **C)** Ignoring competitor analysis
-* **D)** Skipping the prototyping phase
-
-**Correct Answer:** Conducting iterative testing and feedback loops
-
----
-
-### **3. How do design thinking, user research, and strategic planning benefit an organization?**
-
-* **A)** Links business operations with innovation efforts
-* **B)** Helps build mock-ups for product testing
-* **C)** Focuses on generating creative ideas only
-* **D)** Encourages quick decision-making without research
-
-**Correct Answer:** Links business operations with innovation efforts
-
----
-
-### **4. What should the primary objective of a design researcher and strategist be when working for a client?**
-
-* **A)** Focus solely on the product's core idea
-* **B)** Balance user needs, technological feasibility, and business objectives
-* **C)** Ensure customer experience takes precedence over business goals
-* **D)** Prioritize technical feasibility over desirability
-
-**Correct Answer:** Balance user needs, technological feasibility, and business objectives
-
----
-
-### **5. Which strategy is most effective for encouraging interviewees to share valuable information?**
-
-* **A)** Asking complex and detailed questions
-* **B)** Beginning with secondary objective
-* **C)** Building rapport and trust with the interviewee
-* **D)** Employing a rigid and formal interview structure
-
-**Correct Answer:** Building rapport and trust with the interviewee
-
----
-
-### **6. What are the essential characteristics of a robust design brief?**
-
-* **A)** Providing detailed technical specifications and timelines
-* **B)** Outlining comprehensive marketing strategies
-* **C)** Including extensive budget estimates
-* **D)** Identifying user pain points, mapping user journeys, and ensuring ecosystem fit
-
-**Correct Answer:** Identifying user pain points, mapping user journeys, and ensuring ecosystem fit
-
----
-
-### **7. What is design management in relation to achieving organizational goals?**
-
-* **A)** Lateral thinking and creativity
-* **B)** Overseeing design teams and their timelines
-* **C)** Collaboration between stakeholders to meet business goals
-* **D)** A structured process for fulfilling business objectives through design
-
-**Correct Answer:** A structured process for fulfilling business objectives through design
-
----
-
-### **8. What are the three key qualities that a client seeks in a design firm?**
-
-* **A)** Discipline, speed, and high fees
-* **B)** Quality, speed, and transparency
-* **C)** Collaboration, extended timelines, and reliability
-* **D)** Minimal interaction, predictability, and discipline
-
-**Correct Answer:** Quality, speed, and transparency
-
----
-
-### **9. What should be included in a comprehensive design brief to ensure project success?**
-
-* **A)** Detailed project timeline and budget
-* **B)** In-depth competitor analysis and benchmarking
-* **C)** Specific user personas and their pain points
-* **D)** Finalized marketing strategies and plans
-
-**Correct Answer:** Specific user personas and their pain points
-
----
-
-### **10. Why is it important for designers to empathize with both users and business goals?**
-
-* **A)** To ensure marketing and advertising success
-* **B)** To prioritize aesthetics over functionality
-* **C)** To balance creative ideas with realistic objectives
-* **D)** To reduce the complexity of the design process
-
-**Correct Answer:** To balance creative ideas with realistic objectives
-
-Here are the questions, options, and correct answers from **Week 7: Assignment 7**:
-
----
-
-## **Week 7: Assignment 7**
-
-### **1. Which approach emphasizes collaboration, iteration, and a non-linear process to develop innovative solutions?**
-
-* **A)** Economic stability
-* **B)** Design thinking
-* **C)** Complacency
-* **D)** Short-term focus
-
-**Correct Answer:** Design thinking
-
----
-
-### **2. What is a problem-solving methodology that encourages creative thinking by connecting seemingly unrelated concepts?**
-
-* **A)** Brainstorming
-* **B)** Synectics
-* **C)** Mind mapping
-* **D)** SWOT analysis
-
-**Correct Answer:** Synectics
-
----
-
-### **3. What are the most important three critical factors to consider when developing a product?**
-
-* **A)** Market Need, technical feasibility, and business viability
-* **B)** Advertisement, product packaging, and distribution networks
-* **C)** User sensibility, market size, and product range
-* **D)** Profit, market sensitivity, and employee strength
-
-**Correct Answer:** Market Need, technical feasibility, and business viability
-
----
-
-### **4. Which tool graphically represents a business model and helps stakeholders understand it easily?**
-
-* **A)** Business Model Canvas
-* **B)** Balance sheet
-* **C)** Profit and loss statement
-* **D)** Organizational chart
-
-**Correct Answer:** Business Model Canvas
-
----
-
-### **5. Which stage of the Lean Startup cycle comes immediately after building a Minimum Viable Product (MVP)?**
-
-* **A)** Scaling production
-* **B)** Filing patents
-* **C)** Measuring customer feedback and learning from the results
-* **D)** Preparing financial statements
-
-**Correct Answer:** Measuring customer feedback and learning from the results
-
----
-
-### **6. What makes a collaborative model beneficial for entrepreneurship?**
-
-* **A)** Provides access to resources
-* **B)** Offers networking opportunities
-* **C)** Creates a sense of community
-* **D)** All of the above
-
-**Correct Answer:** All of the above
-
----
-
-### **7. What distinguishes the fractional ownership business model from other models?**
-
-* **A)** Shared ownership of physical assets
-* **B)** Focus on virtual assets and digital goods
-* **C)** Primary emphasis on intellectual property rights
-* **D)** Leasing equipment to businesses
-
-**Correct Answer:** Shared ownership of physical assets
-
----
-
-### **8. What key criteria should a business model meet to achieve optimal success?**
-
-* **A)** High Initial Investment, Extensive Workforce, and Expensive Marketing
-* **B)** Clear Value Proposition, Scalability, and Sustainable Revenue Streams
-* **C)** Low Costs, Rapid Expansion, and Minimal Effort
-* **D)** Single Revenue Source, Limited Target Market, and High Complexity
-
-**Correct Answer:** Clear Value Proposition, Scalability, and Sustainable Revenue Streams
-
----
-
-### **9. Which key performance metrics help to monitor a business's success?**
-
-* **A)** Revenue growth, customer acquisition, and customer retention
-* **B)** Employee welfare, operational cost reduction, and inventory turnover
-* **C)** Brand recognition, social media reach, and product diversification
-* **D)** Customer retention, marketing spends, and aesthetic appeal
-
-**Correct Answer:** Revenue growth, customer acquisition, and customer retention
-
----
-
-### **10. Why is the Lean Canvas a valuable tool for startups?**
-
-* **A)** Helps secure large investments from venture capitalists
-* **B)** Develops a detailed five-year financial plan
-* **C)** Allows startups to test and iterate on their business model assumptions quickly
-* **D)** Designs a complex organizational structure for future growth
-
-**Correct Answer:** Allows startups to test and iterate on their business model assumptions quickly
-
-
-Here are the questions, options, and correct answers from **Week 7: Assignment 7**:
-
----
-
-## **Week 7: Assignment 7**
-
-### **1. Which approach emphasizes collaboration, iteration, and a non-linear process to develop innovative solutions?**
-
-* **A)** Economic stability
-* **B)** Design thinking
-* **C)** Complacency
-* **D)** Short-term focus
-
-**Correct Answer:** Design thinking
-
----
-
-### **2. What is a problem-solving methodology that encourages creative thinking by connecting seemingly unrelated concepts?**
-
-* **A)** Brainstorming
-* **B)** Synectics
-* **C)** Mind mapping
-* **D)** SWOT analysis
-
-**Correct Answer:** Synectics
-
----
-
-### **3. What are the most important three critical factors to consider when developing a product?**
-
-* **A)** Market Need, technical feasibility, and business viability
-* **B)** Advertisement, product packaging, and distribution networks
-* **C)** User sensibility, market size, and product range
-* **D)** Profit, market sensitivity, and employee strength
-
-**Correct Answer:** Market Need, technical feasibility, and business viability
-
----
-
-### **4. Which tool graphically represents a business model and helps stakeholders understand it easily?**
-
-* **A)** Business Model Canvas
-* **B)** Balance sheet
-* **C)** Profit and loss statement
-* **D)** Organizational chart
-
-**Correct Answer:** Business Model Canvas
-
----
-
-### **5. Which stage of the Lean Startup cycle comes immediately after building a Minimum Viable Product (MVP)?**
-
-* **A)** Scaling production
-* **B)** Filing patents
-* **C)** Measuring customer feedback and learning from the results
-* **D)** Preparing financial statements
-
-**Correct Answer:** Measuring customer feedback and learning from the results
-
----
-
-### **6. What makes a collaborative model beneficial for entrepreneurship?**
-
-* **A)** Provides access to resources
-* **B)** Offers networking opportunities
-* **C)** Creates a sense of community
-* **D)** All of the above
-
-**Correct Answer:** All of the above
-
----
-
-### **7. What distinguishes the fractional ownership business model from other models?**
-
-* **A)** Shared ownership of physical assets
-* **B)** Focus on virtual assets and digital goods
-* **C)** Primary emphasis on intellectual property rights
-* **D)** Leasing equipment to businesses
-
-**Correct Answer:** Shared ownership of physical assets
-
----
-
-### **8. What key criteria should a business model meet to achieve optimal success?**
-
-* **A)** High Initial Investment, Extensive Workforce, and Expensive Marketing
-* **B)** Clear Value Proposition, Scalability, and Sustainable Revenue Streams
-* **C)** Low Costs, Rapid Expansion, and Minimal Effort
-* **D)** Single Revenue Source, Limited Target Market, and High Complexity
-
-**Correct Answer:** Clear Value Proposition, Scalability, and Sustainable Revenue Streams
-
----
-
-### **9. Which key performance metrics help to monitor a business's success?**
-
-* **A)** Revenue growth, customer acquisition, and customer retention
-* **B)** Employee welfare, operational cost reduction, and inventory turnover
-* **C)** Brand recognition, social media reach, and product diversification
-* **D)** Customer retention, marketing spends, and aesthetic appeal
-
-**Correct Answer:** Revenue growth, customer acquisition, and customer retention
-
----
-
-### **10. Why is the Lean Canvas a valuable tool for startups?**
-
-* **A)** Helps secure large investments from venture capitalists
-* **B)** Develops a detailed five-year financial plan
-* **C)** Allows startups to test and iterate on their business model assumptions quickly
-* **D)** Designs a complex organizational structure for future growth
-
-**Correct Answer:** Allows startups to test and iterate on their business model assumptions quickly
-
-
-Here are the questions, options, and correct answers from **Week 9: Assignment 9**:
-
----
-
-## **Week 9: Assignment 9**
-
-### **1. What barriers must a designer or entrepreneur overcome to turn an idea into action?**
-
-* **A)** Lack of confidence in their skills
-* **B)** Fear of negative feedback
-* **C)** Difficulty in securing funding
-* **D)** All of the above
-
-**Correct Answer:** All of the above
-
----
-
-### **2. What is the most important relationship for a startup to manage?**
-
-* **A)** Funding sources
-* **B)** Target customers
-* **C)** Technological infrastructure
-* **D)** Market needs
-
-**Correct Answer:** Target customers
-
----
-
-### **3. What types of funding are typically sought by early-stage entrepreneurs or startups?**
-
-* **A)** Government grants
-* **B)** Seed funding and crowdfunding
-* **C)** Long-term loans with high interest rates
-* **D)** Equity funds
 
 **Correct Answer:**
-
-* Government grants
-* Seed funding and crowdfunding *(Multiple Select Question)*
-
----
-
-### **4. What are some reasons why certain regions may lag in techno-entrepreneurial ventures?**
-
-* **A)** Education is focused solely on securing jobs
-* **B)** Abundance of natural resources reduces the need for innovation
-* **C)** Government policies discourage entrepreneurship
-* **D)** All of the above
-
-**Correct Answer:** All of the above
-
----
-
-### **5. What is the purpose of the incubation stage in the entrepreneurial journey?**
-
-* **A)** Developing a business plan and securing resources
-* **B)** Taking a product idea to commercialization
-* **C)** Conducting advanced research and development
-* **D)** Scaling the business for global markets
-
-**Correct Answer:** Developing a business plan and securing resources
-
----
-
-### **6. How does the role of an entrepreneur differ from that of an innovator?**
-
-* **A)** Entrepreneurs focus on maximizing profits, while innovators solve problems without business goals
-* **B)** Entrepreneurs see problems as business opportunities, while innovators focus solely on solving problems
-* **C)** Entrepreneurs work alone, while innovators always work in teams
-* **D)** Entrepreneurs need formal education, while innovators rely on creativity
-
-**Correct Answer:** Entrepreneurs see problems as business opportunities, while innovators focus solely on solving problems
-
----
-
-### **7. What is the purpose of clinical immersion in the healthcare sector for entrepreneurs?**
-
-* **A)** To provide administrative training and management skills
-* **B)** To identify unmet needs and gather insights for innovation
-* **C)** To develop marketing strategies for healthcare products
-* **D)** To focus on financial analysis and budget planning
-
-**Correct Answer:** To identify unmet needs and gather insights for innovation
-
----
-
-### **8. What key factor ensures better execution of an entrepreneurial idea?**
-
-* **A)** Clear definition of customer needs and market gaps
-* **B)** Strong advertising strategy and brand presence
-* **C)** Advanced office infrastructure and equipment
-* **D)** Rigid adherence to the initial business plan
-
-**Correct Answer:** Clear definition of customer needs and market gaps
-
----
-
-### **9. What is the process of transferring an idea to industry through intellectual property or technology transfer called?**
-
-* **A)** Entrepreneurship
-* **B)** Commercialization
-* **C)** Enterprise development
-* **D)** Incubation
-
-**Correct Answer:** Commercialization
-
----
-
-### **10. Which stage of the entrepreneurial journey focuses on the initial creation and development of a startup idea?**
-
-* **A)** Idea Generation Stage
-* **B)** Research Stage
-* **C)** Incubation Stage
-* **D)** Scaling Stage
-
-**Correct Answer:** Idea Generation Stage
-
-
-Here are the questions, options, and correct answers from **Week 10: Assignment 10**:
-
----
-
-## **Week 10: Assignment 10**
-
-### **1. What creative thinking technique involves individuals imagining themselves as part of the problem or situation they are trying to solve?**
-
-* **A)** Fantasy analogy
-* **B)** Personal analogy
-* **C)** Symbolic analogy
-* **D)** CAD analogy
-
-**Correct Answer:** Personal analogy
-
----
-
-### **2. Which of the following is NOT a typical prototyping method?**
-
-* **A)** Additive methods
-* **B)** Subtractive methods
-* **C)** Forming methods
-* **D)** Lateral thinking
-
-**Correct Answer:** Lateral thinking
-
----
-
-### **3. What is the correct sequence during a product development process?**
-
-* **A)** Ideation → Concept Generation → Prototyping → Testing → Market Launch
-* **B)** Market Research → Concept Generation → Testing → Ideation → Prototyping
-* **C)** Concept Generation → Prototyping → Testing → Market Launch → Ideation
-* **D)** Ideation → Market Launch → Prototype → Testing → Concept Generation
-
-**Correct Answer:** Ideation → Concept Generation → Prototyping → Testing → Market Launch
-
----
-
-### **4. Which type of reasoning involves forming general conclusions from specific observations?**
-
-* **A)** Abductive reasoning
-* **B)** Deductive reasoning
-* **C)** Inductive reasoning
-* **D)** Analytical reasoning
-
-**Correct Answer:** Inductive reasoning
+Inductive reasoning
 
 ---
 
@@ -3636,7 +1166,8 @@ Here are the questions, options, and correct answers from **Week 10: Assignment 
 * **C)** By prioritizing aesthetics over functionality
 * **D)** By focusing solely on rapid scaling without cost considerations
 
-**Correct Answer:** By minimizing waste and reducing costs through efficient use of resources
+**Correct Answer:**
+By minimizing waste and reducing costs through efficient use of resources
 
 ---
 
@@ -3647,7 +1178,8 @@ Here are the questions, options, and correct answers from **Week 10: Assignment 
 * **C)** To secure funding for large-scale production
 * **D)** To build prototypes for user feedback
 
-**Correct Answer:** To validate the feasibility and viability of a new idea or concept
+**Correct Answer:**
+To validate the feasibility and viability of a new idea or concept
 
 ---
 
@@ -3658,7 +1190,8 @@ Here are the questions, options, and correct answers from **Week 10: Assignment 
 * **C)** Building large-scale production units for market distribution
 * **D)** Avoiding iterative development to save time
 
-**Correct Answer:** Creating models to test and improve design, functionality, and usability
+**Correct Answer:**
+Creating models to test and improve design, functionality, and usability
 
 ---
 
@@ -3669,7 +1202,8 @@ Here are the questions, options, and correct answers from **Week 10: Assignment 
 * **C)** Reaching consensus among team members quickly
 * **D)** Applying detailed technical analysis to refine existing concepts
 
-**Correct Answer:** Encouraging exploration and breaking conventional thinking
+**Correct Answer:**
+Encouraging exploration and breaking conventional thinking
 
 ---
 
@@ -3680,7 +1214,8 @@ Here are the questions, options, and correct answers from **Week 10: Assignment 
 * **C)** By competing in the same market segments
 * **D)** All of the above
 
-**Correct Answer:** By sharing resources and distributing production responsibilities
+**Correct Answer:**
+By sharing resources and distributing production responsibilities
 
 ---
 
@@ -3691,10 +1226,8 @@ Here are the questions, options, and correct answers from **Week 10: Assignment 
 * **C)** To skip the need for market research and testing
 * **D)** To focus on aesthetics without user input
 
-**Correct Answer:** To identify and resolve design flaws early in the process
-
-
-Here are the questions, options, and correct answers from **Week 11: Assignment 11**:
+**Correct Answer:**
+To identify and resolve design flaws early in the process
 
 ---
 
@@ -3707,7 +1240,8 @@ Here are the questions, options, and correct answers from **Week 11: Assignment 
 * **C)** Profit maximization
 * **D)** Reducing production costs
 
-**Correct Answer:** User-centered design
+**Correct Answer:**
+User-centered design
 
 ---
 
@@ -3718,7 +1252,8 @@ Here are the questions, options, and correct answers from **Week 11: Assignment 
 * **C)** Redesigning existing products for the market
 * **D)** Creating exclusive and expensive solutions
 
-**Correct Answer:** Making users independent and fostering social integration
+**Correct Answer:**
+Making users independent and fostering social integration
 
 ---
 
@@ -3729,7 +1264,8 @@ Here are the questions, options, and correct answers from **Week 11: Assignment 
 * **C)** Being cheap and generic
 * **D)** Being expensive and complex
 
-**Correct Answer:** Being relevant and differentiated
+**Correct Answer:**
+Being relevant and differentiated
 
 ---
 
@@ -3740,7 +1276,8 @@ Here are the questions, options, and correct answers from **Week 11: Assignment 
 * **C)** A vague and unclear value proposition
 * **D)** A low-cost product with limited functionality
 
-**Correct Answer:** A unique and differentiated service or product
+**Correct Answer:**
+A unique and differentiated service or product
 
 ---
 
@@ -3751,7 +1288,8 @@ Here are the questions, options, and correct answers from **Week 11: Assignment 
 * **C)** Cheap materials ensure better brand reputation
 * **D)** Cheap materials improve the product's aesthetic appeal
 
-**Correct Answer:** Using cheap materials increases return and servicing costs
+**Correct Answer:**
+Using cheap materials increases return and servicing costs
 
 ---
 
@@ -3762,7 +1300,8 @@ Here are the questions, options, and correct answers from **Week 11: Assignment 
 * **C)** Rapidly decreasing operational costs
 * **D)** Established brand recognition
 
-**Correct Answer:** Reliance on a limited number of corporate clients
+**Correct Answer:**
+Reliance on a limited number of corporate clients
 
 ---
 
@@ -3773,7 +1312,8 @@ Here are the questions, options, and correct answers from **Week 11: Assignment 
 * **C)** AI consistently improves through machine learning
 * **D)** AI offers a broader range of design capabilities
 
-**Correct Answer:** Human interaction fosters empathy and understanding of individual needs
+**Correct Answer:**
+Human interaction fosters empathy and understanding of individual needs
 
 ---
 
@@ -3784,7 +1324,8 @@ Here are the questions, options, and correct answers from **Week 11: Assignment 
 * **C)** By using advanced technology for entertainment purposes
 * **D)** By emphasizing cost-effectiveness over engagement
 
-**Correct Answer:** By creating interactive games that encourage physical movement and coordination
+**Correct Answer:**
+By creating interactive games that encourage physical movement and coordination
 
 ---
 
@@ -3795,7 +1336,8 @@ Here are the questions, options, and correct answers from **Week 11: Assignment 
 * **C)** Allocating advertising budgets and determining technical specifications
 * **D)** Designing packaging and setting product pricing
 
-**Correct Answer:** Understanding target customers and measuring the impact of the solution
+**Correct Answer:**
+Understanding target customers and measuring the impact of the solution
 
 ---
 
@@ -3806,9 +1348,8 @@ Here are the questions, options, and correct answers from **Week 11: Assignment 
 * **C)** To focus on marketing trends exclusively
 * **D)** To simplify the manufacturing process
 
-**Correct Answer:** To ensure long-term customer satisfaction and loyalty
-
-Here are the questions, options, and correct answers for **Week 12: Assignment 12**:
+**Correct Answer:**
+To ensure long-term customer satisfaction and loyalty
 
 ---
 
@@ -3821,7 +1362,8 @@ Here are the questions, options, and correct answers for **Week 12: Assignment 1
 * **C)** Assumes problems remain static throughout the process
 * **D)** Overlooks user insights during the design phase
 
-**Correct Answer:** Provides a well-defined direction for development
+**Correct Answer:**
+Provides a well-defined direction for development
 
 ---
 
@@ -3832,7 +1374,8 @@ Here are the questions, options, and correct answers for **Week 12: Assignment 1
 * **C)** Reduced customer engagement and feedback opportunities
 * **D)** Simplified designs with minimal user options
 
-**Correct Answer:** Increased customer satisfaction and enhanced efficiency
+**Correct Answer:**
+Increased customer satisfaction and enhanced efficiency
 
 ---
 
@@ -3843,7 +1386,8 @@ Here are the questions, options, and correct answers for **Week 12: Assignment 1
 * **C)** Skips customer research and prioritizes production
 * **D)** Avoids market segmentation entirely
 
-**Correct Answer:** Identifies a focused customer segment for initial success
+**Correct Answer:**
+Identifies a focused customer segment for initial success
 
 ---
 
@@ -3854,7 +1398,8 @@ Here are the questions, options, and correct answers for **Week 12: Assignment 1
 * **C)** Avoiding industry events and conferences
 * **D)** Keeping networking efforts informal and unstructured
 
-**Correct Answer:** Promoting products through targeted connections
+**Correct Answer:**
+Promoting products through targeted connections
 
 ---
 
@@ -3865,7 +1410,8 @@ Here are the questions, options, and correct answers for **Week 12: Assignment 1
 * **C)** Creation of complex product descriptions for a wider audience
 * **D)** Prioritizing concise messaging with a clear audience focus
 
-**Correct Answer:** Prioritizing concise messaging with a clear audience focus
+**Correct Answer:**
+Prioritizing concise messaging with a clear audience focus
 
 ---
 
@@ -3876,7 +1422,8 @@ Here are the questions, options, and correct answers for **Week 12: Assignment 1
 * **C)** Skipping competitor analysis to save time
 * **D)** Overlooking market research to focus on production
 
-**Correct Answer:** Identifying the target customer segment
+**Correct Answer:**
+Identifying the target customer segment
 
 ---
 
@@ -3887,7 +1434,8 @@ Here are the questions, options, and correct answers for **Week 12: Assignment 1
 * **C)** Innovative and lean strategies
 * **D)** Random and unfocused marketing efforts
 
-**Correct Answer:** Innovative and lean strategies
+**Correct Answer:**
+Innovative and lean strategies
 
 ---
 
@@ -3898,7 +1446,8 @@ Here are the questions, options, and correct answers for **Week 12: Assignment 1
 * **C)** Excessive technical details and low usability
 * **D)** Low-impact trends to reduce risks
 
-**Correct Answer:** Customer needs and preferences
+**Correct Answer:**
+Customer needs and preferences
 
 ---
 
@@ -3909,7 +1458,8 @@ Here are the questions, options, and correct answers for **Week 12: Assignment 1
 * **C)** To provide clarity on how the product addresses a specific problem
 * **D)** To focus on overambitious goals for investor appeal
 
-**Correct Answer:** To provide clarity on how the product addresses a specific problem
+**Correct Answer:**
+To provide clarity on how the product addresses a specific problem
 
 ---
 
@@ -3920,4 +1470,7 @@ Here are the questions, options, and correct answers for **Week 12: Assignment 1
 * **C)** Clearly articulating the value proposition and market fit
 * **D)** Presenting weak financial projections to lower expectations
 
-**Correct Answer:** Clearly articulating the value proposition and market fit
+**Correct Answer:**
+Clearly articulating the value proposition and market fit
+
+---
