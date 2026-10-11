@@ -1,4 +1,4 @@
-const questionBank = [
+const wildlifeQuestionBank = [
   {
     week: 0,
     topic: "Assignment 0",
@@ -1036,6 +1036,1911 @@ const questionBank = [
   }
 ];
 
+const uieQuestionBank = [
+  {
+    "week": 0,
+    "topic": "Assignment 0",
+    "questions": [
+      {
+        "id": "uie-w0-q1",
+        "question": "What does IPO stand for in the context of business?",
+        "options": [
+          "A. Initial Public Offering",
+          "B. Internal Profit Optimization",
+          "C. International Product Organization",
+          "D. Investment Portfolio Overview"
+        ],
+        "answerIndex": 0,
+        "answerIndices": [
+          0
+        ]
+      },
+      {
+        "id": "uie-w0-q2",
+        "question": "Which of the following best describes a partnership?",
+        "options": [
+          "A. A business owned by a single individual",
+          "B. A business structure where two or more individuals share ownership and responsibilities",
+          "C. A government-owned company",
+          "D. A business with no formal ownership structure"
+        ],
+        "answerIndex": 1,
+        "answerIndices": [
+          1
+        ]
+      },
+      {
+        "id": "uie-w0-q3",
+        "question": "Problem-solving, critical thinking, and idea generation are techniques used for:",
+        "options": [
+          "A. Analyzing market trends",
+          "B. Enhancing creativity and innovation",
+          "C. Building brand awareness",
+          "D. Streamlining production processes"
+        ],
+        "answerIndex": 1,
+        "answerIndices": [
+          1
+        ]
+      },
+      {
+        "id": "uie-w0-q4",
+        "question": "In a SWOT analysis, what does the 'T' represent?",
+        "options": [
+          "A. Treat",
+          "B. Threat",
+          "C. Trick",
+          "D. Tactics"
+        ],
+        "answerIndex": 1,
+        "answerIndices": [
+          1
+        ]
+      },
+      {
+        "id": "uie-w0-q5",
+        "question": "Which of the following is not a type of business structure?",
+        "options": [
+          "A. Sole proprietorship",
+          "B. Partnership",
+          "C. Corporation",
+          "D. Trademark"
+        ],
+        "answerIndex": 3,
+        "answerIndices": [
+          3
+        ]
+      },
+      {
+        "id": "uie-w0-q6",
+        "question": "What does KPI stand for in business metrics?",
+        "options": [
+          "A. Key Process Indicator",
+          "B. Key Performance Indicator",
+          "C. Knowledge Productivity Index",
+          "D. Key Profit Insight"
+        ],
+        "answerIndex": 1,
+        "answerIndices": [
+          1
+        ]
+      },
+      {
+        "id": "uie-w0-q7",
+        "question": "Which of the following is essential for starting a successful business?",
+        "options": [
+          "A. Identifying a target market",
+          "B. Developing a business plan",
+          "C. Securing funding",
+          "D. All of the above"
+        ],
+        "answerIndex": 3,
+        "answerIndices": [
+          3
+        ]
+      },
+      {
+        "id": "uie-w0-q8",
+        "question": "What is a key benefit of using social media for business marketing?",
+        "options": [
+          "A. Reducing product quality",
+          "B. Directly engaging with customers and building brand loyalty",
+          "C. Eliminating the need for a website",
+          "D. Limiting customer feedback to specific groups"
+        ],
+        "answerIndex": 1,
+        "answerIndices": [
+          1
+        ]
+      },
+      {
+        "id": "uie-w0-q9",
+        "question": "What do OYO Rooms and Swiggy have in common?",
+        "options": [
+          "A. Same business model",
+          "B. Both are tech startups",
+          "C. Both are valued at over $1 billion (Unicorns)",
+          "D. Both business models are free from financial risks"
+        ],
+        "answerIndex": 2,
+        "answerIndices": [
+          2
+        ]
+      },
+      {
+        "id": "uie-w0-q10",
+        "question": "Choose the most appropriate definition of entrepreneurship:",
+        "options": [
+          "A. Copying business ideas from other companies",
+          "B. Starting a business",
+          "C. Developing ideas and research papers",
+          "D. Earning profits"
+        ],
+        "answerIndex": 1,
+        "answerIndices": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "week": 1,
+    "topic": "Assignment 1",
+    "questions": [
+      {
+        "id": "uie-w1-q1",
+        "question": "What makes an idea valuable even if it fails?",
+        "options": [
+          "A. Avoiding collaboration to prevent shared blame",
+          "B. Gaining valuable lessons and insights from the failure",
+          "C. Shifting focus to unrelated projects immediately",
+          "D. Disregarding accountability and blaming external factors"
+        ],
+        "answerIndex": 1,
+        "answerIndices": [
+          1
+        ]
+      },
+      {
+        "id": "uie-w1-q2",
+        "question": "What key characteristics are essential for business success?",
+        "options": [
+          "A. The ability to balance expenses while maintaining product quality",
+          "B. Ignoring customer feedback to prioritize internal goals",
+          "C. Strategic planning and adaptability to market changes",
+          "D. Focusing solely on profit maximization"
+        ],
+        "answerIndex": 2,
+        "answerIndices": [
+          2
+        ]
+      },
+      {
+        "id": "uie-w1-q3",
+        "question": "What is the primary objective of selling a product or service, and how does it address customer needs?",
+        "options": [
+          "A. Identifying and fulfilling customer and market needs",
+          "B. Maximizing profits through aggressive pricing strategies",
+          "C. Focusing on complex promotional campaigns",
+          "D. Offering discounts to increase sales"
+        ],
+        "answerIndex": 0,
+        "answerIndices": [
+          0
+        ]
+      },
+      {
+        "id": "uie-w1-q4",
+        "question": "What makes an idea “disruptive”?",
+        "options": [
+          "A. Maintaining the existing state and avoiding innovation",
+          "B. Imitating successful competitors to gain market share",
+          "C. Introducing changes that challenge existing market norms",
+          "D. Strictly adhering to traditional market standards"
+        ],
+        "answerIndex": 2,
+        "answerIndices": [
+          2
+        ]
+      },
+      {
+        "id": "uie-w1-q5",
+        "question": "How does entrepreneurship contribute to economic growth?",
+        "options": [
+          "A. By developing robust business models without innovation",
+          "B. By focusing solely on customer validation and discovery",
+          "C. By identifying and solving market problems effectively",
+          "D. By avoiding competitive risks through market isolation"
+        ],
+        "answerIndex": 2,
+        "answerIndices": [
+          2
+        ]
+      },
+      {
+        "id": "uie-w1-q6",
+        "question": "What is emphasized in the Lean Startup methodology for product development?",
+        "options": [
+          "A. Graduation degrees as a prerequisite for entrepreneurship",
+          "B. Rigid execution of initial business plans",
+          "C. Financial optimization over product innovation",
+          "D. Continuous learning and validation through customer feedback"
+        ],
+        "answerIndex": 3,
+        "answerIndices": [
+          3
+        ]
+      },
+      {
+        "id": "uie-w1-q7",
+        "question": "What are the key objectives of the Lean Startup methodology when launching a new product or service?",
+        "options": [
+          "A. Customer validation and iterative development",
+          "B. Company building without market analysis",
+          "C. Rapid scaling and long-term planning",
+          "D. Agile engineering without customer feedback"
+        ],
+        "answerIndex": 0,
+        "answerIndices": [
+          0
+        ]
+      },
+      {
+        "id": "uie-w1-q8",
+        "question": "How do institutions foster innovation and entrepreneurship effectively?",
+        "options": [
+          "A. By connecting academic research to practical applications in the market",
+          "B. By focusing exclusively on theoretical research",
+          "C. By isolating themselves from marketplace collaborations",
+          "D. By discouraging experimentation within the institution"
+        ],
+        "answerIndex": 0,
+        "answerIndices": [
+          0
+        ]
+      },
+      {
+        "id": "uie-w1-q9",
+        "question": "How can evidence-based entrepreneurship be defined and applied effectively?",
+        "options": [
+          "A. By utilizing validated learning through continuous experimentation and data analysis",
+          "B. By implementing the Build-Measure-Learn cycle to iteratively develop and improve products",
+          "C. By making decisions based on empirical evidence rather than assumptions",
+          "D. By regularly engaging with customers to gather feedback and validate ideas"
+        ],
+        "answerIndex": 0,
+        "answerIndices": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "id": "uie-w1-q10",
+        "question": "What are some common mistakes startups make?",
+        "options": [
+          "A. Adopting the Lean Startup methodology",
+          "B. Focusing too much on the product and neglecting the market",
+          "C. Developing solutions without engaging potential customers",
+          "D. Preparing a business plan and estimating market size"
+        ],
+        "answerIndex": 1,
+        "answerIndices": [
+          1,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "week": 2,
+    "topic": "Assignment 2",
+    "questions": [
+      {
+        "id": "uie-w2-q1",
+        "question": "What can be the main reason for the failure of a startup?",
+        "options": [
+          "A. No real need for the product or service",
+          "B. A skilled and experienced team",
+          "C. Having sufficient investors and funding",
+          "D. Offering a user-friendly product"
+        ],
+        "answerIndex": 0,
+        "answerIndices": [
+          0
+        ]
+      },
+      {
+        "id": "uie-w2-q2",
+        "question": "Which among the following could be a crucial factor in a team’s unity and success?",
+        "options": [
+          "A. Individual achievements",
+          "B. Lack of diversity",
+          "C. Frequent disagreements",
+          "D. Shared vision and common ideology"
+        ],
+        "answerIndex": 3,
+        "answerIndices": [
+          3
+        ]
+      },
+      {
+        "id": "uie-w2-q3",
+        "question": "What are the key objectives of startup founders when launching a product?",
+        "options": [
+          "A. Achieving rapid market entry without validation",
+          "B. Iterative development and customer-centric learning",
+          "C. Long-term planning without short-term feedback",
+          "D. Building internal teams over market exploration"
+        ],
+        "answerIndex": 1,
+        "answerIndices": [
+          1
+        ]
+      },
+      {
+        "id": "uie-w2-q4",
+        "question": "How do customer interactions contribute to effectively identifying and addressing market needs?",
+        "options": [
+          "A. By gathering direct feedback on products and services",
+          "B. By uncovering customer pain points and preferences",
+          "C. By validating business ideas and assumptions",
+          "D. All of the above"
+        ],
+        "answerIndex": 3,
+        "answerIndices": [
+          3
+        ]
+      },
+      {
+        "id": "uie-w2-q5",
+        "question": "What role do early adopters play in helping a company refine its products or services?",
+        "options": [
+          "A. Assist in marketing the product to a broader audience",
+          "B. Provide critical feedback to improve the product",
+          "C. Expand production capacity to meet demands",
+          "D. Offer financial support for scaling operations"
+        ],
+        "answerIndex": 1,
+        "answerIndices": [
+          1
+        ]
+      },
+      {
+        "id": "uie-w2-q6",
+        "question": "Which misconception can mislead startup founders during the growth phase?",
+        "options": [
+          "A. Securing funding guarantees success",
+          "B. Scaling the team strategically",
+          "C. Prioritizing customer needs over product development",
+          "D. Focusing on team-building over business goals"
+        ],
+        "answerIndex": 0,
+        "answerIndices": [
+          0
+        ]
+      },
+      {
+        "id": "uie-w2-q7",
+        "question": "Who plays the most crucial role in validating the success of a startup's product or service?",
+        "options": [
+          "A. The founder",
+          "B. The investors",
+          "C. The customers",
+          "D. The marketing teams"
+        ],
+        "answerIndex": 2,
+        "answerIndices": [
+          2
+        ]
+      },
+      {
+        "id": "uie-w2-q8",
+        "question": "What actions should founders take when faced with stagnation in progress?",
+        "options": [
+          "A. Reevaluate the business strategy and pivot if necessary",
+          "B. Increase marketing efforts and budget",
+          "C. Ignore the issue and hope for improvement",
+          "D. Cut down on expenses and reduce team size"
+        ],
+        "answerIndex": 0,
+        "answerIndices": [
+          0
+        ]
+      },
+      {
+        "id": "uie-w2-q9",
+        "question": "What characteristics are essential for a startup team to achieve long-term success?",
+        "options": [
+          "A. Strong leadership and vision",
+          "B. Effective communication and collaboration",
+          "C. Ignoring customer feedback's and focusing on company vision",
+          "D. Limited market research and focusing on advertisement"
+        ],
+        "answerIndex": 0,
+        "answerIndices": [
+          0,
+          1
+        ]
+      },
+      {
+        "id": "uie-w2-q10",
+        "question": "What is an essential quality that startup founders must possess?",
+        "options": [
+          "A. Strong belief in the startup's vision",
+          "B. Pursuit of endless funding",
+          "C. Rapid product development skills",
+          "D. Exceptional programming expertise"
+        ],
+        "answerIndex": 0,
+        "answerIndices": [
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "week": 3,
+    "topic": "Assignment 3",
+    "questions": [
+      {
+        "id": "uie-w3-q1",
+        "question": "What role does empathy play while designing a product?",
+        "options": [
+          "A. Enhances aesthetics",
+          "B. Reduces manufacturing costs",
+          "C. Fosters competition among designers",
+          "D. Promotes user-centered design"
+        ],
+        "answerIndex": 3,
+        "answerIndices": [
+          3
+        ]
+      },
+      {
+        "id": "uie-w3-q2",
+        "question": "What characteristics are crucial for building an ideal team?",
+        "options": [
+          "A. A varied skill set and diverse perspectives",
+          "B. Singular expertise in a specific domain",
+          "C. Limited experience and collaboration",
+          "D. A homogeneous team with similar backgrounds"
+        ],
+        "answerIndex": 0,
+        "answerIndices": [
+          0
+        ]
+      },
+      {
+        "id": "uie-w3-q3",
+        "question": "Why is it important to take a product category approach instead of a single-product approach?",
+        "options": [
+          "A. Encourages risk diversification and adaptability",
+          "B. Focuses solely on cost-cutting measures",
+          "C. Reduces customer engagement and feedback",
+          "D. Limits the scope of market exploration"
+        ],
+        "answerIndex": 0,
+        "answerIndices": [
+          0
+        ]
+      },
+      {
+        "id": "uie-w3-q4",
+        "question": "What are the key qualities that each team member must possess when working as a team?",
+        "options": [
+          "A. Flexibility and willingness to adapt",
+          "B. Lowering ego and collaborating effectively",
+          "C. Taking specific roles to solve problems",
+          "D. All of the above"
+        ],
+        "answerIndex": 3,
+        "answerIndices": [
+          3
+        ]
+      },
+      {
+        "id": "uie-w3-q5",
+        "question": "What are the key elements essential for creating a clear and concise design brief?",
+        "options": [
+          "A. Functional and user requirements",
+          "B. Budget estimates and target audience",
+          "C. Project timeline and brand vision",
+          "D. Comprehensive technical specifications"
+        ],
+        "answerIndex": 0,
+        "answerIndices": [
+          0
+        ]
+      },
+      {
+        "id": "uie-w3-q6",
+        "question": "What is the importance of collaborative design in product development?",
+        "options": [
+          "A. Facilitates resource sharing and expertise integration",
+          "B. Streamlines manufacturing processes",
+          "C. Enhances aesthetic appeal of the product",
+          "D. Simplifies administrative tasks"
+        ],
+        "answerIndex": 0,
+        "answerIndices": [
+          0
+        ]
+      },
+      {
+        "id": "uie-w3-q7",
+        "question": "How can using regulatory barriers help in product design?",
+        "options": [
+          "A. Simplifies administrative processes",
+          "B. Encourages unrestricted innovation",
+          "C. Ensures public health protection and legal compliance",
+          "D. Promotes informal market practices"
+        ],
+        "answerIndex": 2,
+        "answerIndices": [
+          2
+        ]
+      },
+      {
+        "id": "uie-w3-q8",
+        "question": "Which element is essential for crafting an effective problem statement?",
+        "options": [
+          "A. Providing a detailed solution",
+          "B. Defining the problem clearly",
+          "C. Establishing a strict budget",
+          "D. Highlighting only the team's capabilities"
+        ],
+        "answerIndex": 1,
+        "answerIndices": [
+          1
+        ]
+      },
+      {
+        "id": "uie-w3-q9",
+        "question": "What is a crucial factor in driving successful innovation within an organization?",
+        "options": [
+          "A. Strict compliance with established procedures",
+          "B. Competition between internal teams",
+          "C. Interdisciplinary collaboration",
+          "D. Extensive financial resources"
+        ],
+        "answerIndex": 2,
+        "answerIndices": [
+          2
+        ]
+      },
+      {
+        "id": "uie-w3-q10",
+        "question": "Identify the term used for “Previously granted patents and published patent applications.”",
+        "options": [
+          "A. Prior art",
+          "B. Reference documents",
+          "C. Past literature",
+          "D. Intellectual archives"
+        ],
+        "answerIndex": 0,
+        "answerIndices": [
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "week": 4,
+    "topic": "Assignment 4",
+    "questions": [
+      {
+        "id": "uie-w4-q1",
+        "question": "What could cause a startup to fail despite having an innovative product?",
+        "options": [
+          "A. Addressing user pain points effectively",
+          "B. Prioritizing customer satisfaction",
+          "C. Lack of understanding of customer needs",
+          "D. Regular customer feedback for product improvement"
+        ],
+        "answerIndex": 2,
+        "answerIndices": [
+          2
+        ]
+      },
+      {
+        "id": "uie-w4-q2",
+        "question": "Which of the following best captures the essence of the ‘outside-in thinking’ approach in product design?",
+        "options": [
+          "A. Creating products that cater to customer requirements",
+          "B. Enhancing internal operational processes",
+          "C. Focusing on excessive engineering solutions",
+          "D. Disregarding customer feedback in decision-making"
+        ],
+        "answerIndex": 0,
+        "answerIndices": [
+          0
+        ]
+      },
+      {
+        "id": "uie-w4-q3",
+        "question": "In which areas do startups face challenges during their early stages?",
+        "options": [
+          "A. Scaling the business quickly",
+          "B. Building a skilled and cohesive team",
+          "C. Acquiring venture capital easily",
+          "D. Creating an effective marketing strategy"
+        ],
+        "answerIndex": 1,
+        "answerIndices": [
+          1
+        ]
+      },
+      {
+        "id": "uie-w4-q4",
+        "question": "What strategies can effectively promote sustainable products in rural markets?",
+        "options": [
+          "A. Social media campaigns targeting urban audiences",
+          "B. Distribution through government schemes",
+          "C. Online marketing through digital platforms",
+          "D. Door-to-door sales in urban regions"
+        ],
+        "answerIndex": 1,
+        "answerIndices": [
+          1
+        ]
+      },
+      {
+        "id": "uie-w4-q5",
+        "question": "What are some effective strategies to increase awareness about sustainable products?",
+        "options": [
+          "A. Collaborating with influential figures and forming partnerships",
+          "B. Solely relying on multi-level marketing and digital advertisements",
+          "C. Hosting engaging and interactive demonstrations",
+          "D. Building and educating communities"
+        ],
+        "answerIndex": 0,
+        "answerIndices": [
+          0,
+          2,
+          3
+        ]
+      },
+      {
+        "id": "uie-w4-q6",
+        "question": "How can pricing strategies improve the accessibility and financial viability of sustainable products?",
+        "options": [
+          "A. Offering direct sales without intermediaries",
+          "B. Government subsidies for eco-friendly products",
+          "C. Encouraging bulk orders from organizations",
+          "D. All of the above"
+        ],
+        "answerIndex": 3,
+        "answerIndices": [
+          3
+        ]
+      },
+      {
+        "id": "uie-w4-q7",
+        "question": "What factors are critical for a startup to attract investors?",
+        "options": [
+          "A. Demonstrating a real and solvable problem",
+          "B. Ignoring competition in the market",
+          "C. Focusing solely on futuristic technology",
+          "D. Providing vague or exaggerated solutions"
+        ],
+        "answerIndex": 0,
+        "answerIndices": [
+          0
+        ]
+      },
+      {
+        "id": "uie-w4-q8",
+        "question": "What key considerations should businesses keep in mind when entering a new market?",
+        "options": [
+          "A. Understanding the cultural and economic environment",
+          "B. Avoiding market research and going with instincts",
+          "C. Ignoring local regulations and norms",
+          "D. Relying solely on existing products and services without adaptation"
+        ],
+        "answerIndex": 0,
+        "answerIndices": [
+          0
+        ]
+      },
+      {
+        "id": "uie-w4-q9",
+        "question": "How are urgent or active problems identified on the problem recognition scale?",
+        "options": [
+          "A. By ignoring the problem entirely",
+          "B. Recognizing a problem and actively seeking a solution",
+          "C. Recognizing a problem but refusing to act on it",
+          "D. Adjusting to the problem without solving it"
+        ],
+        "answerIndex": 1,
+        "answerIndices": [
+          1
+        ]
+      },
+      {
+        "id": "uie-w4-q10",
+        "question": "In the passive problem stage, what defines an individual's awareness of a problem on the problem recognition scale?",
+        "options": [
+          "A. No awareness of the problem exists",
+          "B. Awareness of the problem but no motivation to change",
+          "C. Motivation to change without understanding the problem",
+          "D. Recognizing the problem but being unable to act on it"
+        ],
+        "answerIndex": 1,
+        "answerIndices": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "week": 5,
+    "topic": "Assignment 5",
+    "questions": [
+      {
+        "id": "uie-w5-q1",
+        "question": "What strategies are crucial for converting academic research into practical societal benefits?",
+        "options": [
+          "A. Establishing obstacles to innovation",
+          "B. Partnering with industries to link research with real-world applications",
+          "C. Keeping research results confidential",
+          "D. Engaging in rivalry with industries to demonstrate academic dominance"
+        ],
+        "answerIndex": 1,
+        "answerIndices": [
+          1
+        ]
+      },
+      {
+        "id": "uie-w5-q2",
+        "question": "Why are investors often reluctant to invest in healthcare product startups?",
+        "options": [
+          "A. High profit margins in the industry",
+          "B. Poor success rates of medical devices",
+          "C. Rapidly growing demand for medical devices",
+          "D. Shorter research and development cycles"
+        ],
+        "answerIndex": 1,
+        "answerIndices": [
+          1
+        ]
+      },
+      {
+        "id": "uie-w5-q3",
+        "question": "What initial step is crucial for developing a successful design solution?",
+        "options": [
+          "A. Identifying the problem and understanding functional requirements",
+          "B. Planning marketing campaigns and advertising strategies",
+          "C. Conducting employee training and managing resources",
+          "D. Securing Intellectual Property Rights and patents"
+        ],
+        "answerIndex": 0,
+        "answerIndices": [
+          0
+        ]
+      },
+      {
+        "id": "uie-w5-q4",
+        "question": "What role did telemedicine play in improving healthcare during global pandemics?",
+        "options": [
+          "A. Increased healthcare costs without benefits",
+          "B. Reduced the strain on physical healthcare facilities",
+          "C. Created barriers for patient access to care",
+          "D. Complicated the delivery of medical services"
+        ],
+        "answerIndex": 1,
+        "answerIndices": [
+          1
+        ]
+      },
+      {
+        "id": "uie-w5-q5",
+        "question": "What is the main purpose of pilot production in the development process?",
+        "options": [
+          "A. Generating marketing and advertising content",
+          "B. Testing and adapting design features based on user feedback",
+          "C. Filing for patents before large-scale production",
+          "D. Conducting research in controlled lab environments"
+        ],
+        "answerIndex": 1,
+        "answerIndices": [
+          1
+        ]
+      },
+      {
+        "id": "uie-w5-q6",
+        "question": "At which point in the innovation process should businesses prioritize securing Intellectual Property Rights (IPR) to protect their inventions?",
+        "options": [
+          "A. During the initial idea conception",
+          "B. After developing a working prototype",
+          "C. Before commercializing the product",
+          "D. Once the product is widely available in the market"
+        ],
+        "answerIndex": 2,
+        "answerIndices": [
+          2
+        ]
+      },
+      {
+        "id": "uie-w5-q7",
+        "question": "Who is eligible to obtain licenses for Intellectual Property Rights (IPR)?",
+        "options": [
+          "A. Start-ups only",
+          "B. Industry professionals only",
+          "C. Non-Governmental Organizations (NGOs) only",
+          "D. All of the above"
+        ],
+        "answerIndex": 3,
+        "answerIndices": [
+          3
+        ]
+      },
+      {
+        "id": "uie-w5-q8",
+        "question": "What does TRL stand for in the context of innovation and development?",
+        "options": [
+          "A. Technology Readiness Levels",
+          "B. Transition and Research Limits",
+          "C. Technological Resource Level",
+          "D. Test and Reliability Levels"
+        ],
+        "answerIndex": 0,
+        "answerIndices": [
+          0
+        ]
+      },
+      {
+        "id": "uie-w5-q9",
+        "question": "What key aspect should be prioritized when developing a Proof of Concept (POC)?",
+        "options": [
+          "A. Demonstrating functional feasibility",
+          "B. Implementing industrial techniques for scalability",
+          "C. Securing patent protection during initial stages",
+          "D. Brainstorming creative ideas without practical implementation"
+        ],
+        "answerIndex": 0,
+        "answerIndices": [
+          0
+        ]
+      },
+      {
+        "id": "uie-w5-q10",
+        "question": "What are the best practices for defining the functional requirements of a project?",
+        "options": [
+          "A. Conducting thorough stakeholder interviews to gather insights",
+          "B. Ignoring end-user feedback and relying on assumptions",
+          "C. Prioritizing features based on developer convenience",
+          "D. Overlooking the project scope and timeline"
+        ],
+        "answerIndex": 0,
+        "answerIndices": [
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "week": 6,
+    "topic": "Assignment 6",
+    "questions": [
+      {
+        "id": "uie-w6-q1",
+        "question": "Which key elements are essential for successfully engaging customers using a human-centered approach in product development?",
+        "options": [
+          "A. Utilizing lean methods and tools",
+          "B. Building empathy and conducting user research",
+          "C. Relying on traditional marketing strategies",
+          "D. Concentrating solely on product ideas"
+        ],
+        "answerIndex": 1,
+        "answerIndices": [
+          1
+        ]
+      },
+      {
+        "id": "uie-w6-q2",
+        "question": "Which factor is most critical when aligning a product with customer expectations during development?",
+        "options": [
+          "A. Conducting iterative testing and feedback loops",
+          "B. Emphasizing aesthetic appeal over functionality",
+          "C. Ignoring competitor analysis",
+          "D. Skipping the prototyping phase"
+        ],
+        "answerIndex": 0,
+        "answerIndices": [
+          0
+        ]
+      },
+      {
+        "id": "uie-w6-q3",
+        "question": "How do design thinking, user research, and strategic planning benefit an organization?",
+        "options": [
+          "A. Links business operations with innovation efforts",
+          "B. Helps build mock-ups for product testing",
+          "C. Focuses on generating creative ideas only",
+          "D. Encourages quick decision-making without research"
+        ],
+        "answerIndex": 0,
+        "answerIndices": [
+          0
+        ]
+      },
+      {
+        "id": "uie-w6-q4",
+        "question": "What should the primary objective of a design researcher and strategist be when working for a client?",
+        "options": [
+          "A. Focus solely on the product's core idea",
+          "B. Balance user needs, technological feasibility, and business objectives",
+          "C. Ensure customer experience takes precedence over business goals",
+          "D. Prioritize technical feasibility over desirability"
+        ],
+        "answerIndex": 1,
+        "answerIndices": [
+          1
+        ]
+      },
+      {
+        "id": "uie-w6-q5",
+        "question": "Which strategy is most effective for encouraging interviewees to share valuable information?",
+        "options": [
+          "A. Asking complex and detailed questions",
+          "B. Beginning with secondary objective",
+          "C. Building rapport and trust with the interviewee",
+          "D. Employing a rigid and formal interview structure"
+        ],
+        "answerIndex": 2,
+        "answerIndices": [
+          2
+        ]
+      },
+      {
+        "id": "uie-w6-q6",
+        "question": "What are the essential characteristics of a robust design brief?",
+        "options": [
+          "A. Providing detailed technical specifications and timelines",
+          "B. Outlining comprehensive marketing strategies",
+          "C. Including extensive budget estimates",
+          "D. Identifying user pain points, mapping user journeys, and ensuring ecosystem fit"
+        ],
+        "answerIndex": 3,
+        "answerIndices": [
+          3
+        ]
+      },
+      {
+        "id": "uie-w6-q7",
+        "question": "What is design management in relation to achieving organizational goals?",
+        "options": [
+          "A. Lateral thinking and creativity",
+          "B. Overseeing design teams and their timelines",
+          "C. Collaboration between stakeholders to meet business goals",
+          "D. A structured process for fulfilling business objectives through design"
+        ],
+        "answerIndex": 3,
+        "answerIndices": [
+          3
+        ]
+      },
+      {
+        "id": "uie-w6-q8",
+        "question": "What are the three key qualities that a client seeks in a design firm?",
+        "options": [
+          "A. Discipline, speed, and high fees",
+          "B. Quality, speed, and transparency",
+          "C. Collaboration, extended timelines, and reliability",
+          "D. Minimal interaction, predictability, and discipline"
+        ],
+        "answerIndex": 1,
+        "answerIndices": [
+          1
+        ]
+      },
+      {
+        "id": "uie-w6-q9",
+        "question": "What should be included in a comprehensive design brief to ensure project success?",
+        "options": [
+          "A. Detailed project timeline and budget",
+          "B. In-depth competitor analysis and benchmarking",
+          "C. Specific user personas and their pain points",
+          "D. Finalized marketing strategies and plans"
+        ],
+        "answerIndex": 2,
+        "answerIndices": [
+          2
+        ]
+      },
+      {
+        "id": "uie-w6-q10",
+        "question": "Why is it important for designers to empathize with both users and business goals?",
+        "options": [
+          "A. To ensure marketing and advertising success",
+          "B. To prioritize aesthetics over functionality",
+          "C. To balance creative ideas with realistic objectives",
+          "D. To reduce the complexity of the design process"
+        ],
+        "answerIndex": 2,
+        "answerIndices": [
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "week": 7,
+    "topic": "Assignment 7",
+    "questions": [
+      {
+        "id": "uie-w7-q1",
+        "question": "Which approach emphasizes collaboration, iteration, and a non-linear process to develop innovative solutions?",
+        "options": [
+          "A. Economic stability",
+          "B. Design thinking",
+          "C. Complacency",
+          "D. Short-term focus"
+        ],
+        "answerIndex": 1,
+        "answerIndices": [
+          1
+        ]
+      },
+      {
+        "id": "uie-w7-q2",
+        "question": "What is a problem-solving methodology that encourages creative thinking by connecting seemingly unrelated concepts?",
+        "options": [
+          "A. Brainstorming",
+          "B. Synectics",
+          "C. Mind mapping",
+          "D. SWOT analysis"
+        ],
+        "answerIndex": 1,
+        "answerIndices": [
+          1
+        ]
+      },
+      {
+        "id": "uie-w7-q3",
+        "question": "What are the most important three critical factors to consider when developing a product?",
+        "options": [
+          "A. Market Need, technical feasibility, and business viability",
+          "B. Advertisement, product packaging, and distribution networks",
+          "C. User sensibility, market size, and product range",
+          "D. Profit, market sensitivity, and employee strength"
+        ],
+        "answerIndex": 0,
+        "answerIndices": [
+          0
+        ]
+      },
+      {
+        "id": "uie-w7-q4",
+        "question": "Which tool graphically represents a business model and helps stakeholders understand it easily?",
+        "options": [
+          "A. Business Model Canvas",
+          "B. Balance sheet",
+          "C. Profit and loss statement",
+          "D. Organizational chart"
+        ],
+        "answerIndex": 0,
+        "answerIndices": [
+          0
+        ]
+      },
+      {
+        "id": "uie-w7-q5",
+        "question": "Which stage of the Lean Startup cycle comes immediately after building a Minimum Viable Product (MVP)?",
+        "options": [
+          "A. Scaling production",
+          "B. Filing patents",
+          "C. Measuring customer feedback and learning from the results",
+          "D. Preparing financial statements"
+        ],
+        "answerIndex": 2,
+        "answerIndices": [
+          2
+        ]
+      },
+      {
+        "id": "uie-w7-q6",
+        "question": "What makes a collaborative model beneficial for entrepreneurship?",
+        "options": [
+          "A. Provides access to resources",
+          "B. Offers networking opportunities",
+          "C. Creates a sense of community",
+          "D. All of the above"
+        ],
+        "answerIndex": 3,
+        "answerIndices": [
+          3
+        ]
+      },
+      {
+        "id": "uie-w7-q7",
+        "question": "What distinguishes the fractional ownership business model from other models?",
+        "options": [
+          "A. Shared ownership of physical assets",
+          "B. Focus on virtual assets and digital goods",
+          "C. Primary emphasis on intellectual property rights",
+          "D. Leasing equipment to businesses"
+        ],
+        "answerIndex": 0,
+        "answerIndices": [
+          0
+        ]
+      },
+      {
+        "id": "uie-w7-q8",
+        "question": "What key criteria should a business model meet to achieve optimal success?",
+        "options": [
+          "A. High Initial Investment, Extensive Workforce, and Expensive Marketing",
+          "B. Clear Value Proposition, Scalability, and Sustainable Revenue Streams",
+          "C. Low Costs, Rapid Expansion, and Minimal Effort",
+          "D. Single Revenue Source, Limited Target Market, and High Complexity"
+        ],
+        "answerIndex": 1,
+        "answerIndices": [
+          1
+        ]
+      },
+      {
+        "id": "uie-w7-q9",
+        "question": "Which key performance metrics help to monitor a business's success?",
+        "options": [
+          "A. Revenue growth, customer acquisition, and customer retention",
+          "B. Employee welfare, operational cost reduction, and inventory turnover",
+          "C. Brand recognition, social media reach, and product diversification",
+          "D. Customer retention, marketing spends, and aesthetic appeal"
+        ],
+        "answerIndex": 0,
+        "answerIndices": [
+          0
+        ]
+      },
+      {
+        "id": "uie-w7-q10",
+        "question": "Why is the Lean Canvas a valuable tool for startups?",
+        "options": [
+          "A. Helps secure large investments from venture capitalists",
+          "B. Develops a detailed five-year financial plan",
+          "C. Allows startups to test and iterate on their business model assumptions quickly",
+          "D. Designs a complex organizational structure for future growth"
+        ],
+        "answerIndex": 2,
+        "answerIndices": [
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "week": 9,
+    "topic": "Assignment 9",
+    "questions": [
+      {
+        "id": "uie-w9-q1",
+        "question": "What barriers must a designer or entrepreneur overcome to turn an idea into action?",
+        "options": [
+          "A. Lack of confidence in their skills",
+          "B. Fear of negative feedback",
+          "C. Difficulty in securing funding",
+          "D. All of the above"
+        ],
+        "answerIndex": 3,
+        "answerIndices": [
+          3
+        ]
+      },
+      {
+        "id": "uie-w9-q2",
+        "question": "What is the most important relationship for a startup to manage?",
+        "options": [
+          "A. Funding sources",
+          "B. Target customers",
+          "C. Technological infrastructure",
+          "D. Market needs"
+        ],
+        "answerIndex": 1,
+        "answerIndices": [
+          1
+        ]
+      },
+      {
+        "id": "uie-w9-q3",
+        "question": "What types of funding are typically sought by early-stage entrepreneurs or startups?",
+        "options": [
+          "A. Government grants",
+          "B. Seed funding and crowdfunding",
+          "C. Long-term loans with high interest rates",
+          "D. Equity funds"
+        ],
+        "answerIndex": 0,
+        "answerIndices": [
+          0,
+          1
+        ]
+      },
+      {
+        "id": "uie-w9-q4",
+        "question": "What are some reasons why certain regions may lag in techno-entrepreneurial ventures?",
+        "options": [
+          "A. Education is focused solely on securing jobs",
+          "B. Abundance of natural resources reduces the need for innovation",
+          "C. Government policies discourage entrepreneurship",
+          "D. All of the above"
+        ],
+        "answerIndex": 3,
+        "answerIndices": [
+          3
+        ]
+      },
+      {
+        "id": "uie-w9-q5",
+        "question": "What is the purpose of the incubation stage in the entrepreneurial journey?",
+        "options": [
+          "A. Developing a business plan and securing resources",
+          "B. Taking a product idea to commercialization",
+          "C. Conducting advanced research and development",
+          "D. Scaling the business for global markets"
+        ],
+        "answerIndex": 0,
+        "answerIndices": [
+          0
+        ]
+      },
+      {
+        "id": "uie-w9-q6",
+        "question": "How does the role of an entrepreneur differ from that of an innovator?",
+        "options": [
+          "A. Entrepreneurs focus on maximizing profits, while innovators solve problems without business goals",
+          "B. Entrepreneurs see problems as business opportunities, while innovators focus solely on solving problems",
+          "C. Entrepreneurs work alone, while innovators always work in teams",
+          "D. Entrepreneurs need formal education, while innovators rely on creativity"
+        ],
+        "answerIndex": 1,
+        "answerIndices": [
+          1
+        ]
+      },
+      {
+        "id": "uie-w9-q7",
+        "question": "What is the purpose of clinical immersion in the healthcare sector for entrepreneurs?",
+        "options": [
+          "A. To provide administrative training and management skills",
+          "B. To identify unmet needs and gather insights for innovation",
+          "C. To develop marketing strategies for healthcare products",
+          "D. To focus on financial analysis and budget planning"
+        ],
+        "answerIndex": 1,
+        "answerIndices": [
+          1
+        ]
+      },
+      {
+        "id": "uie-w9-q8",
+        "question": "What key factor ensures better execution of an entrepreneurial idea?",
+        "options": [
+          "A. Clear definition of customer needs and market gaps",
+          "B. Strong advertising strategy and brand presence",
+          "C. Advanced office infrastructure and equipment",
+          "D. Rigid adherence to the initial business plan"
+        ],
+        "answerIndex": 0,
+        "answerIndices": [
+          0
+        ]
+      },
+      {
+        "id": "uie-w9-q9",
+        "question": "What is the process of transferring an idea to industry through intellectual property or technology transfer called?",
+        "options": [
+          "A. Entrepreneurship",
+          "B. Commercialization",
+          "C. Enterprise development",
+          "D. Incubation"
+        ],
+        "answerIndex": 1,
+        "answerIndices": [
+          1
+        ]
+      },
+      {
+        "id": "uie-w9-q10",
+        "question": "Which stage of the entrepreneurial journey focuses on the initial creation and development of a startup idea?",
+        "options": [
+          "A. Idea Generation Stage",
+          "B. Research Stage",
+          "C. Incubation Stage",
+          "D. Scaling Stage"
+        ],
+        "answerIndex": 0,
+        "answerIndices": [
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "week": 10,
+    "topic": "Assignment 10",
+    "questions": [
+      {
+        "id": "uie-w10-q1",
+        "question": "What creative thinking technique involves individuals imagining themselves as part of the problem or situation they are trying to solve?",
+        "options": [
+          "A. Fantasy analogy",
+          "B. Personal analogy",
+          "C. Symbolic analogy",
+          "D. CAD analogy"
+        ],
+        "answerIndex": 1,
+        "answerIndices": [
+          1
+        ]
+      },
+      {
+        "id": "uie-w10-q2",
+        "question": "Which of the following is NOT a typical prototyping method?",
+        "options": [
+          "A. Additive methods",
+          "B. Subtractive methods",
+          "C. Forming methods",
+          "D. Lateral thinking"
+        ],
+        "answerIndex": 3,
+        "answerIndices": [
+          3
+        ]
+      },
+      {
+        "id": "uie-w10-q3",
+        "question": "What is the correct sequence during a product development process?",
+        "options": [
+          "A. Ideation → Concept Generation → Prototyping → Testing → Market Launch",
+          "B. Market Research → Concept Generation → Testing → Ideation → Prototyping",
+          "C. Concept Generation → Prototyping → Testing → Market Launch → Ideation",
+          "D. Ideation → Market Launch → Prototype → Testing → Concept Generation"
+        ],
+        "answerIndex": 0,
+        "answerIndices": [
+          0
+        ]
+      },
+      {
+        "id": "uie-w10-q4",
+        "question": "Which type of reasoning involves forming general conclusions from specific observations?",
+        "options": [
+          "A. Abductive reasoning",
+          "B. Deductive reasoning",
+          "C. Inductive reasoning",
+          "D. Analytical reasoning"
+        ],
+        "answerIndex": 2,
+        "answerIndices": [
+          2
+        ]
+      },
+      {
+        "id": "uie-w10-q5",
+        "question": "How does frugality in product innovation benefit organizations?",
+        "options": [
+          "A. By increasing production costs to maximize resources",
+          "B. By minimizing waste and reducing costs through efficient use of resources",
+          "C. By prioritizing aesthetics over functionality",
+          "D. By focusing solely on rapid scaling without cost considerations"
+        ],
+        "answerIndex": 1,
+        "answerIndices": [
+          1
+        ]
+      },
+      {
+        "id": "uie-w10-q6",
+        "question": "What is the primary purpose of a Proof of Concept (POC)?",
+        "options": [
+          "A. To validate the feasibility and viability of a new idea or concept",
+          "B. To generate the final product for market launch",
+          "C. To secure funding for large-scale production",
+          "D. To build prototypes for user feedback"
+        ],
+        "answerIndex": 0,
+        "answerIndices": [
+          0
+        ]
+      },
+      {
+        "id": "uie-w10-q7",
+        "question": "What does prototyping aim to achieve in the design process?",
+        "options": [
+          "A. Finalizing the design for immediate market release",
+          "B. Creating models to test and improve design, functionality, and usability",
+          "C. Building large-scale production units for market distribution",
+          "D. Avoiding iterative development to save time"
+        ],
+        "answerIndex": 1,
+        "answerIndices": [
+          1
+        ]
+      },
+      {
+        "id": "uie-w10-q8",
+        "question": "What is the primary goal of Synectics in the design process?",
+        "options": [
+          "A. Encouraging exploration and breaking conventional thinking",
+          "B. Generating a single, perfect solution to a problem",
+          "C. Reaching consensus among team members quickly",
+          "D. Applying detailed technical analysis to refine existing concepts"
+        ],
+        "answerIndex": 0,
+        "answerIndices": [
+          0
+        ]
+      },
+      {
+        "id": "uie-w10-q9",
+        "question": "How can entrepreneurs effectively collaborate with one another?",
+        "options": [
+          "A. By franchising their mutual businesses",
+          "B. By sharing resources and distributing production responsibilities",
+          "C. By competing in the same market segments",
+          "D. All of the above"
+        ],
+        "answerIndex": 1,
+        "answerIndices": [
+          1
+        ]
+      },
+      {
+        "id": "uie-w10-q10",
+        "question": "Why is it important for designers to create prototypes before deploying a product?",
+        "options": [
+          "A. To identify and resolve design flaws early in the process",
+          "B. To use prototypes as the final version for market release",
+          "C. To skip the need for market research and testing",
+          "D. To focus on aesthetics without user input"
+        ],
+        "answerIndex": 0,
+        "answerIndices": [
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "week": 11,
+    "topic": "Assignment 11",
+    "questions": [
+      {
+        "id": "uie-w11-q1",
+        "question": "What is the most effective approach for developing products that meet the needs of specially-abled people?",
+        "options": [
+          "A. User-centered design",
+          "B. Exclusivity in design",
+          "C. Profit maximization",
+          "D. Reducing production costs"
+        ],
+        "answerIndex": 0,
+        "answerIndices": [
+          0
+        ]
+      },
+      {
+        "id": "uie-w11-q2",
+        "question": "What are the two key aspects to focus on when developing a product using assistive technology?",
+        "options": [
+          "A. Promoting awareness about digital alternatives",
+          "B. Making users independent and fostering social integration",
+          "C. Redesigning existing products for the market",
+          "D. Creating exclusive and expensive solutions"
+        ],
+        "answerIndex": 1,
+        "answerIndices": [
+          1
+        ]
+      },
+      {
+        "id": "uie-w11-q3",
+        "question": "What are the critical factors for a product to succeed in the market?",
+        "options": [
+          "A. Being trendy and common",
+          "B. Being relevant and differentiated",
+          "C. Being cheap and generic",
+          "D. Being expensive and complex"
+        ],
+        "answerIndex": 1,
+        "answerIndices": [
+          1
+        ]
+      },
+      {
+        "id": "uie-w11-q4",
+        "question": "What should a startup offer to persuade investors or customers to invest in or purchase its product?",
+        "options": [
+          "A. An unrealistic guaranteed return on investment",
+          "B. A unique and differentiated service or product",
+          "C. A vague and unclear value proposition",
+          "D. A low-cost product with limited functionality"
+        ],
+        "answerIndex": 1,
+        "answerIndices": [
+          1
+        ]
+      },
+      {
+        "id": "uie-w11-q5",
+        "question": "Why is it advisable to avoid using cheap materials when developing a product, especially in a B2C context?",
+        "options": [
+          "A. Cheap materials reduce production time significantly",
+          "B. Using cheap materials increases return and servicing costs",
+          "C. Cheap materials ensure better brand reputation",
+          "D. Cheap materials improve the product's aesthetic appeal"
+        ],
+        "answerIndex": 1,
+        "answerIndices": [
+          1
+        ]
+      },
+      {
+        "id": "uie-w11-q6",
+        "question": "What potential risk factor could affect the viability of a startup's business model?",
+        "options": [
+          "A. Strong customer loyalty and retention",
+          "B. Reliance on a limited number of corporate clients",
+          "C. Rapidly decreasing operational costs",
+          "D. Established brand recognition"
+        ],
+        "answerIndex": 1,
+        "answerIndices": [
+          1
+        ]
+      },
+      {
+        "id": "uie-w11-q7",
+        "question": "How does human-to-human interaction benefit product design compare to AI-based solutions?",
+        "options": [
+          "A. AI processes designs faster and more efficiently",
+          "B. Human interaction fosters empathy and understanding of individual needs",
+          "C. AI consistently improves through machine learning",
+          "D. AI offers a broader range of design capabilities"
+        ],
+        "answerIndex": 1,
+        "answerIndices": [
+          1
+        ]
+      },
+      {
+        "id": "uie-w11-q8",
+        "question": "How can design contribute to the development of cognitive, motor, and analytical skills in children?",
+        "options": [
+          "A. By creating interactive games that encourage physical movement and coordination",
+          "B. By focusing solely on aesthetic appeal and trendy designs",
+          "C. By using advanced technology for entertainment purposes",
+          "D. By emphasizing cost-effectiveness over engagement"
+        ],
+        "answerIndex": 0,
+        "answerIndices": [
+          0
+        ]
+      },
+      {
+        "id": "uie-w11-q9",
+        "question": "What factors should be prioritized when developing a product using evidence-based learning methodologies?",
+        "options": [
+          "A. Understanding target customers and measuring the impact of the solution",
+          "B. Increasing brand recognition and analyzing market competition",
+          "C. Allocating advertising budgets and determining technical specifications",
+          "D. Designing packaging and setting product pricing"
+        ],
+        "answerIndex": 0,
+        "answerIndices": [
+          0
+        ]
+      },
+      {
+        "id": "uie-w11-q10",
+        "question": "Why is it essential for a product to align with customer needs and preferences during its design?",
+        "options": [
+          "A. To reduce the cost of production",
+          "B. To ensure long-term customer satisfaction and loyalty",
+          "C. To focus on marketing trends exclusively",
+          "D. To simplify the manufacturing process"
+        ],
+        "answerIndex": 1,
+        "answerIndices": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "week": 12,
+    "topic": "Assignment 12",
+    "questions": [
+      {
+        "id": "uie-w12-q1",
+        "question": "How does identifying problems early in the product design process help businesses?",
+        "options": [
+          "A. Leads to overemphasis on a single issue",
+          "B. Provides a well-defined direction for development",
+          "C. Assumes problems remain static throughout the process",
+          "D. Overlooks user insights during the design phase"
+        ],
+        "answerIndex": 1,
+        "answerIndices": [
+          1
+        ]
+      },
+      {
+        "id": "uie-w12-q2",
+        "question": "What are the benefits of designing modular and customizable products?",
+        "options": [
+          "A. Increased customer satisfaction and enhanced efficiency",
+          "B. Higher production costs and limited scalability",
+          "C. Reduced customer engagement and feedback opportunities",
+          "D. Simplified designs with minimal user options"
+        ],
+        "answerIndex": 0,
+        "answerIndices": [
+          0
+        ]
+      },
+      {
+        "id": "uie-w12-q3",
+        "question": "How does analyzing a \"Beachhead market\" help businesses during product launch?",
+        "options": [
+          "A. Spreads resources thinly across multiple segments",
+          "B. Identifies a focused customer segment for initial success",
+          "C. Skips customer research and prioritizes production",
+          "D. Avoids market segmentation entirely"
+        ],
+        "answerIndex": 1,
+        "answerIndices": [
+          1
+        ]
+      },
+      {
+        "id": "uie-w12-q4",
+        "question": "How can networking be utilized effectively to harness its full potential?",
+        "options": [
+          "A. Limiting interactions to close friends only",
+          "B. Promoting products through targeted connections",
+          "C. Avoiding industry events and conferences",
+          "D. Keeping networking efforts informal and unstructured"
+        ],
+        "answerIndex": 1,
+        "answerIndices": [
+          1
+        ]
+      },
+      {
+        "id": "uie-w12-q5",
+        "question": "What are the advantages of the \"Inverted Pyramid Model\" for product-centric businesses?",
+        "options": [
+          "A. Increased development costs due to complex designs",
+          "B. Improved customer focus by prioritizing their needs",
+          "C. Creation of complex product descriptions for a wider audience",
+          "D. Prioritizing concise messaging with a clear audience focus"
+        ],
+        "answerIndex": 3,
+        "answerIndices": [
+          3
+        ]
+      },
+      {
+        "id": "uie-w12-q6",
+        "question": "What is the most crucial step in the product design process to ensure a startup's success?",
+        "options": [
+          "A. Identifying the target customer segment",
+          "B. Ignoring user feedback during early stages",
+          "C. Skipping competitor analysis to save time",
+          "D. Overlooking market research to focus on production"
+        ],
+        "answerIndex": 0,
+        "answerIndices": [
+          0
+        ]
+      },
+      {
+        "id": "uie-w12-q7",
+        "question": "What is considered an ideal marketing strategy for startups?",
+        "options": [
+          "A. Expensive and extravagant campaigns",
+          "B. Short-term and aggressive advertising",
+          "C. Innovative and lean strategies",
+          "D. Random and unfocused marketing efforts"
+        ],
+        "answerIndex": 2,
+        "answerIndices": [
+          2
+        ]
+      },
+      {
+        "id": "uie-w12-q8",
+        "question": "What factors should be prioritized when designing a product for the market?",
+        "options": [
+          "A. Irrelevant personal opinions and preferences",
+          "B. Customer needs and preferences",
+          "C. Excessive technical details and low usability",
+          "D. Low-impact trends to reduce risks"
+        ],
+        "answerIndex": 1,
+        "answerIndices": [
+          1
+        ]
+      },
+      {
+        "id": "uie-w12-q9",
+        "question": "Why is it important to emphasize the product solution when presenting a business idea?",
+        "options": [
+          "A. To focus on irrelevant features for market differentiation",
+          "B. To overemphasize minor market segments",
+          "C. To provide clarity on how the product addresses a specific problem",
+          "D. To focus on overambitious goals for investor appeal"
+        ],
+        "answerIndex": 2,
+        "answerIndices": [
+          2
+        ]
+      },
+      {
+        "id": "uie-w12-q10",
+        "question": "What is an essential factor to focus on when pitching a business idea to investors?",
+        "options": [
+          "A. Presenting a vague and unclear concept",
+          "B. Avoiding discussions about market potential",
+          "C. Clearly articulating the value proposition and market fit",
+          "D. Presenting weak financial projections to lower expectations"
+        ],
+        "answerIndex": 2,
+        "answerIndices": [
+          2
+        ]
+      }
+    ]
+  }
+];
+
+
+function parseUIEText(raw) {
+  if (!raw || typeof raw !== "string") return null;
+  const lines = raw.split(/\r?\n/);
+  const weeks = [];
+  let currentWeek = null;
+  let currentQ = null;
+  let inOptions = false;
+  let inAnswer = false;
+
+  function finishQ() {
+    if (currentQ && currentWeek) {
+      if (!currentQ.options) currentQ.options = [];
+      if (currentQ.answerIndices.length === 0) {
+        for (let i = 0; i < currentQ.options.length; i++) {
+          const optClean = currentQ.options[i].replace(/^[A-D][\.\)]\s*/, "").replace(/\s+/g, " ").trim().toLowerCase();
+          for (const rawAns of currentQ.rawAnswerTexts) {
+            const cleanAns = rawAns.replace(/\s*\*\([^)]*\)\*/g, "").replace(/\s+/g, " ").trim().toLowerCase();
+            if (cleanAns.includes(optClean) || optClean.includes(cleanAns) || (cleanAns.length < 5 && cleanAns.includes(currentQ.options[i][0].toLowerCase()))) {
+              if (!currentQ.answerIndices.includes(i)) currentQ.answerIndices.push(i);
+            }
+          }
+        }
+      }
+      if (currentQ.answerIndices.length === 0) {
+        currentQ.answerIndices = [0];
+      }
+      currentQ.answerIndex = currentQ.answerIndices[0];
+      currentWeek.questions.push({
+        id: `uie-w${currentWeek.week}-q${currentQ.qNum}`,
+        question: currentQ.question.trim(),
+        options: currentQ.options,
+        answerIndex: currentQ.answerIndex,
+        answerIndices: currentQ.answerIndices
+      });
+      currentQ = null;
+    }
+  }
+
+  function finishWeek() {
+    finishQ();
+    if (currentWeek) {
+      weeks.push(currentWeek);
+      currentWeek = null;
+    }
+  }
+
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i].trim();
+    if (!line) continue;
+
+    const weekMatch = line.match(/(?:^|#+\s*|\*+\s*)Week\s+(\d+)/i);
+    if (weekMatch && (line.toLowerCase().includes("week") || line.toLowerCase().includes("assignment"))) {
+      const wNum = parseInt(weekMatch[1], 10);
+      if (!currentWeek || currentWeek.week !== wNum) {
+        finishWeek();
+        currentWeek = {
+          week: wNum,
+          topic: wNum === 0 ? "Assignment 0" : `Assignment ${wNum}`,
+          questions: []
+        };
+        continue;
+      }
+    }
+
+    const qMatch = line.match(/^(?:###\s*\*{0,2}|\*{0,2})?(\d+)\.\s*\*{0,2}(.+)$/);
+    if (qMatch && currentWeek) {
+      finishQ();
+      let qText = qMatch[2].replace(/\*{2,}/g, "").replace(/-{3,}/g, "").trim();
+      currentQ = {
+        qNum: parseInt(qMatch[1], 10),
+        question: qText,
+        options: [],
+        rawAnswerTexts: [],
+        answerIndices: []
+      };
+      inOptions = true;
+      inAnswer = false;
+      continue;
+    }
+
+    const optMatch = line.match(/^(?:\*\s*)?(?:\*\*)?([A-E])[\)\.]\*{0,2}\s*(.+)$/i);
+    if (optMatch && currentQ && !inAnswer) {
+      const letter = optMatch[1].toUpperCase();
+      const optText = optMatch[2].replace(/\*{2,}/g, "").trim();
+      currentQ.options.push(`${letter}. ${optText}`);
+      continue;
+    }
+
+    if (line.match(/(?:\*{0,2}Correct Answer:\*{0,2})/i)) {
+      inAnswer = true;
+      inOptions = false;
+      const ansPart = line.replace(/.*Correct Answer:\*{0,2}\s*/i, "").trim();
+      if (ansPart) {
+        currentQ.rawAnswerTexts.push(ansPart);
+      }
+      continue;
+    }
+
+    if (inAnswer && currentQ) {
+      if (line.startsWith("---") || line.startsWith("##")) {
+        inAnswer = false;
+        continue;
+      }
+      const bulletAns = line.replace(/^[\*\-]\s*/, "").replace(/\*{2,}/g, "").replace(/\s*\*?\([^\)]*Multiple Select[^\)]*\)\*?/i, "").trim();
+      if (bulletAns) {
+        currentQ.rawAnswerTexts.push(bulletAns);
+      }
+    }
+  }
+
+  finishWeek();
+  return weeks.length > 0 ? weeks : null;
+}
+
+
+const COURSES = {
+  wildlife: {
+    id: "wildlife",
+    name: "Wildlife & Sustainable Development",
+    shortName: "Wildlife",
+    fullName: "NPTEL: Wildlife & Sustainable Development",
+    subtitle: "Week-wise MCQ Study + Test Portal (Economic Wildlife & ESD)",
+    badge: "13 Weeks",
+    questions: wildlifeQuestionBank
+  },
+  uie: {
+    id: "uie",
+    name: "Understanding Incubation & Entrepreneurship",
+    shortName: "Incubation & Entrepreneurship",
+    fullName: "NPTEL: Understanding Incubation and Entrepreneurship",
+    subtitle: "Week-wise MCQ Study + Test Portal (UIE Assignments)",
+    badge: "6 Weeks",
+    questions: uieQuestionBank
+  }
+};
+
+let currentCourseId = localStorage.getItem("nptel-current-course") || "uie";
+if (!COURSES[currentCourseId]) currentCourseId = "uie";
+let questionBank = COURSES[currentCourseId].questions;
+
+
 let selectedWeek = 0;
 let currentMode = "study";
 let userAnswers = {};
@@ -1051,6 +2956,13 @@ let testDeadline = null;
 let timerUiIntervalId = null;
 let timerExpired = false;
 let testFlow = "step";
+let welcomePendingCourse = currentCourseId;
+
+const courseTitleEl = document.getElementById("courseTitle");
+const courseSubtitleEl = document.getElementById("courseSubtitle");
+const switchCourseBtn = document.getElementById("switchCourseBtn");
+const courseSelectModal = document.getElementById("courseSelectModal");
+const closeCourseModalBtn = document.getElementById("closeCourseModalBtn");
 
 const weekListEl = document.getElementById("weekList");
 const contentHeaderEl = document.getElementById("contentHeader");
@@ -1082,8 +2994,60 @@ const weekPickerModal = document.getElementById("weekPickerModal");
 const weekPickerList = document.getElementById("weekPickerList");
 const closeWeekPickerBtn = document.getElementById("closeWeekPickerBtn");
 
+function setCourse(courseId, persist = true) {
+  if (!COURSES[courseId]) return;
+  currentCourseId = courseId;
+  welcomePendingCourse = courseId;
+  if (persist) {
+    try {
+      localStorage.setItem("nptel-current-course", courseId);
+    } catch (e) {}
+  }
+  questionBank = COURSES[courseId].questions;
+  const sorted = getSortedWeeks();
+  selectedWeek = sorted.includes(selectedWeek) ? selectedWeek : (sorted[0] ?? 0);
+  userAnswers = {};
+  flaggedQuestions = new Set();
+  testStarted = false;
+  activeQuestionIndex = 0;
+  testQuestionPool = [];
+  if (resultBoxEl) resultBoxEl.classList.add("hidden");
+  if (testProgressEl) testProgressEl.classList.add("hidden");
+  updateCourseUI();
+  populateTestWeekOptions();
+  renderAll();
+}
+
+function updateCourseUI() {
+  const course = COURSES[currentCourseId];
+  if (!course) return;
+  if (courseTitleEl) courseTitleEl.textContent = course.fullName;
+  if (courseSubtitleEl) courseSubtitleEl.textContent = course.subtitle;
+  if (switchCourseBtn) switchCourseBtn.textContent = `Course: ${course.shortName} ▾`;
+  document.title = `${course.fullName} - Quiz Portal`;
+
+  // Update card active highlights
+  document.querySelectorAll(".course-card-btn").forEach((card) => {
+    card.classList.toggle("active", card.dataset.course === currentCourseId);
+  });
+}
+
+function openCourseSelectModal() {
+  updateCourseUI();
+  if (courseSelectModal) courseSelectModal.classList.remove("hidden");
+}
+
+function closeCourseSelectModal() {
+  if (courseSelectModal) courseSelectModal.classList.add("hidden");
+}
+
 function getCurrentWeekData() {
-  return questionBank.find((w) => w.week === selectedWeek);
+  let weekData = questionBank.find((w) => w.week === selectedWeek);
+  if (!weekData && questionBank.length > 0) {
+    selectedWeek = questionBank[0].week;
+    weekData = questionBank[0];
+  }
+  return weekData || { week: 0, topic: "Assignment", questions: [] };
 }
 
 function renderWeekList() {
@@ -1113,7 +3077,8 @@ function renderWeekList() {
 
 function renderHeader() {
   const weekData = getCurrentWeekData();
-  contentHeaderEl.textContent = `Selected: Week ${weekData.week} | ${weekData.topic} | ${weekData.questions.length} MCQs`;
+  const course = COURSES[currentCourseId] || {};
+  contentHeaderEl.textContent = `${course.shortName || "Course"} | Selected: Week ${weekData.week} | ${weekData.topic} | ${weekData.questions.length} MCQs`;
 }
 
 function getSortedWeeks() {
@@ -1148,8 +3113,46 @@ function updateSetupInputs() {
   testWeekSelect.disabled = isAll;
 
   const mode = timerModeSelect.value;
-  timerPresetSelect.classList.toggle("hidden", mode !== "preset");
-  timerCustomInput.classList.toggle("hidden", mode !== "custom");
+  if (mode === "preset") {
+    timerPresetSelect.classList.remove("hidden");
+    timerCustomInput.classList.add("hidden");
+  } else if (mode === "custom") {
+    timerPresetSelect.classList.add("hidden");
+    timerCustomInput.classList.remove("hidden");
+  } else {
+    timerPresetSelect.classList.add("hidden");
+    timerCustomInput.classList.add("hidden");
+  }
+}
+
+function setMode(mode) {
+  currentMode = mode;
+  studyModeBtn.classList.toggle("active", mode === "study");
+  testModeBtn.classList.toggle("active", mode === "test");
+  studySectionEl.classList.toggle("hidden", mode !== "study");
+  testSectionEl.classList.toggle("hidden", mode !== "test");
+  document.body.classList.toggle("app-mode-study", mode === "study");
+  document.body.classList.toggle("app-mode-test", mode === "test");
+  updatePracticeChrome();
+  renderAll();
+}
+
+function applyTheme(theme) {
+  const isLight = theme === "light";
+  document.body.classList.toggle("light-theme", isLight);
+  themeToggleBtn.textContent = isLight ? "Dark Theme" : "Light Theme";
+  try {
+    localStorage.setItem("quiz-theme", isLight ? "light" : "dark");
+  } catch (e) {}
+}
+
+function shuffle(array) {
+  const copy = [...array];
+  for (let i = copy.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [copy[i], copy[j]] = [copy[j], copy[i]];
+  }
+  return copy;
 }
 
 function clearTestTimer() {
@@ -1157,15 +3160,13 @@ function clearTestTimer() {
     clearInterval(timerUiIntervalId);
     timerUiIntervalId = null;
   }
-  testDeadline = null;
-  timerDurationMs = 0;
 }
 
 function formatMs(ms) {
-  const totalSeconds = Math.max(0, Math.floor(ms / 1000));
-  const minutes = Math.floor(totalSeconds / 60);
-  const seconds = totalSeconds % 60;
-  return `${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`;
+  const totalSec = Math.max(0, Math.floor(ms / 1000));
+  const min = Math.floor(totalSec / 60);
+  const sec = totalSec % 60;
+  return `${min}:${String(sec).padStart(2, "0")}`;
 }
 
 function getSelectedTimerMs() {
@@ -1217,20 +3218,25 @@ function renderStudyMode() {
   const weekData = getCurrentWeekData();
   const questionsHtml = weekData.questions
     .map((q, i) => {
+      const isMulti = Array.isArray(q.answerIndices) && q.answerIndices.length > 1;
       const options = q.options
-        .map(
-          (opt, oi) => `
-            <div class="option ${oi === q.answerIndex ? "correct" : ""}">
-              <span>${opt}</span>
-              ${oi === q.answerIndex ? '<span class="badge correct">Correct</span>' : ""}
+        .map((opt, oi) => {
+          const isCorrect = q.answerIndices ? q.answerIndices.includes(oi) : oi === q.answerIndex;
+          return `
+            <div class="option ${isCorrect ? "correct" : ""}">
+              <span>${escapeHtml(opt)}</span>
+              ${isCorrect ? '<span class="badge correct">Correct</span>' : ""}
             </div>
-          `
-        )
+          `;
+        })
         .join("");
 
       return `
         <article class="question-card">
-          <p class="question-title">${i + 1}. ${q.question}</p>
+          <p class="question-title">
+            ${i + 1}. ${escapeHtml(q.question)}
+            ${isMulti ? '<span class="multi-badge">Multiple Select</span>' : ""}
+          </p>
           <div class="options">${options}</div>
         </article>
       `;
@@ -1318,35 +3324,23 @@ function renderTestMode() {
     testQuestionsEl.innerHTML = `<p>Click <strong>Configure & Start Test</strong> to begin.</p>`;
     resetTestBtn.classList.add("hidden");
     testProgressEl.classList.add("hidden");
-    startTestBtn.classList.remove("hidden");
-    clearTestTimer();
-    updateTestingLayout();
     return;
   }
 
   resetTestBtn.classList.remove("hidden");
   testProgressEl.classList.remove("hidden");
-  startTestBtn.classList.add("hidden");
-  updateTestingLayout();
 
-  if (activeQuestionIndex >= testQuestionPool.length) {
-    submitTest();
+  if (testQuestionPool.length === 0) {
+    testQuestionsEl.innerHTML = `<p>No questions found.</p>`;
     return;
   }
 
   if (testFlow === "quick") {
-    const answeredCount = testQuestionPool.filter((item) => typeof userAnswers[item.id] === "number").length;
-    const remainingCount = testQuestionPool.length - answeredCount;
-    const progressBase = `Quick Test: ${answeredCount}/${testQuestionPool.length} answered`;
-    let progressText = progressBase;
-    if (timerDurationMs > 0 && testDeadline) {
-      const remaining = testDeadline - Date.now();
-      progressText = `${progressBase} | Time left: ${formatMs(remaining)}`;
-    }
-    testProgressEl.textContent = progressText;
+    testProgressEl.textContent = `Quick Test: All ${testQuestionPool.length} Questions`;
 
     const topControls = document.createElement("div");
     topControls.className = "question-nav";
+    topControls.style.marginBottom = "14px";
 
     const submitBtn = document.createElement("button");
     submitBtn.className = "primary-btn";
@@ -1357,12 +3351,13 @@ function renderTestMode() {
     testQuestionsEl.appendChild(topControls);
 
     testQuestionPool.forEach((q, qi) => {
+      const isMulti = Array.isArray(q.answerIndices) && q.answerIndices.length > 1;
       const card = document.createElement("article");
       card.className = "question-card";
 
       const title = document.createElement("p");
       title.className = "question-title";
-      title.textContent = `${qi + 1}. ${q.question}`;
+      title.innerHTML = `${qi + 1}. ${escapeHtml(q.question)} ${isMulti ? '<span class="multi-badge">Multiple Select</span>' : ""}`;
       card.appendChild(title);
 
       const optionsWrap = document.createElement("div");
@@ -1373,14 +3368,30 @@ function renderTestMode() {
         label.className = "option";
 
         const input = document.createElement("input");
-        input.type = "radio";
-        input.name = q.id;
-        input.value = String(oi);
-        input.checked = userAnswers[q.id] === oi;
-        input.addEventListener("change", () => {
-          userAnswers[q.id] = oi;
-          renderTestMode();
-        });
+        if (isMulti) {
+          input.type = "checkbox";
+          const currentArr = Array.isArray(userAnswers[q.id]) ? userAnswers[q.id] : [];
+          input.checked = currentArr.includes(oi);
+          input.addEventListener("change", () => {
+            const arr = Array.isArray(userAnswers[q.id]) ? [...userAnswers[q.id]] : [];
+            if (input.checked) {
+              if (!arr.includes(oi)) arr.push(oi);
+            } else {
+              const idx = arr.indexOf(oi);
+              if (idx > -1) arr.splice(idx, 1);
+            }
+            userAnswers[q.id] = arr;
+          });
+        } else {
+          input.type = "radio";
+          input.name = q.id;
+          input.value = String(oi);
+          input.checked = userAnswers[q.id] === oi;
+          input.addEventListener("change", () => {
+            userAnswers[q.id] = oi;
+            renderTestMode();
+          });
+        }
 
         const text = document.createElement("span");
         text.textContent = opt;
@@ -1404,7 +3415,11 @@ function renderTestMode() {
     return;
   }
 
-  const answeredCount = testQuestionPool.filter((item) => typeof userAnswers[item.id] === "number").length;
+  // Step-by-step test flow
+  const answeredCount = testQuestionPool.filter((item) => {
+    const val = userAnswers[item.id];
+    return typeof val === "number" || (Array.isArray(val) && val.length > 0);
+  }).length;
   const remainingCount = testQuestionPool.length - answeredCount;
   const progressBase = `Question ${activeQuestionIndex + 1} of ${testQuestionPool.length}`;
   let progressText = progressBase;
@@ -1415,6 +3430,7 @@ function renderTestMode() {
   testProgressEl.textContent = progressText;
 
   const q = testQuestionPool[activeQuestionIndex];
+  const isMulti = Array.isArray(q.answerIndices) && q.answerIndices.length > 1;
   const card = document.createElement("article");
   card.className = "question-card";
 
@@ -1429,44 +3445,64 @@ function renderTestMode() {
 
   const title = document.createElement("p");
   title.className = "question-title";
-  title.textContent = `${activeQuestionIndex + 1}. ${q.question}`;
+  title.innerHTML = `${activeQuestionIndex + 1}. ${escapeHtml(q.question)} ${isMulti ? '<span class="multi-badge">Multiple Select</span>' : ""}`;
   card.appendChild(title);
 
   const optionsWrap = document.createElement("div");
   optionsWrap.className = "options";
+
+  const nextBtn = document.createElement("button");
+  nextBtn.className = "primary-btn";
+  nextBtn.textContent = activeQuestionIndex === testQuestionPool.length - 1 ? "Finish Test" : "Next Question";
+  
+  const hasUserAnswer = typeof userAnswers[q.id] === "number" || (Array.isArray(userAnswers[q.id]) && userAnswers[q.id].length > 0);
+  nextBtn.disabled = !hasUserAnswer;
 
   q.options.forEach((opt, oi) => {
     const label = document.createElement("label");
     label.className = "option";
 
     const input = document.createElement("input");
-    input.type = "radio";
-    input.name = q.id;
-    input.value = String(oi);
-    input.checked = userAnswers[q.id] === oi;
-    input.addEventListener("change", () => {
-      userAnswers[q.id] = oi;
-      nextBtn.disabled = false;
-    });
+    if (isMulti) {
+      input.type = "checkbox";
+      const currentArr = Array.isArray(userAnswers[q.id]) ? userAnswers[q.id] : [];
+      input.checked = currentArr.includes(oi);
+      input.addEventListener("change", () => {
+        const arr = Array.isArray(userAnswers[q.id]) ? [...userAnswers[q.id]] : [];
+        if (input.checked) {
+          if (!arr.includes(oi)) arr.push(oi);
+        } else {
+          const idx = arr.indexOf(oi);
+          if (idx > -1) arr.splice(idx, 1);
+        }
+        userAnswers[q.id] = arr;
+        nextBtn.disabled = arr.length === 0;
+      });
+    } else {
+      input.type = "radio";
+      input.name = q.id;
+      input.value = String(oi);
+      input.checked = userAnswers[q.id] === oi;
+      input.addEventListener("change", () => {
+        userAnswers[q.id] = oi;
+        nextBtn.disabled = false;
+      });
+    }
 
     const text = document.createElement("span");
     text.textContent = opt;
-
     label.appendChild(input);
     label.appendChild(text);
     optionsWrap.appendChild(label);
   });
 
-  const nextBtn = document.createElement("button");
-  nextBtn.className = "primary-btn";
-  nextBtn.textContent = activeQuestionIndex === testQuestionPool.length - 1 ? "Finish Test" : "Next Question";
-  nextBtn.disabled = typeof userAnswers[q.id] !== "number";
   nextBtn.addEventListener("click", () => {
-    if (typeof userAnswers[q.id] !== "number") {
-      return;
+    if (activeQuestionIndex < testQuestionPool.length - 1) {
+      activeQuestionIndex += 1;
+      renderTestMode();
+    } else {
+      submitTest();
     }
-    activeQuestionIndex += 1;
-    renderTestMode();
   });
 
   const prevBtn = document.createElement("button");
@@ -1482,15 +3518,19 @@ function renderTestMode() {
 
   const skipBtn = document.createElement("button");
   skipBtn.className = "ghost-btn";
-  skipBtn.textContent = activeQuestionIndex === testQuestionPool.length - 1 ? "Finish Now" : "Skip";
+  skipBtn.textContent = "Skip";
+  skipBtn.disabled = activeQuestionIndex === testQuestionPool.length - 1;
   skipBtn.addEventListener("click", () => {
-    activeQuestionIndex += 1;
-    renderTestMode();
+    if (activeQuestionIndex < testQuestionPool.length - 1) {
+      activeQuestionIndex += 1;
+      renderTestMode();
+    }
   });
 
   const flagBtn = document.createElement("button");
   flagBtn.className = "ghost-btn";
-  flagBtn.textContent = flaggedQuestions.has(q.id) ? "Unflag" : "Flag for Review";
+  const isFlagged = flaggedQuestions.has(q.id);
+  flagBtn.textContent = isFlagged ? "Unflag" : "Flag for Review";
   flagBtn.addEventListener("click", () => {
     if (flaggedQuestions.has(q.id)) {
       flaggedQuestions.delete(q.id);
@@ -1505,26 +3545,20 @@ function renderTestMode() {
   nextFlagBtn.textContent = "Next flagged";
   const strictNext = (() => {
     for (let i = activeQuestionIndex + 1; i < testQuestionPool.length; i += 1) {
-      if (flaggedQuestions.has(testQuestionPool[i].id)) {
-        return i;
-      }
+      if (flaggedQuestions.has(testQuestionPool[i].id)) return i;
     }
     return -1;
   })();
   const firstFlagged = (() => {
     for (let i = 0; i < testQuestionPool.length; i += 1) {
-      if (flaggedQuestions.has(testQuestionPool[i].id)) {
-        return i;
-      }
+      if (flaggedQuestions.has(testQuestionPool[i].id)) return i;
     }
     return -1;
   })();
   const nextFlagTarget = strictNext !== -1 ? strictNext : firstFlagged;
   nextFlagBtn.disabled = flaggedQuestions.size === 0 || nextFlagTarget === -1 || nextFlagTarget === activeQuestionIndex;
   nextFlagBtn.addEventListener("click", () => {
-    if (nextFlagBtn.disabled) {
-      return;
-    }
+    if (nextFlagBtn.disabled) return;
     activeQuestionIndex = nextFlagTarget;
     renderTestMode();
   });
@@ -1573,13 +3607,28 @@ function escapeHtml(text) {
 
 function buildQuestionReviewCard(q, displayIndex, anchorId) {
   const user = userAnswers[q.id];
-  const userPicked = typeof user === "number";
-  const isCorrect = userPicked && user === q.answerIndex;
+  const isMulti = Array.isArray(q.answerIndices) && q.answerIndices.length > 1;
+  
+  let isCorrect = false;
+  let userPicked = false;
+
+  if (isMulti) {
+    const userArr = Array.isArray(user) ? [...user].sort() : [];
+    userPicked = userArr.length > 0;
+    const correctArr = [...q.answerIndices].sort();
+    isCorrect = userPicked && userArr.length === correctArr.length && userArr.every((v, idx) => v === correctArr[idx]);
+  } else {
+    userPicked = typeof user === "number";
+    isCorrect = userPicked && user === q.answerIndex;
+  }
 
   const optionsHtml = q.options
     .map((opt, oi) => {
-      const isAnswer = oi === q.answerIndex;
-      const isUser = userPicked && oi === user;
+      const isAnswer = isMulti ? q.answerIndices.includes(oi) : oi === q.answerIndex;
+      const isUser = isMulti
+        ? (Array.isArray(user) && user.includes(oi))
+        : (userPicked && oi === user);
+
       const classes = ["option"];
       if (isAnswer) {
         classes.push("correct");
@@ -1620,7 +3669,10 @@ function buildQuestionReviewCard(q, displayIndex, anchorId) {
   const anchorAttr = anchorId ? ` id="${anchorId}"` : "";
   return `
     <article class="question-card"${anchorAttr}>
-      <p class="question-title">Q${displayIndex}. ${escapeHtml(q.question)}</p>
+      <p class="question-title">
+        Q${displayIndex}. ${escapeHtml(q.question)}
+        ${isMulti ? '<span class="multi-badge">Multiple Select</span>' : ""}
+      </p>
       ${weekTag}
       ${statusLine}
       <div class="options">${optionsHtml}</div>
@@ -1640,14 +3692,35 @@ function submitTest() {
 
   testQuestionPool.forEach((q, i) => {
     const user = userAnswers[q.id];
-    if (user === q.answerIndex) {
+    const isMulti = Array.isArray(q.answerIndices) && q.answerIndices.length > 1;
+    let isQCorrect = false;
+
+    if (isMulti) {
+      const userArr = Array.isArray(user) ? [...user].sort() : [];
+      const correctArr = [...q.answerIndices].sort();
+      isQCorrect = userArr.length === correctArr.length && userArr.every((v, idx) => v === correctArr[idx]);
+    } else {
+      isQCorrect = user === q.answerIndex;
+    }
+
+    if (isQCorrect) {
       correct += 1;
     } else {
+      let userAnsText = "Not answered";
+      if (isMulti && Array.isArray(user) && user.length > 0) {
+        userAnsText = user.map(idx => q.options[idx]).join(", ");
+      } else if (typeof user === "number") {
+        userAnsText = q.options[user];
+      }
+      const correctAnsText = isMulti
+        ? q.answerIndices.map(idx => q.options[idx]).join(", ")
+        : q.options[q.answerIndex];
+
       wrongBreakdown.push({
         no: i + 1,
         question: q.question,
-        userAnswer: typeof user === "number" ? q.options[user] : "Not answered",
-        correctAnswer: q.options[q.answerIndex]
+        userAnswer: userAnsText,
+        correctAnswer: correctAnsText
       });
     }
   });
@@ -1658,7 +3731,17 @@ function submitTest() {
   const correctOnes = [];
   testQuestionPool.forEach((q, i) => {
     const user = userAnswers[q.id];
-    if (typeof user !== "number" || user !== q.answerIndex) {
+    const isMulti = Array.isArray(q.answerIndices) && q.answerIndices.length > 1;
+    let isQCorrect = false;
+    if (isMulti) {
+      const userArr = Array.isArray(user) ? [...user].sort() : [];
+      const correctArr = [...q.answerIndices].sort();
+      isQCorrect = userArr.length === correctArr.length && userArr.every((v, idx) => v === correctArr[idx]);
+    } else {
+      isQCorrect = user === q.answerIndex;
+    }
+
+    if (!isQCorrect) {
       wrongOrUnanswered.push({ q, i });
     } else {
       correctOnes.push({ q, i });
@@ -1748,105 +3831,69 @@ function submitTest() {
       testQuestionPool = [];
       resultBoxEl.classList.add("hidden");
       updateTestingLayout();
-      setMode("study");
+      openTestSetupModal();
     });
   }
 
   if (nextWeekBtn && nextWeek !== null) {
     nextWeekBtn.addEventListener("click", () => {
       selectedWeek = nextWeek;
-      userAnswers = {};
-      flaggedQuestions = new Set();
-      activeQuestionIndex = 0;
       testStarted = false;
       testQuestionPool = [];
-      closeTestSetupModal();
       resultBoxEl.classList.add("hidden");
-      setMode("test");
+      updateTestingLayout();
+      renderAll();
       openTestSetupModal();
     });
   }
 
-  document.querySelectorAll(".scroll-flag").forEach((btn) => {
+  const jumpFirstFlaggedBtn = document.getElementById("jumpFirstFlaggedBtn");
+  if (jumpFirstFlaggedBtn && flaggedItems.length > 0) {
+    jumpFirstFlaggedBtn.addEventListener("click", () => {
+      const target = document.getElementById(`review-${flaggedItems[0].idx}`);
+      if (target) {
+        target.scrollIntoView({ behavior: "smooth", block: "center" });
+      }
+    });
+  }
+
+  resultBoxEl.querySelectorAll(".scroll-flag").forEach((btn) => {
     btn.addEventListener("click", () => {
-      const idx = Number(btn.getAttribute("data-review-index"));
-      const el = document.getElementById(`review-${idx}`);
-      if (el) {
-        el.scrollIntoView({ behavior: "smooth", block: "start" });
+      const idx = btn.getAttribute("data-review-index");
+      const target = document.getElementById(`review-${idx}`);
+      if (target) {
+        target.scrollIntoView({ behavior: "smooth", block: "center" });
       }
     });
   });
-
-  const jumpFirst = document.getElementById("jumpFirstFlaggedBtn");
-  if (jumpFirst && flaggedItems.length > 0) {
-    jumpFirst.addEventListener("click", () => {
-      const firstIdx = flaggedItems[0].idx;
-      const el = document.getElementById(`review-${firstIdx}`);
-      if (el) {
-        el.scrollIntoView({ behavior: "smooth", block: "start" });
-      }
-    });
-  }
-}
-
-function getAllQuestions() {
-  return questionBank.flatMap((weekData) =>
-    weekData.questions.map((q, idx) => ({
-      ...q,
-      id: `${q.id}-all-${idx}`,
-      sourceWeek: weekData.week
-    }))
-  );
-}
-
-function shuffleArray(items) {
-  const arr = [...items];
-  for (let i = arr.length - 1; i > 0; i -= 1) {
-    const j = Math.floor(Math.random() * (i + 1));
-    const temp = arr[i];
-    arr[i] = arr[j];
-    arr[j] = temp;
-  }
-  return arr;
-}
-
-function setMode(mode) {
-  currentMode = mode;
-  document.body.classList.remove("app-mode-study", "app-mode-test");
-  document.body.classList.add(mode === "study" ? "app-mode-study" : "app-mode-test");
-  studyModeBtn.classList.toggle("active", mode === "study");
-  testModeBtn.classList.toggle("active", mode === "test");
-  studySectionEl.classList.toggle("hidden", mode !== "study");
-  testSectionEl.classList.toggle("hidden", mode !== "test");
-  updatePracticeChrome();
-  renderAll();
-}
-
-function applyTheme(theme) {
-  const isLight = theme === "light";
-  document.body.classList.toggle("light-theme", isLight);
-  themeToggleBtn.textContent = isLight ? "Dark Theme" : "Light Theme";
-  localStorage.setItem("quiz-theme", theme);
 }
 
 function startConfiguredTest() {
-  clearTestTimer();
-  timerExpired = false;
-  testStarted = true;
+  testScope = testScopeSelect.value;
+  shuffleEnabled = Boolean(shuffleToggle.checked);
+  testFlow = testFlowSelect.value;
+
+  if (testScope === "selected") {
+    selectedWeek = Number(testWeekSelect.value);
+    const weekData = getCurrentWeekData();
+    testQuestionPool = weekData.questions.map((q) => ({ ...q, sourceWeek: weekData.week }));
+  } else {
+    testQuestionPool = questionBank.flatMap((w) =>
+      w.questions.map((q) => ({
+        ...q,
+        sourceWeek: w.week
+      }))
+    );
+  }
+
+  if (shuffleEnabled) {
+    testQuestionPool = shuffle(testQuestionPool);
+  }
+
   userAnswers = {};
   flaggedQuestions = new Set();
+  testStarted = true;
   activeQuestionIndex = 0;
-  testScope = testScopeSelect.value;
-  shuffleEnabled = shuffleToggle.checked;
-  timerMode = timerModeSelect.value;
-  testFlow = testFlowSelect.value;
-  if (testScope !== "all") {
-    selectedWeek = Number(testWeekSelect.value);
-  }
-  const baseQuestions = testScope === "all" ? getAllQuestions() : getCurrentWeekData().questions.map((q) => ({ ...q }));
-  testQuestionPool = shuffleEnabled ? shuffleArray(baseQuestions) : baseQuestions;
-  timerDurationMs = getSelectedTimerMs();
-  startTestBtn.textContent = "Configure & Start Test";
   resultBoxEl.classList.add("hidden");
   closeTestSetupModal();
   renderHeader();
@@ -1865,6 +3912,32 @@ function renderAll() {
     renderTestMode();
   }
 }
+
+// Course Switcher events
+if (switchCourseBtn) {
+  switchCourseBtn.addEventListener("click", openCourseSelectModal);
+}
+if (closeCourseModalBtn) {
+  closeCourseModalBtn.addEventListener("click", closeCourseSelectModal);
+}
+
+// Course selection cards inside modal
+document.querySelectorAll("#courseSelectModal .course-card-btn").forEach((card) => {
+  card.addEventListener("click", () => {
+    const courseId = card.dataset.course;
+    setCourse(courseId);
+    closeCourseSelectModal();
+  });
+});
+
+// Course selection cards inside welcome modal
+document.querySelectorAll("#welcomeModal .course-card-btn").forEach((card) => {
+  card.addEventListener("click", () => {
+    document.querySelectorAll("#welcomeModal .course-card-btn").forEach((c) => c.classList.remove("active"));
+    card.classList.add("active");
+    welcomePendingCourse = card.dataset.course;
+  });
+});
 
 studyModeBtn.addEventListener("click", () => setMode("study"));
 testModeBtn.addEventListener("click", () => setMode("test"));
@@ -1896,12 +3969,13 @@ resetTestBtn.addEventListener("click", () => {
 
 choosePracticeBtn.addEventListener("click", () => {
   welcomeModal.classList.add("hidden");
-  selectedWeek = 0;
+  setCourse(welcomePendingCourse);
   setMode("study");
 });
 
 chooseTestBtn.addEventListener("click", () => {
   welcomeModal.classList.add("hidden");
+  setCourse(welcomePendingCourse);
   setMode("test");
   openTestSetupModal();
 });
@@ -1930,9 +4004,32 @@ closeWeekPickerBtn.addEventListener("click", () => {
   closeWeekPickerModal();
 });
 
-document.body.classList.add("app-mode-study");
+// Auto-check for external UIE.txt if running with a local server
+async function tryReloadUIEFromDisk() {
+  try {
+    const res = await fetch("UIE.txt");
+    if (res.ok) {
+      const text = await res.text();
+      if (text && text.trim().length > 100) {
+        const parsed = parseUIEText(text);
+        if (parsed && parsed.length > 0) {
+          COURSES.uie.questions = parsed;
+          if (currentCourseId === "uie") {
+            questionBank = parsed;
+            renderAll();
+          }
+        }
+      }
+    }
+  } catch (e) {
+    // Expected on local file:// origin
+  }
+}
 
+document.body.classList.add("app-mode-study");
 applyTheme(localStorage.getItem("quiz-theme") || "dark");
+updateCourseUI();
 updateSetupInputs();
 updatePracticeChrome();
 renderAll();
+tryReloadUIEFromDisk();
