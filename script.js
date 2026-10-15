@@ -2213,6 +2213,152 @@ const uieQuestionBank = [
     ]
   },
   {
+    "week": 8,
+    "topic": "Assignment 8",
+    "questions": [
+      {
+        "id": "uie-w8-q1",
+        "question": "What advantages can your business gain from identifying early adopters?",
+        "options": [
+          "A. Competitive disadvantage",
+          "B. Validate market demands through early feedback",
+          "C. Slow revenue generation",
+          "D. Requires less marketing effort"
+        ],
+        "answerIndex": 1,
+        "answerIndices": [
+          1
+        ]
+      },
+      {
+        "id": "uie-w8-q2",
+        "question": "What are the key characteristics that early-stage entrepreneurs should develop?",
+        "options": [
+          "A. An entrepreneurial mindset",
+          "B. Adaptability and resilience",
+          "C. Upholding ethical standards",
+          "D. All of the above"
+        ],
+        "answerIndex": 3,
+        "answerIndices": [
+          3
+        ]
+      },
+      {
+        "id": "uie-w8-q3",
+        "question": "What is essential for delivering a compelling business pitch to investors?",
+        "options": [
+          "A. Detailed operational procedures",
+          "B. A scalable and profitable business model",
+          "C. Market size and demographics",
+          "D. Long-term industry trends"
+        ],
+        "answerIndex": 1,
+        "answerIndices": [
+          1
+        ]
+      },
+      {
+        "id": "uie-w8-q4",
+        "question": "What role does a Minimum Viable Product (MVP) play in product development?",
+        "options": [
+          "A. Builds brand reputation without validation",
+          "B. Attracts early-adopter customers and validates the product idea",
+          "C. Focuses on short-term revenue generation",
+          "D. Prioritizes aesthetics over functionality"
+        ],
+        "answerIndex": 1,
+        "answerIndices": [
+          1
+        ]
+      },
+      {
+        "id": "uie-w8-q5",
+        "question": "What are the initial steps involved in developing a Lean Canvas?",
+        "options": [
+          "A. Identify your target customers and users",
+          "B. List your customer’s top three problems",
+          "C. Develop solutions for each identified problem",
+          "D. All of the above"
+        ],
+        "answerIndex": 3,
+        "answerIndices": [
+          3
+        ]
+      },
+      {
+        "id": "uie-w8-q6",
+        "question": "What factors must a product have to remain competitive in the market?",
+        "options": [
+          "A. Consistent product improvement and innovation",
+          "B. Incremental price increases",
+          "C. Limited scalability to control costs",
+          "D. Focus on low-impact trends"
+        ],
+        "answerIndex": 0,
+        "answerIndices": [
+          0
+        ]
+      },
+      {
+        "id": "uie-w8-q7",
+        "question": "What term is used to describe legal protections that prevent unauthorized use of original creative works?",
+        "options": [
+          "A. Physical property",
+          "B. Intellectual property",
+          "C. Commercial asset",
+          "D. Industrial design"
+        ],
+        "answerIndex": 1,
+        "answerIndices": [
+          1
+        ]
+      },
+      {
+        "id": "uie-w8-q8",
+        "question": "Which types of intellectual property rights (IPR) protect innovations and creative works?",
+        "options": [
+          "A. Real estate and buildings",
+          "B. Patents, copyrights, trademarks, and trade secrets",
+          "C. Financial statements and records",
+          "D. Office equipment and tools"
+        ],
+        "answerIndex": 1,
+        "answerIndices": [
+          1
+        ]
+      },
+      {
+        "id": "uie-w8-q9",
+        "question": "What is the primary focus of customer acquisition strategies for startups?",
+        "options": [
+          "A. Acquiring new customers efficiently and cost-effectively",
+          "B. Maximizing short-term sales revenue",
+          "C. Ignoring customer feedback for cost-saving",
+          "D. Relying on word-of-mouth marketing alone"
+        ],
+        "answerIndex": 0,
+        "answerIndices": [
+          0
+        ]
+      },
+      {
+        "id": "uie-w8-q10",
+        "question": "How does a strong Unique Value Proposition (UVP) benefit a startup?",
+        "options": [
+          "A. Enhances the company's ability to attract and retain customers by clearly addressing their needs and preferences",
+          "B. Solely focuses on improving financial performance metrics without considering customer satisfaction",
+          "C. Prioritizes technological infrastructure over understanding customer needs",
+          "D. Concentrates on offering low-cost services at the expense of quality"
+        ],
+        "answerIndex": 0,
+        "answerIndices": [
+          0
+        ]
+      }
+    ]
+  },
+  {
     "week": 9,
     "topic": "Assignment 9",
     "questions": [
@@ -2799,132 +2945,6 @@ const uieQuestionBank = [
   }
 ];
 
-
-function parseUIEText(raw) {
-  if (!raw || typeof raw !== "string") return null;
-  const lines = raw.split(/\r?\n/);
-  const weeks = [];
-  let currentWeek = null;
-  let currentQ = null;
-  let inOptions = false;
-  let inAnswer = false;
-
-  function finishQ() {
-    if (currentQ && currentWeek) {
-      if (!currentQ.options) currentQ.options = [];
-      if (currentQ.answerIndices.length === 0) {
-        for (let i = 0; i < currentQ.options.length; i++) {
-          const optClean = currentQ.options[i].replace(/^[A-D][\.\)]\s*/, "").replace(/\s+/g, " ").trim().toLowerCase();
-          for (const rawAns of currentQ.rawAnswerTexts) {
-            const cleanAns = rawAns.replace(/\s*\*\([^)]*\)\*/g, "").replace(/\s+/g, " ").trim().toLowerCase();
-            if (cleanAns.includes(optClean) || optClean.includes(cleanAns) || (cleanAns.length < 5 && cleanAns.includes(currentQ.options[i][0].toLowerCase()))) {
-              if (!currentQ.answerIndices.includes(i)) currentQ.answerIndices.push(i);
-            }
-          }
-        }
-      }
-      if (currentQ.answerIndices.length === 0) {
-        currentQ.answerIndices = [0];
-      }
-      currentQ.answerIndex = currentQ.answerIndices[0];
-      currentWeek.questions.push({
-        id: `uie-w${currentWeek.week}-q${currentQ.qNum}`,
-        question: currentQ.question.trim(),
-        options: currentQ.options,
-        answerIndex: currentQ.answerIndex,
-        answerIndices: currentQ.answerIndices
-      });
-      currentQ = null;
-    }
-  }
-
-  function finishWeek() {
-    finishQ();
-    if (currentWeek) {
-      const existingWeekIdx = weeks.findIndex((w) => w.week === currentWeek.week);
-      if (existingWeekIdx >= 0) {
-        for (const q of currentWeek.questions) {
-          if (!weeks[existingWeekIdx].questions.some((eq) => eq.question === q.question)) {
-            q.id = `uie-w${currentWeek.week}-q${weeks[existingWeekIdx].questions.length + 1}`;
-            weeks[existingWeekIdx].questions.push(q);
-          }
-        }
-      } else {
-        weeks.push(currentWeek);
-      }
-      currentWeek = null;
-    }
-  }
-
-  for (let i = 0; i < lines.length; i++) {
-    const line = lines[i].trim();
-    if (!line) continue;
-
-    const weekMatch = line.match(/(?:^|#+\s*|\*+\s*)Week\s+(\d+)/i);
-    if (weekMatch && (line.toLowerCase().includes("week") || line.toLowerCase().includes("assignment"))) {
-      const wNum = parseInt(weekMatch[1], 10);
-      if (!currentWeek || currentWeek.week !== wNum) {
-        finishWeek();
-        currentWeek = {
-          week: wNum,
-          topic: wNum === 0 ? "Assignment 0" : `Assignment ${wNum}`,
-          questions: []
-        };
-        continue;
-      }
-    }
-
-    const qMatch = line.match(/^(?:###\s*\*{0,2}|\*{0,2})?(\d+)\.\s*\*{0,2}(.+)$/);
-    if (qMatch && currentWeek) {
-      finishQ();
-      let qText = qMatch[2].replace(/\*{2,}/g, "").replace(/-{3,}/g, "").trim();
-      currentQ = {
-        qNum: parseInt(qMatch[1], 10),
-        question: qText,
-        options: [],
-        rawAnswerTexts: [],
-        answerIndices: []
-      };
-      inOptions = true;
-      inAnswer = false;
-      continue;
-    }
-
-    const optMatch = line.match(/^(?:\*\s*)?(?:\*\*)?([A-E])[\)\.]\*{0,2}\s*(.+)$/i);
-    if (optMatch && currentQ && !inAnswer) {
-      const letter = optMatch[1].toUpperCase();
-      const optText = optMatch[2].replace(/\*{2,}/g, "").trim();
-      currentQ.options.push(`${letter}. ${optText}`);
-      continue;
-    }
-
-    if (line.match(/(?:\*{0,2}Correct Answer:\*{0,2})/i)) {
-      inAnswer = true;
-      inOptions = false;
-      const ansPart = line.replace(/.*Correct Answer:\*{0,2}\s*/i, "").trim();
-      if (ansPart) {
-        currentQ.rawAnswerTexts.push(ansPart);
-      }
-      continue;
-    }
-
-    if (inAnswer && currentQ) {
-      if (line.startsWith("---") || line.startsWith("##")) {
-        inAnswer = false;
-        continue;
-      }
-      const bulletAns = line.replace(/^[\*\-]\s*/, "").replace(/\*{2,}/g, "").replace(/\s*\*?\([^\)]*Multiple Select[^\)]*\)\*?/i, "").trim();
-      if (bulletAns) {
-        currentQ.rawAnswerTexts.push(bulletAns);
-      }
-    }
-  }
-
-  finishWeek();
-  return weeks.length > 0 ? weeks : null;
-}
-
-
 const COURSES = {
   wildlife: {
     id: "wildlife",
@@ -2941,7 +2961,7 @@ const COURSES = {
     shortName: "Incubation & Entrepreneurship",
     fullName: "NPTEL: Understanding Incubation and Entrepreneurship",
     subtitle: "Week-wise MCQ Study + Test Portal (UIE Assignments)",
-    badge: "6 Weeks",
+    badge: "13 Weeks",
     questions: uieQuestionBank
   }
 };
